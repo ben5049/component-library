@@ -1,0 +1,229 @@
+(footprint "PESD2CANFD24UQCZ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT8009")
+	(tags "Diode ESD (Uni-directional)")
+	(property "Reference" "D**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c33b1f96-f510-4fe1-84ee-663052920c88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PESD2CANFD24UQCZ"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "df593a60-91da-4920-a431-c3cf9985d4ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb842723-e40b-41d4-9bf2-fe181619181a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffbfacd8-636b-4823-8a21-e66b698dab16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.4 1.3)
+		(end -0.4 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c18c652-0132-431a-86a3-83c8d48cde9d")
+	)
+	(fp_line
+		(start -0.4 1.4)
+		(end -0.4 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5c14b24-87eb-41d4-965e-a1066118b8ab")
+	)
+	(fp_line
+		(start -0.4 1.4)
+		(end -0.4 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1d933c9-52f0-4a2e-9412-2b5f84129195")
+	)
+	(fp_arc
+		(start -0.4 1.3)
+		(mid -0.35 1.35)
+		(end -0.4 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6fda478e-7ab4-4fa1-86e7-c64c269ed35d")
+	)
+	(fp_arc
+		(start -0.4 1.3)
+		(mid -0.35 1.35)
+		(end -0.4 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3a99eed-c485-481c-8789-2c38bf54f221")
+	)
+	(fp_arc
+		(start -0.4 1.4)
+		(mid -0.45 1.35)
+		(end -0.4 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be68fdbe-e666-4afd-82ff-d168546f6e3b")
+	)
+	(fp_rect
+		(start -0.8 -1.1)
+		(end 0.8 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0dd62928-f762-452b-b0e4-e22ac7f02227")
+	)
+	(fp_line
+		(start -0.7 -0.6)
+		(end 0.7 -0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d12be42f-307b-4250-8421-0ac093f8cfd8")
+	)
+	(fp_line
+		(start -0.7 0.6)
+		(end -0.7 -0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a47ce6e-3956-4e4d-8122-e3742c1cc197")
+	)
+	(fp_line
+		(start 0.7 -0.6)
+		(end 0.7 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a5674e2-e399-49a3-bab9-0a2e71c3dbb8")
+	)
+	(fp_line
+		(start 0.7 0.6)
+		(end -0.7 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4422b52-f0ea-4df9-8df2-224c7dbae74c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "13557681-f340-4ae6-8eeb-a96990d389ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.4 0.575)
+		(size 0.4 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "98e9a064-3dfb-4f3e-83f1-9c40cfb2aee8")
+	)
+	(pad "2" smd roundrect
+		(at 0.4 0.575)
+		(size 0.4 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "4a0cc8b8-9723-4aa2-b1fe-ab8129fa20f5")
+	)
+	(pad "3" smd roundrect
+		(at 0 -0.2985 90)
+		(size 0.603 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "864fdd5e-a21a-4e49-983b-bb9b055b7738")
+	)
+	(pad "4" smd roundrect
+		(at 0.4 -0.71 90)
+		(size 0.28 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "d2e2606a-1ad4-44f3-a71a-b2840a937778")
+	)
+	(pad "5" smd roundrect
+		(at -0.4 -0.71 90)
+		(size 0.28 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "a8c1b6bc-19fd-42b3-8c53-0d2c206199a9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../component_library/project_models/PESD2CANFD27V-QCZ.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

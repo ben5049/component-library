@@ -1,0 +1,221 @@
+(footprint "SON65P200X200X80-7N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DRV0006A")
+	(tags "Integrated Circuit")
+	(property "Reference" "U**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7b52c9e1-afc0-4754-9e34-fa1d53df4f74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SON65P200X200X80-7N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f67424f0-7065-4516-a438-097c49bfb67f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3da0dd24-2945-4ac8-89cf-0c5b48fdf6ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bf0532e-2628-4124-8e24-97506a134fde")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d4bf5ed5-7f0b-42d6-a83a-8111be9aba91")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ffc8cc19-35b3-49d2-a8db-cad2776d2eed")
+	)
+	(fp_circle
+		(center -1.3 -1.1)
+		(end -1.3 -0.975)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f0c65d55-a973-410b-bf18-67124a8a0ef4")
+	)
+	(fp_rect
+		(start -1.5 -1.3)
+		(end 1.5 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e8371ae0-ac99-47ed-aa1a-629fba348912")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f723c478-5c37-4347-bf9d-ee60dc954d63")
+	)
+	(fp_line
+		(start -1 -0.5)
+		(end -0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "298bc5d4-fe15-4e45-a35e-e195a4811761")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0863332-7c11-49a9-9067-686ed7eac27a")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5722712d-09cd-46d0-aa05-5e19732b5a92")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a7012e0-b297-4cfa-a4a9-ec4af134ead0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e322ae70-dc7b-40d4-8e6f-463a8d2b5db1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1 -0.65 90)
+		(size 0.3 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "93d3272e-c799-49f3-b354-68f4d0ceb6d7")
+	)
+	(pad "2" smd roundrect
+		(at -1 0 90)
+		(size 0.3 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "610e6554-5d61-48f2-985f-b87604b73f2d")
+	)
+	(pad "3" smd roundrect
+		(at -1 0.65 90)
+		(size 0.3 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "434e4418-308a-4e17-b789-5fa7743f9fa0")
+	)
+	(pad "4" smd roundrect
+		(at 1 0.65 90)
+		(size 0.3 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "0363af46-fc45-4f68-a998-6b6e32aabbb3")
+	)
+	(pad "5" smd roundrect
+		(at 1 0 90)
+		(size 0.3 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "a7d73a3d-baaf-4332-9c1c-77cb7c0acc64")
+	)
+	(pad "6" smd roundrect
+		(at 1 -0.65 90)
+		(size 0.3 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "202b00d9-fa05-4aec-aab9-7e588b065460")
+	)
+	(pad "7" smd roundrect
+		(at 0 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "875597fb-a70b-447e-bea0-d4500656749a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../component_library/project_models/TPS25200QDRVTQ1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

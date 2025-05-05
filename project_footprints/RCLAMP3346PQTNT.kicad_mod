@@ -1,0 +1,220 @@
+(footprint "RCLAMP3346PQTNT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RCLAMP3346PQTNT-2")
+	(tags "Diode")
+	(property "Reference" "D**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d27810b5-01ca-4c50-b422-3726214a6cf9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RCLAMP3346PQTNT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4748a485-8401-4fb5-a8d1-ec434a323ecb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70f0cdb5-fe7b-469e-b276-2245331d87fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "687b685d-3733-4f34-9245-31380f6b014c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.35 -0.4)
+		(end -1.2 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40641343-8ba7-46e1-b582-44045833d9b7")
+	)
+	(fp_line
+		(start -1.35 -0.3)
+		(end -1.35 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0890bb3e-9631-473b-b52c-147433f7dcfc")
+	)
+	(fp_line
+		(start 1.35 -0.4)
+		(end 1.2 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1edb8052-1ba2-4739-a151-731cfca05a10")
+	)
+	(fp_line
+		(start 1.35 -0.3)
+		(end 1.35 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ab25a8a-ad50-4cdb-88c5-02881ac447ad")
+	)
+	(fp_rect
+		(start -1.5 -0.6)
+		(end 1.5 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b64a1b82-0330-459f-b28c-6c8c916167a4")
+	)
+	(fp_line
+		(start -1.35 -0.4)
+		(end 1.35 -0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e58928d-9ec2-47b9-bd07-0fe3442e7a8a")
+	)
+	(fp_line
+		(start -1.35 0.4)
+		(end -1.35 -0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "adf9fe13-c28e-4395-8436-72a8563fc86e")
+	)
+	(fp_line
+		(start 1.35 -0.4)
+		(end 1.35 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6f0eb4d-c4bf-47f6-b9e4-b7aceed27f1a")
+	)
+	(fp_line
+		(start 1.35 0.4)
+		(end -1.35 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6665baec-4572-4b52-b64e-be94484b7e03")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "35a60062-aea8-42f4-831f-5c472f745a7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.2 0.2375)
+		(size 0.2 0.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b1a559bc-472d-4be3-b4b4-f965a676a1b4")
+	)
+	(pad "2" smd roundrect
+		(at -0.4 0.2375)
+		(size 0.2 0.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b6d8fe64-7630-44a0-a18d-0a459d454caf")
+	)
+	(pad "3" smd roundrect
+		(at 0.4 0.2375)
+		(size 0.2 0.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0dc35e79-f529-41fc-8173-9cbff29ea9ed")
+	)
+	(pad "4" smd roundrect
+		(at 1.2 0.2375)
+		(size 0.2 0.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5c4959dc-bf97-4d70-b7a9-da833914c06f")
+	)
+	(pad "5" smd roundrect
+		(at -0.8 -0.2375)
+		(size 0.2 0.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "256fa8c9-b1be-4d38-89f5-dcf895674a73")
+	)
+	(pad "6" smd roundrect
+		(at 0 -0.2375)
+		(size 0.2 0.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e7ce8838-debe-45c8-ac31-f90c43daaca8")
+	)
+	(pad "7" smd roundrect
+		(at 0.8 -0.2375)
+		(size 0.2 0.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "19a62fd6-c1b4-4dd3-a99d-a652d150a861")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../component_library/project_models/RCLAMP3346PQTNT.stp"
+		(offset
+			(xyz 0 0 0.6)
+		)
+		(scale
+			(xyz 0.04 0.04 0.04)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)
