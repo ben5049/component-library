@@ -173,7 +173,7 @@
 		(uuid "d73cec72-7a65-4e5f-918b-01f405f5a1a2")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/B74121G0050M060.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/B74121G0050M060.stp"
 		(offset
 			(xyz 0 0 0.04999999999)
 		)

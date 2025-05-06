@@ -317,7 +317,7 @@
 		(uuid "96fad436-0d4c-4159-8545-32d88f5c09b2")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/TPS26601RHFR.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/TPS26601RHFR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

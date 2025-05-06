@@ -332,7 +332,7 @@
 		(uuid "8dd6d59d-1a1d-4e40-a2f8-f3ded8e81295")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/MX25L51245GXDI-08G.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/MX25L51245GXDI-08G.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -179,7 +179,7 @@
 		(uuid "62cd6914-6c05-4b1e-b042-cc3dc1c2a3e9")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/AOTA-B201610S2R2MT.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/AOTA-B201610S2R2MT.stp"
 		(offset
 			(xyz 0 0 0.45)
 		)

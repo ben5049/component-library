@@ -807,7 +807,7 @@
 		(uuid "fa0ec5ba-d175-4ae4-9712-1c28778bad4d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/STM32H573VIT3Q.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/STM32H573VIT3Q.stp"
 		(offset
 			(xyz 0 0 0)
 		)

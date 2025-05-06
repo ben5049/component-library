@@ -566,7 +566,7 @@
 		(uuid "992914f3-3e09-4f28-bf37-547577749d6f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/STPMIC25BPQR.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/STPMIC25BPQR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

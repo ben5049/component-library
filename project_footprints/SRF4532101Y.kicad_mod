@@ -229,7 +229,7 @@
 		(uuid "f8a7450e-c8de-40f4-b7a8-ba007dd572aa")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/SRF4532-110Y.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/SRF4532-110Y.stp"
 		(offset
 			(xyz -2.25 0 1.4)
 		)

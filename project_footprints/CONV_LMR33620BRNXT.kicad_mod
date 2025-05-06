@@ -333,7 +333,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "7ba85799-6d22-4308-b973-355332c4111a")
 	)
-	(model "${KIPRJMOD}/../component_library/project_models/LMR34206SC5QRNXRQ1.step"
+	(model "${KIPRJMOD}/../component-library/project_models/LMR34206SC5QRNXRQ1.step"
 		(offset
 			(xyz 0 0 0)
 		)

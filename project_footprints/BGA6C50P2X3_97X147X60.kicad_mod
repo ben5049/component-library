@@ -45,7 +45,7 @@
   (pad "B2" smd circle (at 0.25 0 90) (size 0.298 0.298) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9e823351-200a-465a-98b4-57d48081e789))
   (pad "C1" smd circle (at -0.25 0.5 90) (size 0.298 0.298) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4e97a221-7dde-469c-aafc-d837a1502c91))
   (pad "C2" smd circle (at 0.25 0.5 90) (size 0.298 0.298) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 274641d7-3635-4ab7-8cb6-7bb7f5b623ca))
-  (model "${KIPRJMOD}/../component_library/watch_models/LQ05041QCS6.stp"
+  (model "${KIPRJMOD}/../component-library/watch_models/LQ05041QCS6.stp"
     (offset (xyz 0 0.2499999962 0.5500000037))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

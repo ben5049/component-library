@@ -2804,7 +2804,7 @@
 		(uuid "e2f65895-b1c8-405a-baad-273474d0bb21")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/STM32MP257FAI3.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/STM32MP257FAI3.stp"
 		(offset
 			(xyz 0 0 0)
 		)

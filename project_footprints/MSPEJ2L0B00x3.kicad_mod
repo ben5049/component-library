@@ -517,7 +517,7 @@
 		(uuid "77814c61-c971-43c6-9766-c4377ea98bbc")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/MSPE-J2L0-B00.STEP"
+	(model "${KIPRJMOD}/../component-library/project_models/MSPE-J2L0-B00.STEP"
 		(offset
 			(xyz 1.4 -4.7 0)
 		)
@@ -528,7 +528,7 @@
 			(xyz -90 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/../component_library/project_models/MSPE-J2L0-B00.STEP"
+	(model "${KIPRJMOD}/../component-library/project_models/MSPE-J2L0-B00.STEP"
 		(offset
 			(xyz 21.4 -4.7 0)
 		)
@@ -539,7 +539,7 @@
 			(xyz -90 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/../component_library/project_models/MSPE-J2L0-B00.STEP"
+	(model "${KIPRJMOD}/../component-library/project_models/MSPE-J2L0-B00.STEP"
 		(offset
 			(xyz 11.4 -4.7 0)
 		)

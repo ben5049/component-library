@@ -500,7 +500,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/IX61G2-A-10P.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/IX61G2-A-10P.stp"
 		(offset
 			(xyz 258.25 -8 3.2)
 		)

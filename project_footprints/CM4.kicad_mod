@@ -79,7 +79,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/CM4.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/CM4.stp"
 		(offset
 			(xyz 0 -16 4)
 		)

@@ -264,7 +264,7 @@
 		(uuid "17d44446-d2a8-417b-861a-4cfac6a6f701")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/MPQ5850GJ-AEC1-Z.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/MPQ5850GJ-AEC1-Z.stp"
 		(offset
 			(xyz 0 0 0)
 		)

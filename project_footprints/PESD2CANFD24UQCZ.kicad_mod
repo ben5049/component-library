@@ -215,7 +215,7 @@
 		(uuid "a8c1b6bc-19fd-42b3-8c53-0d2c206199a9")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/PESD2CANFD27V-QCZ.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/PESD2CANFD27V-QCZ.stp"
 		(offset
 			(xyz 0 0 0)
 		)

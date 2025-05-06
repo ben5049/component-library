@@ -321,7 +321,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "2901d607-240f-4fbf-a7ba-d4e7e7ff95c4")
 	)
-	(model "${KIPRJMOD}/../component_library/project_models/PJ-002AH.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/PJ-002AH.stp"
 		(offset
 			(xyz 6.5 0 5.5)
 		)

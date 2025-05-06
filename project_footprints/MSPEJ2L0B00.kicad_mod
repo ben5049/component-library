@@ -258,7 +258,7 @@
 		(uuid "5da171ba-70b4-415b-ae55-7e1a12ba2c04")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/MSPE-J2L0-B00.STEP"
+	(model "${KIPRJMOD}/../component-library/project_models/MSPE-J2L0-B00.STEP"
 		(offset
 			(xyz 0 -4.7 0)
 		)

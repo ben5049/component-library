@@ -199,7 +199,7 @@
 		(uuid "b0fd2983-8485-41c6-8be7-50214c2e0659")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/TS20-42-25-WT-160-SMT-TR-MSL.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/TS20-42-25-WT-160-SMT-TR-MSL.stp"
 		(offset
 			(xyz 0 0 0)
 		)

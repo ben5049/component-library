@@ -600,7 +600,7 @@
 		(uuid "35a28b7e-606f-440b-ac25-e90144ad3caf")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/switch-main-v2-top-shield.step"
+	(model "${KIPRJMOD}/../component-library/project_models/switch-main-v2-top-shield.step"
 		(offset
 			(xyz 0 0 2)
 		)

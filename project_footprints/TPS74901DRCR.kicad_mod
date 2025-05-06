@@ -340,7 +340,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "1c7aad76-4b2d-4908-9fef-1e0595724fc0")
 	)
-	(model "${KIPRJMOD}/../component_library/project_models/TPS16416DRCR.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/TPS16416DRCR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -292,7 +292,7 @@
 		(uuid "74143d2a-c1b5-4dff-8a65-df824d5c64db")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/TVS2701DRBR.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/TVS2701DRBR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

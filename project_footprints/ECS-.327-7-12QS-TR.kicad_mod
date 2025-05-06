@@ -202,7 +202,7 @@
 		(uuid "03d942f7-f1ca-4a32-8ea3-adff6524da8b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/ECS-.327-7-12QS-TR.STEP"
+	(model "${KIPRJMOD}/../component-library/project_models/ECS-.327-7-12QS-TR.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

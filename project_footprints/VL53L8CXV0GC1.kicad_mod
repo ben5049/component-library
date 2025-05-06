@@ -370,7 +370,7 @@
 		(uuid "e1f080fb-59a9-45ad-8ce1-97e3995dcd7d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/VL53L8CXV0GC_1.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/VL53L8CXV0GC_1.stp"
 		(offset
 			(xyz -0.009999999626 0.8500000111 0.2499999962)
 		)

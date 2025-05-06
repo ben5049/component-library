@@ -207,7 +207,7 @@
 		(uuid "7957993b-0ffb-46fe-9fb4-276f95980843")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/V1P6HM3_H.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/V1P6HM3_H.stp"
 		(offset
 			(xyz 0 0 0)
 		)

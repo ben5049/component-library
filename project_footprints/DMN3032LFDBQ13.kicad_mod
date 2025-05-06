@@ -215,7 +215,7 @@
 		(uuid "13d81033-da04-420a-ab6c-ddc55dfafb19")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/DMN3032LFDBQ-13.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/DMN3032LFDBQ-13.stp"
 		(offset
 			(xyz 0 0 0)
 		)

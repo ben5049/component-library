@@ -293,7 +293,7 @@
 		(uuid "de053f34-0a4b-40da-95eb-3f64d698f824")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/TCPP03-M20.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/TCPP03-M20.stp"
 		(offset
 			(xyz 0 0 0)
 		)

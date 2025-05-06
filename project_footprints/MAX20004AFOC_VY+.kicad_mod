@@ -327,7 +327,7 @@
 		(uuid "c0499bc1-9773-4bf3-bf80-92cd670fcc70")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/MAX20004AFOC_VY+.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/MAX20004AFOC_VY+.stp"
 		(offset
 			(xyz 0 0 0)
 		)

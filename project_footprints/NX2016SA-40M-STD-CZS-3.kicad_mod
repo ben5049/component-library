@@ -246,7 +246,7 @@
 		(uuid "cbc9241c-8606-4c07-9edc-64c2127bb1c2")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/NX2016SA-40M-STD-CZS-3.STEP"
+	(model "${KIPRJMOD}/../component-library/project_models/NX2016SA-40M-STD-CZS-3.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

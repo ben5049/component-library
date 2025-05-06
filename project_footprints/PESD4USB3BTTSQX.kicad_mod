@@ -218,7 +218,7 @@
 		(uuid "5ae06cb3-6fbd-4b06-aaa4-4783eec8d0a6")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/PESD4USB3BTTS-QX.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/PESD4USB3BTTS-QX.stp"
 		(offset
 			(xyz 0 0 0)
 		)

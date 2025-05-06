@@ -278,7 +278,7 @@
 		(uuid "5a0269bc-b3e1-49fb-a9c2-16cf34f02938")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/MAX20075ATCC_V+.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/MAX20075ATCC_V+.stp"
 		(offset
 			(xyz 0 0 0)
 		)
