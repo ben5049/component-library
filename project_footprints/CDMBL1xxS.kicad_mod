@@ -1,0 +1,237 @@
+(footprint "CDMBL1xxS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CD-MBL108S-3")
+	(tags "Bridge Rectifier")
+	(property "Reference" "BR**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ec346cea-9c8f-4c79-980a-451b709ba8bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CDMBL108S"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e4a6e560-9500-4894-b633-42cc5c2bbd82")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7644d39-5a61-4131-a13e-60c3aac28948")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d295f62-f165-460e-b03d-149dc052ac06")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.65 -1.8)
+		(end -2.65 1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "056675d8-85a1-454a-8b27-009e499394cf")
+	)
+	(fp_line
+		(start -1.2 -2.9)
+		(end 1.2 -2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "605868f6-e556-4a28-a2f6-5e9248cc98a2")
+	)
+	(fp_line
+		(start -1.2 2.9)
+		(end 1.2 2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d41dfa3f-4a50-4308-b4ff-d58854fd29e5")
+	)
+	(fp_line
+		(start 2.05 -4.2)
+		(end 2.05 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d11f99c5-d97d-44e6-91f6-adaf0450364b")
+	)
+	(fp_line
+		(start 2.05 -4.1)
+		(end 2.05 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83d89bab-faeb-42be-9837-c39f1ebd36d8")
+	)
+	(fp_line
+		(start 2.65 -1.8)
+		(end 2.65 1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b26332a8-8465-45c1-a9bc-f5ce831df941")
+	)
+	(fp_arc
+		(start 2.05 -4.2)
+		(mid 2.1 -4.15)
+		(end 2.05 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de5ec80c-5832-4939-bb95-4ff82bbcf248")
+	)
+	(fp_arc
+		(start 2.05 -4.1)
+		(mid 2 -4.15)
+		(end 2.05 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9150e2e-ea63-4d0b-adda-50e78061311c")
+	)
+	(fp_rect
+		(start -3 -4)
+		(end 3 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2466706c-7adc-426b-b8d0-91ff49082b5f")
+	)
+	(fp_line
+		(start -2.65 -2.9)
+		(end 2.65 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26b2beff-a04b-4a5a-a6ba-665bfb4d5cc2")
+	)
+	(fp_line
+		(start -2.65 2.9)
+		(end -2.65 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0638168b-c1d4-4ca5-bc9a-7c43d9d0c524")
+	)
+	(fp_line
+		(start 2.65 -2.9)
+		(end 2.65 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "112b4c0e-943a-47f8-882b-8db057efe947")
+	)
+	(fp_line
+		(start 2.65 2.9)
+		(end -2.65 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "045eb7e4-9912-4606-8536-793a43476c1e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "64395b2d-df9a-4bd8-8e32-242fa15536a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.05 -2.86)
+		(size 1.1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e5d34540-c7e6-4d1e-b8d1-c40fcc2fd3fa")
+	)
+	(pad "2" smd rect
+		(at 2.05 2.86)
+		(size 1.1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "971280b5-2d99-4dbd-9247-e488496bcdf6")
+	)
+	(pad "3" smd rect
+		(at -2.05 2.86)
+		(size 1.1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60a428e2-1b66-4743-911c-8ffd1676bf36")
+	)
+	(pad "4" smd rect
+		(at -2.05 -2.86)
+		(size 1.1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "94e05dfb-ee6f-4a85-9f74-5915db08fbca")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../component-library/project_models/CD-MBL108S.stp"
+		(offset
+			(xyz 0 0 0.09999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -180)
+		)
+	)
+)
