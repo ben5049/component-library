@@ -512,7 +512,7 @@
 		(uuid "c51c3f70-6d46-4f9f-b6c3-50f2447b386a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/DP83867CSRGZR.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/DP83867CSRGZR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

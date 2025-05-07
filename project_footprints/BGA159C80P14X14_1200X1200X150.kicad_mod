@@ -1144,7 +1144,7 @@
 		(uuid "e5c7e627-efa4-4ac9-b83c-5a83f7875ae2")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/SJA1105QELY.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/SJA1105QELY.stp"
 		(offset
 			(xyz 0 0 0)
 		)

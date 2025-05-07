@@ -193,7 +193,7 @@
 		(uuid "4421e858-bf8a-4c16-996b-c8dd1899841c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/PTSLR08056V110.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/PTSLR08056V110.stp"
 		(offset
 			(xyz 0 0 0.3000000074)
 		)

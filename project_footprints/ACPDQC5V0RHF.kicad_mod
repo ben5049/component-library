@@ -173,7 +173,7 @@
 		(uuid "a25ceb82-1d5a-4458-be2c-152003d0f0f5")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/ACPDQC5V0R-HF.STEP"
+	(model "${KIPRJMOD}/../component-library/project_models/ACPDQC5V0R-HF.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

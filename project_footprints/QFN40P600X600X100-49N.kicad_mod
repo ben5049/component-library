@@ -461,7 +461,7 @@
 		(uuid "a9e15410-816d-479b-933f-f952fed57fcc")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/RTL8211FSI-VS-CG.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/RTL8211FSI-VS-CG.stp"
 		(offset
 			(xyz 0 0 0)
 		)

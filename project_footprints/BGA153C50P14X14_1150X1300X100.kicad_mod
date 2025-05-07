@@ -1106,7 +1106,7 @@
 		(uuid "cb0eb4e0-b48e-4ccb-9400-8f55d7349b4b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/EMMC32G-TS0A-01002.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/EMMC32G-TS0A-01002.stp"
 		(offset
 			(xyz 0 0 0)
 		)

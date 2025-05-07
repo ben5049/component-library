@@ -1588,7 +1588,7 @@
 		(uuid "1347d822-20ae-479f-9d78-92457ab56c8a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/MT53E1G32D2FW-046_WT_B.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/MT53E1G32D2FW-046_WT_B.stp"
 		(offset
 			(xyz 0 0 0)
 		)

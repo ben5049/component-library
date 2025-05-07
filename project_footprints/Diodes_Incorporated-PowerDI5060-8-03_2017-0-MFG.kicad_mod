@@ -235,7 +235,7 @@
 		)
 		(uuid "a010d4f8-9883-4149-bc6c-d356807371f2")
 	)
-	(model "${KIPRJMOD}/../component_library/project_models/Diodes_Incorporated_-_DMTH6016LPSQ-13.step"
+	(model "${KIPRJMOD}/../component-library/project_models/Diodes_Incorporated_-_DMTH6016LPSQ-13.step"
 		(offset
 			(xyz 0 0 0)
 		)

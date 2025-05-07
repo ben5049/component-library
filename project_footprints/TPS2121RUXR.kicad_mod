@@ -260,7 +260,7 @@
 		(uuid "29f89dfa-4806-47a9-a744-829924e5fd35")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/TPS2121RUXR.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/TPS2121RUXR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

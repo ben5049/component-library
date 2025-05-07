@@ -256,7 +256,7 @@
 		(remove_unused_layers no)
 		(uuid "823bac75-8269-4ca6-a671-15a658dbd280")
 	)
-	(model "${KIPRJMOD}/../component_library/project_models/76825-0004.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/76825-0004.stp"
 		(offset
 			(xyz -22.37999882 -8.629999985 3.380000064)
 		)

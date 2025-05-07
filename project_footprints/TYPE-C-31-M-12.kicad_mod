@@ -359,7 +359,7 @@
 		(uuid "6f3253b8-306e-4656-a4b2-9cec743124cd")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/TYPE-C-31-M-12.step"
+	(model "${KIPRJMOD}/../component-library/project_models/TYPE-C-31-M-12.step"
 		(offset
 			(xyz 0 0 0)
 		)

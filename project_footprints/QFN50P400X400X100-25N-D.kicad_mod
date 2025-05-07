@@ -317,7 +317,7 @@
 		(uuid "e3c2a8a6-4a6a-4cf0-b2bf-c3647685c475")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/LAN8671C2-E_U3B.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/LAN8671C2-E_U3B.stp"
 		(offset
 			(xyz 0 0 0)
 		)

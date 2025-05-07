@@ -207,7 +207,7 @@
 		(uuid "b3b25dfd-9080-48bd-9814-ccefded8a429")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/DLW32MH101XT2L.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/DLW32MH101XT2L.stp"
 		(offset
 			(xyz 0.009999999626 0.1399999985 0)
 		)

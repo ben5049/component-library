@@ -240,7 +240,7 @@
 		(uuid "85acacdb-c46e-4972-806a-ecdaf48ceeb8")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/IAUZ40N06S5L050ATMA1.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/IAUZ40N06S5L050ATMA1.stp"
 		(offset
 			(xyz 0 0 0)
 		)

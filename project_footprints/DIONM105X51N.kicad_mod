@@ -171,7 +171,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "7877875d-59c6-4353-8123-2c602fd0e60c")
 	)
-	(model "${KIPRJMOD}/../component_library/project_models/AXGD10402KR.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/AXGD10402KR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

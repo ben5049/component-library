@@ -217,7 +217,7 @@
 		(uuid "66f8950b-4b71-4d5b-98bd-bd246f0aa4cc")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/PUSB3TB6AZ.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/PUSB3TB6AZ.stp"
 		(offset
 			(xyz -1.419999936 0.7900000096 1.049999937)
 		)

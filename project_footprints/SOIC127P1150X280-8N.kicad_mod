@@ -254,7 +254,7 @@
 		(uuid "75b9ac85-448d-4099-ad57-e08293243702")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/ISO1042DWVR.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/ISO1042DWVR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

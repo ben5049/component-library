@@ -695,7 +695,7 @@
 		(remove_unused_layers no)
 		(uuid "db733810-1697-4b8c-ba68-489f1a64d6ce")
 	)
-	(model "${KIPRJMOD}/../component_library/project_models/TMJG46945AENL_Web.STEP"
+	(model "${KIPRJMOD}/../component-library/project_models/TMJG46945AENL_Web.STEP"
 		(offset
 			(xyz 0 3.82 6.8)
 		)

@@ -30,7 +30,7 @@
   (pad "1" smd roundrect (at 0.35 0.225 90) (size 0.25 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e9d00c42-4a15-4fa4-b508-c20304fcd2d3))
   (pad "2" smd roundrect (at 0.35 -0.225 90) (size 0.25 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp bb5a3b39-496d-433c-a9dc-f6e4bb660a1b))
   (pad "3" smd roundrect (at -0.35 0) (size 0.4 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp eff61c27-4749-409b-b328-6ad5f609b099))
-  (model "${KIPRJMOD}/../component_library/project_models/DMN21D2UFB-7B.stp"
+  (model "${KIPRJMOD}/../component-library/project_models/DMN21D2UFB-7B.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

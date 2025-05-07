@@ -270,7 +270,7 @@
 		(uuid "8911ded9-705b-457e-a5d1-91f3b61497b9")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/PMEG4002EL-QYL.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/PMEG4002EL-QYL.stp"
 		(offset
 			(xyz 0.75 -0.4 0.75)
 		)

@@ -54,7 +54,7 @@
 			)
 		)
 	)
-	(attr smd exclude_from_pos_files allow_missing_courtyard)
+	(attr smd)
 	(fp_line
 		(start -7 -7)
 		(end 7 -7)
@@ -74,6 +74,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "69fd5e4d-374c-47ec-92e0-a4ea636ac151")
+	)
+	(fp_rect
+		(start -9.5 -7.5)
+		(end 9.5 7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4b5aeac7-49ca-4053-8c8d-c41c783b38f7")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 18 0)
@@ -168,7 +179,7 @@
 		(uuid "07db24e8-e38c-48f7-9689-7ca929e0487a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/YA917x.step"
+	(model "${KIPRJMOD}/../component-library/project_models/YA917x.step"
 		(offset
 			(xyz 0 0 3.5)
 		)

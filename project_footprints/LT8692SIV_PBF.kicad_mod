@@ -1348,7 +1348,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7f9a5128-25ea-491f-8f2f-6f736f605f26")
 	)
-	(model "${KIPRJMOD}/../component_library/project_models/LT8692s.step"
+	(model "${KIPRJMOD}/../component-library/project_models/LT8692s.step"
 		(offset
 			(xyz 0 0 0.25)
 		)

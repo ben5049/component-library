@@ -269,7 +269,7 @@
 		(uuid "0bc73e7d-f7a9-4778-bed9-e9c248b9d720")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/MAX17690ATE_V+.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/MAX17690ATE_V+.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -301,7 +301,7 @@
 		(uuid "3ee42009-9f0e-4a23-8d77-4fe52a8c7f04")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/ARJM11D7-502-AB-EW2--3DModel-STEP-368357.STEP"
+	(model "${KIPRJMOD}/../component-library/project_models/ARJM11D7-502-AB-EW2--3DModel-STEP-368357.STEP"
 		(offset
 			(xyz 0 -3.85 0)
 		)

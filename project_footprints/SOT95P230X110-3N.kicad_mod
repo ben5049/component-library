@@ -235,7 +235,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b697651f-34f2-450f-9926-c42bab503e68")
 	)
-	(model "${KIPRJMOD}/../component_library/project_models/PESD2CANFD24V-TR.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/PESD2CANFD24V-TR.stp"
 		(offset
 			(xyz -2.109999863 -1.330000023 -1.159999949)
 		)

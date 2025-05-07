@@ -142,7 +142,7 @@
 		(uuid "381bdc11-bfd6-486a-9678-bbd0ba96e301")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/SZESD7241N2T5G.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/SZESD7241N2T5G.stp"
 		(offset
 			(xyz 0 0 0)
 		)

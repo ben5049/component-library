@@ -180,7 +180,7 @@
 		(uuid "8481a21c-ea73-4136-9fc8-6aaef5ef4e8d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/switch-main-v2-bottom-shield-2.step"
+	(model "${KIPRJMOD}/../component-library/project_models/switch-main-v2-bottom-shield-2.step"
 		(offset
 			(xyz 0 0 2.5)
 		)

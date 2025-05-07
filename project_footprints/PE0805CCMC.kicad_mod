@@ -183,7 +183,7 @@
 		(uuid "916fc274-8e55-43ed-82f7-aa652a3891b3")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/PE-0805CCMC.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/PE-0805CCMC.stp"
 		(offset
 			(xyz 0 0 0)
 		)

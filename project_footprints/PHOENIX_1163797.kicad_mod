@@ -254,7 +254,7 @@
 		(uuid "04c9c590-2474-4348-ae28-807b5fd8b34e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/1163797.wrl"
+	(model "${KIPRJMOD}/../component-library/project_models/1163797.wrl"
 		(offset
 			(xyz -2.53 -8.82 -2.5)
 		)

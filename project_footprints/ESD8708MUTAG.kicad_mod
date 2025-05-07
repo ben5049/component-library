@@ -562,7 +562,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "e43858d9-90be-4dbf-a7b9-91b392d0decb")
 	)
-	(model "${KIPRJMOD}/../component_library/project_models/ESD8708MUTAG.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/ESD8708MUTAG.stp"
 		(offset
 			(xyz 0 0 0)
 		)

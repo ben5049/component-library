@@ -207,7 +207,7 @@
 		(uuid "875597fb-a70b-447e-bea0-d4500656749a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/TPS25200QDRVTQ1.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/TPS25200QDRVTQ1.stp"
 		(offset
 			(xyz 0 0 0)
 		)

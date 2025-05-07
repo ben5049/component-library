@@ -745,7 +745,7 @@
 		(uuid "c894a792-a3ae-45c0-893d-6677ce828157")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/FTSH-107-01-L-DV-K.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/FTSH-107-01-L-DV-K.stp"
 		(offset
 			(xyz 0 0 0.4)
 		)

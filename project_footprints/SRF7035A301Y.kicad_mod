@@ -238,7 +238,7 @@
 		(uuid "543262fb-35bc-46f7-b432-d0efdee97c99")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/SRF7035A-301Y.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/SRF7035A-301Y.stp"
 		(offset
 			(xyz 0 0 0)
 		)

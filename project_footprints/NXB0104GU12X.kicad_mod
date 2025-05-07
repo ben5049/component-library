@@ -241,7 +241,7 @@
 		(uuid "1b3dd777-afac-4935-905d-eec06f385bb3")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/NXB0104GU12X.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/NXB0104GU12X.stp"
 		(offset
 			(xyz 1.499999977 -0.8399999612 1.149999959)
 		)

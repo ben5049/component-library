@@ -190,7 +190,7 @@
 		(uuid "76d33e67-78e8-4876-9ce6-d75f5193a768")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../component_library/project_models/ECMF2-40A100N6.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/ECMF2-40A100N6.stp"
 		(offset
 			(xyz 0 0 0)
 		)

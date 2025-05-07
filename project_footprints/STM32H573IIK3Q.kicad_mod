@@ -1678,7 +1678,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "cc9deea8-3ccb-4974-982f-888a3cafcea7")
 	)
-	(model "${KIPRJMOD}/../component_library/project_models/STM32H573IIK3Q.step"
+	(model "${KIPRJMOD}/../component-library/project_models/STM32H573IIK3Q.step"
 		(offset
 			(xyz 0 0 0)
 		)

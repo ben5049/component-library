@@ -286,7 +286,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "bb757963-5742-467f-83f2-0d5c08035c5a")
 	)
-	(model "${KIPRJMOD}/../component_library/project_models/PCM12SMTR.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/PCM12SMTR.stp"
 		(offset
 			(xyz 0 -0.03999999851 0.7099999679)
 		)
