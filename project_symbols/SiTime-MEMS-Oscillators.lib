@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SiTime SIT8008BI-73-33E-50.000000G
+#
+DEF SIT8008BI-73-33E-50.000000G Y 0 40 Y Y 1 L N
+F0 "Y" 0 200 50 H V L CNN 
+F1 "SIT8008BI-73-33E-50.000000G" 0 300 50 H V L CNN 
+F2 "SiTime-SiT8008-7-0-0-*" 0 400 50 H I L CNN 
+F3 "https://www.sitime.com/datasheet/SiT8008" 0 500 50 H I L CNN 
+F4 "No" 0 600 50 H I L CNN "automotive"
+F5 "Crys" 0 700 50 H I L CNN "category"
+F6 "Integrated Circuits (ICs)" 0 800 50 H I L CNN "device class L1"
+F7 "Clock and Timing" 0 900 50 H I L CNN "device class L2"
+F8 "Timers and Oscillators" 0 1000 50 H I L CNN "device class L3"
+F9 "MEMS OSC XO 50.0000MHZ H/LV-CMOS" 0 1100 50 H I L CNN "digikey description"
+F10 "2156-SIT8008BI-73-33E-50.000000G-ND" 0 1200 50 H I L CNN "digikey part number"
+F11 "50MHz" 0 1300 50 H I L CNN "frequency"
+F12 "0.85mm" 0 1400 50 H I L CNN "height"
+F13 "Yes" 0 1500 50 H I L CNN "lead free"
+F14 "93b0969a870f4c70" 0 1600 50 H I L CNN "library id"
+F15 "SiTime" 0 1700 50 H I L CNN "manufacturer"
+F16 "+95°C" 0 1800 50 H I L CNN "max junction temp"
+F17 "3.63V" 0 1900 50 H I L CNN "max supply voltage"
+F18 "2.97V" 0 2000 50 H I L CNN "min supply voltage"
+F19 "788-8008BI7333E500G" 0 2100 50 H I L CNN "mouser part number"
+F20 "SMD4" 0 2200 50 H I L CNN "package"
+F21 "Yes" 0 2300 50 H I L CNN "rohs"
+F22 "0mm" 0 2400 50 H I L CNN "standoff height"
+F23 "+85°C" 0 2500 50 H I L CNN "temperature range high"
+F24 "-40°C" 0 2600 50 H I L CNN "temperature range low"
+DRAW
+X VDD 4 100 0 100 R 40 40 1 1 W 
+X OE 1 100 -200 100 R 40 40 1 1 I 
+X OUT 3 1200 0 100 L 40 40 1 1 O 
+X GND 2 1200 -200 100 L 40 40 1 1 W 
+S 200 100 1100 -300 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

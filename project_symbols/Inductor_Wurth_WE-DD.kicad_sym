@@ -38310,12 +38310,11 @@
 			)
 		)
 		(property "Part Number" "744879221"
-			(at 52.07 5.08 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Size" "7355crossed"
@@ -38435,7 +38434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Critical Parameter" "220.0 µH"
+		(property "Critical Parameter" "220u"
 			(at 0 -7.62 0)
 			(effects
 				(font
