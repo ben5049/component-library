@@ -5,6 +5,186 @@
 	(uuid "ee1297ef-5123-4373-9bbd-ffc0e0a23d74")
 	(paper "A4")
 	(lib_symbols
+		(symbol "BZX884:BZX884-C3V3,315"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Z"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZX884-C3V3,315"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "project_footprints:BZX884"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX884_BC_SER.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "NEXPERIA - BZX884-C3V3,315 - Zener Single Diode, 3.3 V, 250 mW, DFN1006, 2 Pins, 150 C, Surface Mount"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.5"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "771-BZX884-C3V9315"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/BZX884-C3V9315?qs=me8TqzrmIYWAnhi4MFXkdw%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BZX884-C3V9,315"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BZX884-C3V3,315_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BZX884-C3V3,315_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BZX884:BZX884-C3V9,315"
 			(pin_names
 				(hide yes)
@@ -1129,16 +1309,10 @@
 		(uuid "40c5ac36-0353-4046-b404-5346780a1ac3")
 	)
 	(junction
-		(at 180.34 50.8)
+		(at 180.34 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7a19a99-97a4-4407-8bcc-1afa9cb81fd9")
-	)
-	(junction
-		(at 190.5 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de9a79d5-6fda-47ba-8a7f-f575fecc0014")
+		(uuid "a674c527-e303-4964-87fe-64194b51c058")
 	)
 	(junction
 		(at 190.5 81.28)
@@ -1248,6 +1422,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 88.9) (xy 172.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e58f4c-3e49-44b2-95b3-bc05ebc70507")
+	)
+	(wire
+		(pts
 			(xy 190.5 93.98) (xy 190.5 96.52)
 		)
 		(stroke
@@ -1318,6 +1502,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 83.82) (xy 180.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03ae9b5-a72c-4b33-9476-926dbd14efea")
+	)
+	(wire
+		(pts
 			(xy 180.34 50.8) (xy 180.34 73.66)
 		)
 		(stroke
@@ -1338,13 +1532,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 78.74) (xy 180.34 86.36)
+			(xy 180.34 78.74) (xy 180.34 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa4c2c5c-0a34-4604-ba49-cead65a41cbc")
+	)
+	(wire
+		(pts
+			(xy 172.72 83.82) (xy 180.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b800f141-efad-4f4d-9760-b4efe5aea26a")
 	)
 	(wire
 		(pts
@@ -1365,6 +1569,16 @@
 			(type default)
 		)
 		(uuid "e71b32d9-b39a-495d-b4e6-c5567ff9589f")
+	)
+	(wire
+		(pts
+			(xy 172.72 93.98) (xy 172.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81ff9d1-c82b-48bd-8404-ff756d899a63")
 	)
 	(wire
 		(pts
@@ -1436,7 +1650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00dcd1a1-a3ad-4f2d-871e-12679fea3a1e")
-		(property "Reference" "R301"
+		(property "Reference" "R?"
 			(at 193.04 74.9299 0)
 			(effects
 				(font
@@ -1494,6 +1708,12 @@
 					(unit 1)
 				)
 			)
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1506,7 +1726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06894c23-e682-4ff1-88c0-5136bbbff964")
-		(property "Reference" "Q301"
+		(property "Reference" "Q?"
 			(at 245.11 82.5499 0)
 			(effects
 				(font
@@ -1622,6 +1842,12 @@
 					(unit 1)
 				)
 			)
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1634,7 +1860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32652b6b-a7da-4773-8f01-3d36c3a914f7")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR?"
 			(at 190.5 102.87 0)
 			(effects
 				(font
@@ -1688,6 +1914,12 @@
 					(unit 1)
 				)
 			)
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1700,7 +1932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3393cbb7-8b6a-4b0e-b4de-166241c8dca7")
-		(property "Reference" "#PWR0310"
+		(property "Reference" "#PWR?"
 			(at 203.2 100.33 0)
 			(effects
 				(font
@@ -1754,6 +1986,133 @@
 					(unit 1)
 				)
 			)
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BZX884:BZX884-C3V3,315")
+		(at 172.72 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "359ed236-597c-45b1-a94b-62924b25b426")
+		(property "Reference" "Z101"
+			(at 170.18 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BZX884-C3V3,315"
+			(at 170.18 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "project_footprints:BZX884"
+			(at 79.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX884_BC_SER.pdf"
+			(at -20.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "NEXPERIA - BZX884-C3V3,315 - Zener Single Diode, 3.3 V, 250 mW, DFN1006, 2 Pins, 150 C, Surface Mount"
+			(at 168.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at -220.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-BZX884-C3V9315"
+			(at -320.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/BZX884-C3V9315?qs=me8TqzrmIYWAnhi4MFXkdw%3D%3D"
+			(at -420.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at -520.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BZX884-C3V9,315"
+			(at -620.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c090e78-8475-453c-8051-78593d39bad7")
+		)
+		(pin "2"
+			(uuid "faca667d-6bf7-443c-949b-efe31893dfcd")
+		)
+		(instances
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "Z101")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1766,7 +2125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6397738a-fdf5-471e-b6be-a0f7789e0371")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR?"
 			(at 241.3 97.79 0)
 			(effects
 				(font
@@ -1820,6 +2179,12 @@
 					(unit 1)
 				)
 			)
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1832,7 +2197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d323284-543e-440e-b850-1df527a3581f")
-		(property "Reference" "R302"
+		(property "Reference" "R?"
 			(at 193.04 90.1699 0)
 			(effects
 				(font
@@ -1890,6 +2255,12 @@
 					(unit 1)
 				)
 			)
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1901,7 +2272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "731c23c1-840e-4efa-913b-0cc639424365")
-		(property "Reference" "U304"
+		(property "Reference" "U?"
 			(at 214.63 77.47 0)
 			(effects
 				(font
@@ -2018,6 +2389,12 @@
 					(unit 1)
 				)
 			)
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2030,7 +2407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "784d0bda-1fb0-4c80-b967-ccc8459a3425")
-		(property "Reference" "R304"
+		(property "Reference" "R?"
 			(at 182.88 90.1699 0)
 			(effects
 				(font
@@ -2039,7 +2416,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "18k"
 			(at 182.88 92.7099 0)
 			(effects
 				(font
@@ -2088,6 +2465,12 @@
 					(unit 1)
 				)
 			)
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2100,7 +2483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91ac597a-53de-4c7a-bce0-d48750f8c94e")
-		(property "Reference" "R306"
+		(property "Reference" "R?"
 			(at 231.14 74.9299 0)
 			(effects
 				(font
@@ -2158,6 +2541,12 @@
 					(unit 1)
 				)
 			)
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2170,7 +2559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c78ac554-5e9e-4c3d-8623-0d5a2152bf3b")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR?"
 			(at 180.34 102.87 0)
 			(effects
 				(font
@@ -2224,6 +2613,78 @@
 					(unit 1)
 				)
 			)
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3075e2d-0714-429b-8276-8e18f90135be")
+		(property "Reference" "#PWR01"
+			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4948476-1945-4778-8bfe-76bf8b6bc038")
+		)
+		(instances
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2236,7 +2697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de0f2f4c-a8b6-43e5-993f-0c0ddaf898da")
-		(property "Reference" "Z301"
+		(property "Reference" "Z?"
 			(at 243.84 54.6099 90)
 			(effects
 				(font
@@ -2346,6 +2807,12 @@
 					(unit 1)
 				)
 			)
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "Z?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2358,7 +2825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee0ea894-70fe-465f-8913-60bfe1ae8adf")
-		(property "Reference" "R305"
+		(property "Reference" "R?"
 			(at 243.84 67.3099 0)
 			(effects
 				(font
@@ -2367,7 +2834,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "49R9"
 			(at 243.84 69.8499 0)
 			(effects
 				(font
@@ -2416,6 +2883,12 @@
 					(unit 1)
 				)
 			)
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2428,7 +2901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4443135-5d76-4faa-b857-3fe95c1265e0")
-		(property "Reference" "R303"
+		(property "Reference" "R?"
 			(at 182.88 74.9299 0)
 			(effects
 				(font
@@ -2486,6 +2959,18 @@
 					(unit 1)
 				)
 			)
+			(project "PoDL PD Detection"
+				(path "/ee1297ef-5123-4373-9bbd-ffc0e0a23d74"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
