@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0684-4603-0-53&productname=BM54F3.0-30DP-0.4V(53)&series=BM54&documenttype=2DDrawing&lang=en&documentid=0001645150"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
