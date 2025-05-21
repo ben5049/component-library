@@ -52,7 +52,7 @@
 			)
 		)
 	)
-	(solder_mask_margin 0.05)
+	(solder_mask_margin 0)
 	(solder_paste_margin 0.000001)
 	(attr smd)
 	(fp_line
