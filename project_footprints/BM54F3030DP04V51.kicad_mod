@@ -385,6 +385,22 @@
 		(roundrect_rratio 0.1)
 		(uuid "567115ec-f848-4f22-8814-25b3115f659b")
 	)
+	(pad "35" smd roundrect
+		(at 10.5 5)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "5f331991-97a5-4219-b1b6-12cee64986ca")
+	)
+	(pad "36" smd roundrect
+		(at 10.5 8.5)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "e2beac6d-1949-4573-8828-c2796d339520")
+	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../component-library/project_models/BM54F3.0-30DP-0.4V_51_.stp"
 		(offset
