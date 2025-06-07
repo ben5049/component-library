@@ -386,7 +386,7 @@
 		(uuid "567115ec-f848-4f22-8814-25b3115f659b")
 	)
 	(pad "35" smd roundrect
-		(at 10.5 5)
+		(at 9.5 5)
 		(size 2.5 2.5)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
@@ -394,7 +394,7 @@
 		(uuid "5f331991-97a5-4219-b1b6-12cee64986ca")
 	)
 	(pad "36" smd roundrect
-		(at 10.5 8.5)
+		(at 9.5 8.5)
 		(size 2.5 2.5)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
