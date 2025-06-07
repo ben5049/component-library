@@ -1,0 +1,150 @@
+(footprint "S179142R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "S1791-42R-4")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0.475 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2e30dec0-d3ee-4d4e-8c81-b1b2af877bc0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "S179142R"
+		(at 0.475 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "759acc70-6ae8-49ef-a663-6289d265512f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16a5666c-0351-4755-881d-4d8cb89400b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2d8ecfb-da85-4ca3-8dfb-92c628229776")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.1 -1.7)
+		(end 4.1 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8f4db8f6-a4c5-4fea-831a-965f5d3ae5e1")
+	)
+	(fp_line
+		(start -3.5 -1.25)
+		(end 3.5 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5bf621e-74f3-4784-8ace-c8add1647fd2")
+	)
+	(fp_line
+		(start -3.5 1.25)
+		(end -3.5 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b56fe77-bd39-4d37-ad72-df0bdf7a8fb9")
+	)
+	(fp_line
+		(start 3.5 -1.25)
+		(end 3.5 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64f4daad-026c-491d-97d8-579982eeb1a0")
+	)
+	(fp_line
+		(start 3.5 1.25)
+		(end -3.5 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2057deb9-f10a-4b3c-a0d8-19337d6fcf1e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.475 0 0)
+		(layer "F.Fab")
+		(uuid "097a12bd-60cd-438d-8885-48d601e989ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0 90)
+		(size 3 7.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "ef4f36f7-779c-4362-8979-a8ebf1f348fc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../component-library/project_models/S1791-42R_3mm.step"
+		(offset
+			(xyz 2.499999962 1.249999981 0.009999999626)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "S:/Documents/projects/GbE-TSN-Switch/PCBs/component-library/project_models/S1791-42R.stp"
+		(hide yes)
+		(offset
+			(xyz 2.5 1.25 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
