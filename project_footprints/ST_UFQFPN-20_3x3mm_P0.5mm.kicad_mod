@@ -249,22 +249,25 @@
 		)
 		(uuid "e66699ea-8e70-4820-b308-4b14bf4e5fae")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -1.3 -0.5)
 		(size 0.7 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "ba315333-a00a-44d3-8ca4-dab648bbac8c")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -1.3 0)
 		(size 0.7 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "e7d604de-0ec4-4a7c-9ead-a13816533864")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at -1.3 0.5)
 		(size 0.7 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "8c0617a3-d827-420b-8b05-01e0af8347a5")
 	)
 	(pad "5" smd custom
@@ -309,22 +312,25 @@
 		)
 		(uuid "75916a11-beb1-419c-ad2e-97859dd7b103")
 	)
-	(pad "7" smd rect
+	(pad "7" smd roundrect
 		(at -0.5 1.3)
 		(size 0.3 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "266dc99d-16a7-415f-aebe-e252bbc25929")
 	)
-	(pad "8" smd rect
+	(pad "8" smd roundrect
 		(at 0 1.3)
 		(size 0.3 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "15f2230e-09bf-4942-925d-b805a525a414")
 	)
-	(pad "9" smd rect
+	(pad "9" smd roundrect
 		(at 0.5 1.3)
 		(size 0.3 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "c170c6fb-1ec5-4e54-b1ef-22cffecf9459")
 	)
 	(pad "10" smd custom
@@ -369,22 +375,25 @@
 		)
 		(uuid "ea9442c2-7d3f-4797-a638-4b11b55cd744")
 	)
-	(pad "12" smd rect
+	(pad "12" smd roundrect
 		(at 1.3 0.5)
 		(size 0.7 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "c2b0332a-aac8-4c5b-914d-4361de955609")
 	)
-	(pad "13" smd rect
+	(pad "13" smd roundrect
 		(at 1.3 0)
 		(size 0.7 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "99696a45-fa68-4c72-9b35-051921aaa761")
 	)
-	(pad "14" smd rect
+	(pad "14" smd roundrect
 		(at 1.3 -0.5)
 		(size 0.7 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "cef83ca0-f410-4aa5-aa5b-2c3d1c91e077")
 	)
 	(pad "15" smd custom
@@ -429,22 +438,25 @@
 		)
 		(uuid "b474b7b6-f1c1-4607-8c20-9c2beedbd095")
 	)
-	(pad "17" smd rect
+	(pad "17" smd roundrect
 		(at 0.5 -1.3)
 		(size 0.3 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "4d258bfc-bb23-4f3c-9ee0-43e27111427b")
 	)
-	(pad "18" smd rect
+	(pad "18" smd roundrect
 		(at 0 -1.3)
 		(size 0.3 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "c7572add-ad08-4d5f-9977-21f8670ae5a7")
 	)
-	(pad "19" smd rect
+	(pad "19" smd roundrect
 		(at -0.5 -1.3)
 		(size 0.3 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "e89b9e5f-98c4-4755-98a1-fcea9e242259")
 	)
 	(pad "20" smd custom
