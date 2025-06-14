@@ -700,7 +700,7 @@
 				)
 			)
 		)
-		(property "Value" "PHY Interface V2 Plug"
+		(property "Value" "PHY Interface V2 Plug w/Power"
 			(at 0 2.54 0)
 			(effects
 				(font
