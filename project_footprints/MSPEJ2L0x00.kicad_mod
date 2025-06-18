@@ -365,4 +365,16 @@
 			(xyz -90 -0 -0)
 		)
 	)
+	(model "${KIPRJMOD}/../component-library/project_models/MSPE-J2L0-E00-vertical.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -180)
+		)
+	)
 )
