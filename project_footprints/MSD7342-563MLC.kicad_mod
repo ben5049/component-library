@@ -1,0 +1,182 @@
+(footprint "MSD7342-563MLC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Shielded Coupled Inductor, body 7.3x7.3x5.8mm, https://www.we-online.com/en/components/products/WE-DD#/articles/WE-DD-7355-CROSSED")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f9bbbe44-c4ba-4204-b382-3bf34e6c69ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MSD7342-563MLC"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "04507a21-54a5-4947-a957-58e6aec42572")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d16224e-96be-40b2-99c6-8bd5f728a145")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa7c07ca-a480-4bc6-aa4c-742b36e538d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.9 3.9)
+		(end -3.9 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bd66699-0202-4221-9c8c-34f6f504848e")
+	)
+	(fp_line
+		(start -3.9 3.9)
+		(end -1.66 3.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67ed868c-c8f7-476b-af91-80f21b8bd207")
+	)
+	(fp_line
+		(start 3.9 -3.9)
+		(end 1.65 -3.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b7cb7bf-c3ec-4b69-bc14-17f5a298086d")
+	)
+	(fp_line
+		(start 3.9 -3.9)
+		(end 3.9 3.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f79350fe-d0b8-4fe5-b983-4364daa75c90")
+	)
+	(fp_line
+		(start 3.9 3.9)
+		(end 1.66 3.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e333bdbb-c697-43a4-8dcc-3e8b4fc74c0d")
+	)
+	(fp_rect
+		(start -4 -4)
+		(end 4 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5007fc86-ad73-4669-a0ee-4c7b2258cc21")
+	)
+	(fp_rect
+		(start -3.75 -3.75)
+		(end 3.75 3.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9402caa2-4477-420e-85d4-581a8dd35546")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e3d1448a-6e72-4ced-9373-39713fa2af08")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.85 -2.7)
+		(size 1.1 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "bd8af0ba-cc39-401c-b48a-b3db625ef285")
+	)
+	(pad "2" smd roundrect
+		(at -0.85 -2.7)
+		(size 1.1 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "1ffdac53-71b4-452b-ac2f-3878c3324432")
+	)
+	(pad "3" smd roundrect
+		(at -0.85 2.7)
+		(size 1.1 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "0692d27a-4c1a-46b1-8564-e8630ebff6f8")
+	)
+	(pad "4" smd roundrect
+		(at 0.85 2.7)
+		(size 1.1 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "4ae5050c-7581-4b4b-bf80-5c3453c24804")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../component-library/project_models/MSD7342.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

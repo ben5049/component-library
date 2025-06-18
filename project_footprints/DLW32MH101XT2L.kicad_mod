@@ -56,7 +56,7 @@
 	(attr smd)
 	(fp_line
 		(start 1.525 -1.25)
-		(end -1.6 -1.2)
+		(end -1.6 -1.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -209,13 +209,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../component-library/project_models/DLW32MH101XT2L.stp"
 		(offset
-			(xyz 0.009999999626 0.1399999985 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 -180)
+			(xyz -90 -0 -180)
 		)
 	)
 )
