@@ -1,4 +1,4 @@
-(footprint "MSD7342-563MLC"
+(footprint "MSD7342"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -18,7 +18,7 @@
 			)
 		)
 	)
-	(property "Value" "MSD7342-563MLC"
+	(property "Value" "MSD7342"
 		(at 0 5 0)
 		(unlocked yes)
 		(layer "F.Fab")
