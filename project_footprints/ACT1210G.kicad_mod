@@ -1,0 +1,230 @@
+(footprint "ACT1210G"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ACT1210G-800-2P-TL10-4")
+	(tags "Filter")
+	(property "Reference" "FL**"
+		(at 0.1 -3.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "82078243-9f5d-45da-9370-43d94aa86ee3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ACT1210G"
+		(at 0.1 -3.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c352d2be-6eb8-4726-9697-08b65cbe7b00")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b34d074f-7884-42ed-9bed-f38414308951")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4799b902-bad6-4b16-8070-bf7617a7b8d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd4cd0fc-57a8-4959-ac87-93c83ffc7a4a")
+	)
+	(fp_line
+		(start -1.6 -1)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79647cbe-4c77-436d-8655-355d97d9b237")
+	)
+	(fp_line
+		(start -1.6 1)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c1da42e-d8d6-4c2e-881a-3c63a13ca4c0")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "526a6523-6a15-421c-86b4-f03f9316505a")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f05b0e8b-50da-409a-bbb1-3fb7e732451d")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end 1.6 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3dc2fb1f-49e8-4a93-8ec2-be9be3227a0b")
+	)
+	(fp_circle
+		(center -2 -1.1)
+		(end -2.1 -1.1)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4c15ef99-0830-42f6-a550-5e6d9c02b152")
+	)
+	(fp_rect
+		(start -2.2 -1.5)
+		(end 2.2 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e493a79d-b1d7-40e3-9109-a2eda59bacf9")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffea1a8c-961b-42ee-80e2-b7d9310a2fbb")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "371d3016-a7c5-4b30-a35c-6bcead90542c")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c90327fb-016c-4f80-829c-d46a08f198f5")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a31d9c7a-8dda-4c09-b474-613a4fd5925a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5d902044-79d2-4486-bd97-cbd446f15d35")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.525 -0.5 90)
+		(size 0.6 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "2b752be2-4584-4e21-846d-c78234df8eca")
+	)
+	(pad "2" smd roundrect
+		(at -1.525 0.5 90)
+		(size 0.6 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "df625442-2e3a-4050-ad2b-efe59bbcb4c4")
+	)
+	(pad "3" smd roundrect
+		(at 1.525 0.5 90)
+		(size 0.6 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "e9446cb3-6049-4d20-b1f4-86096c35e02f")
+	)
+	(pad "4" smd roundrect
+		(at 1.525 -0.5 90)
+		(size 0.6 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "2d033467-96f0-4a6e-a22b-cb96415b983e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../component-library/project_models/ACT1210G-800-2P-TL10.stp"
+		(offset
+			(xyz 0 -17.43000004 0.1099999978)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
