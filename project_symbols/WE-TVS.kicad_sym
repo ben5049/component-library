@@ -482,6 +482,18 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 5.08 -12.7) (xy 3.81 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin passive line
 				(at -10.16 -2.54 0)
 				(length 5.08)
