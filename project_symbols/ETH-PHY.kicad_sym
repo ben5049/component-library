@@ -3939,8 +3939,26 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -20.32 -68.58 0)
+				(length 5.08)
+				(name "STRAP_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -73.66 0)
 				(length 5.08)
 				(name "MDC"
 					(effects
@@ -3958,7 +3976,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -71.12 0)
+				(at -20.32 -76.2 0)
 				(length 5.08)
 				(name "MDIO"
 					(effects
@@ -3976,7 +3994,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -76.2 0)
+				(at -20.32 -81.28 0)
 				(length 5.08)
 				(name "RESET_N"
 					(effects
@@ -3994,7 +4012,7 @@
 				)
 			)
 			(pin output line
-				(at -20.32 -81.28 0)
+				(at -20.32 -86.36 0)
 				(length 5.08)
 				(name "INT_N"
 					(effects
@@ -4012,7 +4030,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -86.36 0)
+				(at -20.32 -91.44 0)
 				(length 5.08)
 				(name "WAKE"
 					(effects
@@ -4022,24 +4040,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -91.44 0)
-				(length 5.08)
-				(name "STRAP_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
