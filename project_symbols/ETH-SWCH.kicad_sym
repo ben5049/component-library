@@ -223,7 +223,7 @@
 					(justify left top)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -38.1 -5.08 0)
 				(length 5.08)
 				(name "MII4_TXD0"
@@ -241,7 +241,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -38.1 -7.62 0)
 				(length 5.08)
 				(name "MII4_TXD1"
@@ -259,7 +259,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -38.1 -10.16 0)
 				(length 5.08)
 				(name "MII4_TXD2"
@@ -277,7 +277,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -38.1 -12.7 0)
 				(length 5.08)
 				(name "MII4_TXD3"
@@ -295,7 +295,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -38.1 -15.24 0)
 				(length 5.08)
 				(name "MII4_TX_EN/TX_CTL"
@@ -313,7 +313,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -38.1 -17.78 0)
 				(length 5.08)
 				(name "MII4_TX_CLK/REF_CLK/TXC"
@@ -331,7 +331,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -38.1 -20.32 0)
 				(length 5.08)
 				(name "MII4_TX_ER"
@@ -349,7 +349,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -25.4 0)
 				(length 5.08)
 				(name "MII4_RXD0"
@@ -367,7 +367,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -27.94 0)
 				(length 5.08)
 				(name "MII4_RXD1"
@@ -385,7 +385,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -30.48 0)
 				(length 5.08)
 				(name "MII4_RXD2"
@@ -403,7 +403,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -33.02 0)
 				(length 5.08)
 				(name "MII4_RXD3"
@@ -421,7 +421,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -35.56 0)
 				(length 5.08)
 				(name "MII4_RX_DV/CRS_DV/RX_CTL"
@@ -439,7 +439,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -38.1 -38.1 0)
 				(length 5.08)
 				(name "MII4_RX_CLK/RXC"
@@ -457,7 +457,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -40.64 0)
 				(length 5.08)
 				(name "MII4_RX_ER"
@@ -475,7 +475,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -60.96 0)
 				(length 5.08)
 				(name "RST_N"
@@ -493,7 +493,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -66.04 0)
 				(length 5.08)
 				(name "SCK"
@@ -511,7 +511,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -68.58 0)
 				(length 5.08)
 				(name "SDI"
@@ -529,7 +529,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -38.1 -71.12 0)
 				(length 5.08)
 				(name "SDO"
@@ -547,7 +547,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -73.66 0)
 				(length 5.08)
 				(name "SS_N"
@@ -565,7 +565,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional clock
 				(at -38.1 -88.9 0)
 				(length 5.08)
 				(name "PTP_CLK"
@@ -583,7 +583,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output clock
 				(at -38.1 -93.98 0)
 				(length 5.08)
 				(name "CLK_OUT"
@@ -601,7 +601,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -109.22 0)
 				(length 5.08)
 				(name "OSC_IN"
@@ -619,7 +619,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -38.1 -119.38 0)
 				(length 5.08)
 				(name "OSC_OUT"
@@ -637,7 +637,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -132.08 0)
 				(length 5.08)
 				(name "TCK"
@@ -655,7 +655,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -134.62 0)
 				(length 5.08)
 				(name "TDI"
@@ -673,7 +673,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -137.16 0)
 				(length 5.08)
 				(name "TRST_N"
@@ -691,7 +691,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -38.1 -139.7 0)
 				(length 5.08)
 				(name "TDO"
@@ -709,7 +709,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -142.24 0)
 				(length 5.08)
 				(name "TMS"
@@ -745,7 +745,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -5.08 180)
 				(length 5.08)
 				(name "MII0_TXD0"
@@ -763,7 +763,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -7.62 180)
 				(length 5.08)
 				(name "MII0_TXD1"
@@ -781,7 +781,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -10.16 180)
 				(length 5.08)
 				(name "MII0_TXD2"
@@ -799,7 +799,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -12.7 180)
 				(length 5.08)
 				(name "MII0_TXD3"
@@ -817,7 +817,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -15.24 180)
 				(length 5.08)
 				(name "MII0_TX_EN/TX_CTL"
@@ -835,7 +835,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 38.1 -17.78 180)
 				(length 5.08)
 				(name "MII0_TX_CLK/REF_CLK/TXC"
@@ -853,7 +853,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -20.32 180)
 				(length 5.08)
 				(name "MII0_TX_ER"
@@ -871,7 +871,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -25.4 180)
 				(length 5.08)
 				(name "MII0_RXD0"
@@ -889,7 +889,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -27.94 180)
 				(length 5.08)
 				(name "MII0_RXD1"
@@ -907,7 +907,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -30.48 180)
 				(length 5.08)
 				(name "MII0_RXD2"
@@ -925,7 +925,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -33.02 180)
 				(length 5.08)
 				(name "MII0_RXD3"
@@ -943,7 +943,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -35.56 180)
 				(length 5.08)
 				(name "MII0_RX_DV/CRS_DV/RX_CTL"
@@ -961,7 +961,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 38.1 -38.1 180)
 				(length 5.08)
 				(name "MII0_RX_CLK/RXC"
@@ -979,7 +979,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -40.64 180)
 				(length 5.08)
 				(name "MII0_RX_ER"
@@ -997,7 +997,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -48.26 180)
 				(length 5.08)
 				(name "MII1_TXD0"
@@ -1015,7 +1015,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -50.8 180)
 				(length 5.08)
 				(name "MII1_TXD1"
@@ -1033,7 +1033,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -53.34 180)
 				(length 5.08)
 				(name "MII1_TXD2"
@@ -1051,7 +1051,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -55.88 180)
 				(length 5.08)
 				(name "MII1_TXD3"
@@ -1069,7 +1069,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -58.42 180)
 				(length 5.08)
 				(name "MII1_TTX_EN/TX_CTL"
@@ -1087,7 +1087,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 38.1 -60.96 180)
 				(length 5.08)
 				(name "MII1_TX_CLK/REF_CLK/TXC"
@@ -1105,7 +1105,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -63.5 180)
 				(length 5.08)
 				(name "MII1_TX_ER"
@@ -1123,7 +1123,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -68.58 180)
 				(length 5.08)
 				(name "MII1_RXD0"
@@ -1141,7 +1141,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -71.12 180)
 				(length 5.08)
 				(name "MII1_RXD1"
@@ -1159,7 +1159,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -73.66 180)
 				(length 5.08)
 				(name "MII1_RXD2"
@@ -1177,7 +1177,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -76.2 180)
 				(length 5.08)
 				(name "MII1_RXD3"
@@ -1195,7 +1195,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -78.74 180)
 				(length 5.08)
 				(name "MII1_RX_DV/CRS_DV/RX_CTL"
@@ -1213,7 +1213,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 38.1 -81.28 180)
 				(length 5.08)
 				(name "MII1_RX_CLK/RXC"
@@ -1231,7 +1231,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -83.82 180)
 				(length 5.08)
 				(name "MII1_RX_ER"
@@ -1249,7 +1249,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -91.44 180)
 				(length 5.08)
 				(name "MII2_TXD0"
@@ -1267,7 +1267,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -93.98 180)
 				(length 5.08)
 				(name "MII2_TXD1"
@@ -1285,7 +1285,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -96.52 180)
 				(length 5.08)
 				(name "MII2_TXD2"
@@ -1303,7 +1303,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -99.06 180)
 				(length 5.08)
 				(name "MII2_TXD3"
@@ -1321,7 +1321,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -101.6 180)
 				(length 5.08)
 				(name "MII2_TX_EN/TX_CTL"
@@ -1339,7 +1339,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 38.1 -104.14 180)
 				(length 5.08)
 				(name "MII2_TX_CLK/REF_CLK/TXC"
@@ -1357,7 +1357,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -106.68 180)
 				(length 5.08)
 				(name "MII2_TX_ER"
@@ -1375,7 +1375,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -111.76 180)
 				(length 5.08)
 				(name "MII2_RXD0"
@@ -1393,7 +1393,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -114.3 180)
 				(length 5.08)
 				(name "MII2_RXD1"
@@ -1411,7 +1411,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -116.84 180)
 				(length 5.08)
 				(name "MII2_RXD2"
@@ -1429,7 +1429,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -119.38 180)
 				(length 5.08)
 				(name "MII2_RXD3"
@@ -1447,7 +1447,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -121.92 180)
 				(length 5.08)
 				(name "MII2_RX_DV/CRS_DV/RX_CTL"
@@ -1465,7 +1465,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 38.1 -124.46 180)
 				(length 5.08)
 				(name "MII2_RX_CLK/RXC"
@@ -1483,7 +1483,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -127 180)
 				(length 5.08)
 				(name "MII2_RX_ER"
@@ -1501,7 +1501,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -134.62 180)
 				(length 5.08)
 				(name "MII3_TXD0"
@@ -1519,7 +1519,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -137.16 180)
 				(length 5.08)
 				(name "MII3_TXD1"
@@ -1537,7 +1537,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -139.7 180)
 				(length 5.08)
 				(name "MII3_TXD2"
@@ -1555,7 +1555,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -142.24 180)
 				(length 5.08)
 				(name "MII3_TXD3"
@@ -1573,7 +1573,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -144.78 180)
 				(length 5.08)
 				(name "MII3_TX_EN/TX_CTL"
@@ -1591,7 +1591,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 38.1 -147.32 180)
 				(length 5.08)
 				(name "MII3_TX_CLK/REF_CLK/TXC"
@@ -1609,7 +1609,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 38.1 -149.86 180)
 				(length 5.08)
 				(name "MII3_TX_ER"
@@ -1627,7 +1627,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -154.94 180)
 				(length 5.08)
 				(name "MII3_RXD0"
@@ -1645,7 +1645,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -157.48 180)
 				(length 5.08)
 				(name "MII3_RXD1"
@@ -1663,7 +1663,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -160.02 180)
 				(length 5.08)
 				(name "MII3_RXD2"
@@ -1681,7 +1681,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -162.56 180)
 				(length 5.08)
 				(name "MII3_RXD3"
@@ -1699,7 +1699,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -165.1 180)
 				(length 5.08)
 				(name "MII3_RX_DV/CRS_DV/RX_CTL"
@@ -1717,7 +1717,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 38.1 -167.64 180)
 				(length 5.08)
 				(name "MII3_RX_CLK/RXC"
@@ -1735,7 +1735,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 38.1 -170.18 180)
 				(length 5.08)
 				(name "MII3_RX_ER"
@@ -1766,7 +1766,7 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -2.54 0)
 				(length 5.08)
 				(name "VDDIO_MII0_1"
@@ -1784,7 +1784,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -5.08 0)
 				(length 5.08)
 				(name "VDDIO_MII0_2"
@@ -1802,7 +1802,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -7.62 0)
 				(length 5.08)
 				(name "VDDIO_MII0_3"
@@ -1820,7 +1820,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -12.7 0)
 				(length 5.08)
 				(name "VDDIO_MII1_1"
@@ -1838,7 +1838,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -15.24 0)
 				(length 5.08)
 				(name "VDDIO_MII1_2"
@@ -1856,7 +1856,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -17.78 0)
 				(length 5.08)
 				(name "VDDIO_MII1_3"
@@ -1874,7 +1874,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -22.86 0)
 				(length 5.08)
 				(name "VDDIO_MII2_1"
@@ -1892,7 +1892,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -25.4 0)
 				(length 5.08)
 				(name "VDDIO_MII2_2"
@@ -1910,7 +1910,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -27.94 0)
 				(length 5.08)
 				(name "VDDIO_MII2_3"
@@ -1928,7 +1928,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -33.02 0)
 				(length 5.08)
 				(name "VDDIO_MII3_1"
@@ -1946,7 +1946,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -35.56 0)
 				(length 5.08)
 				(name "VDDIO_MII3_2"
@@ -1964,7 +1964,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -38.1 0)
 				(length 5.08)
 				(name "VDDIO_MII3_3"
@@ -1982,7 +1982,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -43.18 0)
 				(length 5.08)
 				(name "VDDIO_MII4_1"
@@ -2000,7 +2000,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -45.72 0)
 				(length 5.08)
 				(name "VDDIO_MII4_2"
@@ -2018,7 +2018,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -48.26 0)
 				(length 5.08)
 				(name "VDDIO_MII4_3"
@@ -2036,7 +2036,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -53.34 0)
 				(length 5.08)
 				(name "VDDIO_HOST"
@@ -2054,7 +2054,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -58.42 0)
 				(length 5.08)
 				(name "VDDIO_CLO"
@@ -2072,7 +2072,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -68.58 0)
 				(length 5.08)
 				(name "VDD_CORE_1"
@@ -2090,7 +2090,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -71.12 0)
 				(length 5.08)
 				(name "VDD_CORE_2"
@@ -2108,7 +2108,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -73.66 0)
 				(length 5.08)
 				(name "VDD_CORE_3"
@@ -2126,7 +2126,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -76.2 0)
 				(length 5.08)
 				(name "VDD_CORE_4"
@@ -2144,7 +2144,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -78.74 0)
 				(length 5.08)
 				(name "VDD_CORE_5"
@@ -2162,7 +2162,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -81.28 0)
 				(length 5.08)
 				(name "VDD_CORE_6"
@@ -2180,7 +2180,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -83.82 0)
 				(length 5.08)
 				(name "VDD_CORE_7"
@@ -2198,7 +2198,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -86.36 0)
 				(length 5.08)
 				(name "VDD_CORE_8"
@@ -2216,7 +2216,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -93.98 0)
 				(length 5.08)
 				(name "VDDA_OSC"
@@ -2234,7 +2234,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -101.6 0)
 				(length 5.08)
 				(name "VDDA_PLL"
@@ -2252,7 +2252,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -111.76 0)
 				(length 5.08)
 				(name "VSSA_OSC"
@@ -2270,7 +2270,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -22.86 -114.3 0)
 				(length 5.08)
 				(name "VSSA_PLL"
