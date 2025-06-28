@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Description" "Digital Isolators Functional isolation&nbsp;dual-channel&nbsp;1/1 digital isolator 8-VSON -40 to 125"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63,7 +63,7 @@
 		(symbol "ISO6520FREUR_1_1"
 			(rectangle
 				(start -7.62 0)
-				(end 7.62 -12.7)
+				(end 7.62 -17.78)
 				(stroke
 					(width 0)
 					(type solid)
@@ -91,7 +91,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -5.08 0)
+				(at -12.7 -7.62 0)
 				(length 5.08)
 				(name "INA"
 					(effects
@@ -109,7 +109,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -7.62 0)
+				(at -12.7 -10.16 0)
 				(length 5.08)
 				(name "INB"
 					(effects
@@ -127,7 +127,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -10.16 0)
+				(at -12.7 -15.24 0)
 				(length 5.08)
 				(name "GND1"
 					(effects
@@ -163,7 +163,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -5.08 180)
+				(at 12.7 -7.62 180)
 				(length 5.08)
 				(name "OUTA"
 					(effects
@@ -181,7 +181,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -7.62 180)
+				(at 12.7 -10.16 180)
 				(length 5.08)
 				(name "OUTB"
 					(effects
@@ -199,7 +199,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -10.16 180)
+				(at 12.7 -15.24 180)
 				(length 5.08)
 				(name "GND2"
 					(effects
@@ -260,7 +260,7 @@
 			)
 		)
 		(property "Description" "Digital Isolators Functional isolation&nbsp;dual-channel&nbsp;1/1 digital isolator 8-VSON -40 to 125"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280,7 +280,7 @@
 		(symbol "ISO6520REUR_1_1"
 			(rectangle
 				(start -7.62 0)
-				(end 7.62 -12.7)
+				(end 7.62 -17.78)
 				(stroke
 					(width 0)
 					(type solid)
@@ -308,7 +308,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -5.08 0)
+				(at -12.7 -7.62 0)
 				(length 5.08)
 				(name "INA"
 					(effects
@@ -326,7 +326,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -7.62 0)
+				(at -12.7 -10.16 0)
 				(length 5.08)
 				(name "INB"
 					(effects
@@ -344,7 +344,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -10.16 0)
+				(at -12.7 -15.24 0)
 				(length 5.08)
 				(name "GND1"
 					(effects
@@ -380,7 +380,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -5.08 180)
+				(at 12.7 -7.62 180)
 				(length 5.08)
 				(name "OUTA"
 					(effects
@@ -398,7 +398,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -7.62 180)
+				(at 12.7 -10.16 180)
 				(length 5.08)
 				(name "OUTB"
 					(effects
@@ -416,7 +416,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -10.16 180)
+				(at 12.7 -15.24 180)
 				(length 5.08)
 				(name "GND2"
 					(effects
@@ -477,7 +477,7 @@
 			)
 		)
 		(property "Description" "Digital Isolators Functional isolation&nbsp;dual-channel&nbsp;1/1 digital isolator 8-VSON -40 to 125"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -547,7 +547,7 @@
 		(symbol "ISO6521FREUR_1_1"
 			(rectangle
 				(start -7.62 0)
-				(end 7.62 -12.7)
+				(end 7.62 -17.78)
 				(stroke
 					(width 0)
 					(type solid)
@@ -575,7 +575,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -5.08 0)
+				(at -12.7 -7.62 0)
 				(length 5.08)
 				(name "OUTA"
 					(effects
@@ -593,7 +593,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -7.62 0)
+				(at -12.7 -10.16 0)
 				(length 5.08)
 				(name "INB"
 					(effects
@@ -611,7 +611,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -10.16 0)
+				(at -12.7 -15.24 0)
 				(length 5.08)
 				(name "GND1"
 					(effects
@@ -647,7 +647,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -5.08 180)
+				(at 12.7 -7.62 180)
 				(length 5.08)
 				(name "INA"
 					(effects
@@ -665,7 +665,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -7.62 180)
+				(at 12.7 -10.16 180)
 				(length 5.08)
 				(name "OUTB"
 					(effects
@@ -683,7 +683,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -10.16 180)
+				(at 12.7 -15.24 180)
 				(length 5.08)
 				(name "GND2"
 					(effects
@@ -744,7 +744,7 @@
 			)
 		)
 		(property "Description" "Digital Isolators Functional isolation&nbsp;dual-channel&nbsp;1/1 digital isolator 8-VSON -40 to 125"
-			(at 0 -15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -814,7 +814,7 @@
 		(symbol "ISO6521REUR_1_1"
 			(rectangle
 				(start -7.62 0)
-				(end 7.62 -12.7)
+				(end 7.62 -17.78)
 				(stroke
 					(width 0)
 					(type solid)
@@ -842,7 +842,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -5.08 0)
+				(at -12.7 -7.62 0)
 				(length 5.08)
 				(name "OUTA"
 					(effects
@@ -860,7 +860,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -7.62 0)
+				(at -12.7 -10.16 0)
 				(length 5.08)
 				(name "INB"
 					(effects
@@ -878,7 +878,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -10.16 0)
+				(at -12.7 -15.24 0)
 				(length 5.08)
 				(name "GND1"
 					(effects
@@ -914,7 +914,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -5.08 180)
+				(at 12.7 -7.62 180)
 				(length 5.08)
 				(name "INA"
 					(effects
@@ -932,7 +932,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -7.62 180)
+				(at 12.7 -10.16 180)
 				(length 5.08)
 				(name "OUTB"
 					(effects
@@ -950,7 +950,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -10.16 180)
+				(at 12.7 -15.24 180)
 				(length 5.08)
 				(name "GND2"
 					(effects

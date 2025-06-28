@@ -188,6 +188,7 @@
 			(pin no_connect line
 				(at 15.24 -15.24 180)
 				(length 5.08)
+				(hide yes)
 				(name "DNC"
 					(effects
 						(font

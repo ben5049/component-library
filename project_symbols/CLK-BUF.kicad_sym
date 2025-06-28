@@ -1,40 +1,29 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "TVS2701DRBR"
-		(pin_names hide)
+	(generator_version "9.0")
+	(symbol "LMK1C1104DQFR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 17.78 -2.54 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TVS2701DRBR"
-			(at 17.78 -5.08 0)
+		(property "Value" "LMK1C1104DQFR"
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:SON65P300X300X100-9N-D"
-			(at 26.67 -94.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/slvseq5a/slvseq5a.pdf"
-			(at 26.67 -194.92 0)
+		(property "Footprint" "project_footprints:SON50P200X200X80-8N"
+			(at 24.13 -94.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,17 +32,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ESD Suppressors / TVS Diodes BIDIRECTIONAL PRECISION SURGE DIODES"
-			(at 0 -40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 26.67 -394.92 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmk1c1104.pdf?ts=1625794058723&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMK1C1104"
+			(at 24.13 -194.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62,8 +42,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-TVS2701DRBR"
-			(at 26.67 -494.92 0)
+		(property "Description" "Clock Buffer 4-channel output LVC MOS 1.8-V buffer"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 24.13 -394.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,8 +61,18 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TVS2701DRBR?qs=byeeYqUIh0OuvTYsaTi%252BEg%3D%3D"
-			(at 26.67 -594.92 0)
+		(property "Mouser Part Number" "595-LMK1C1104DQFR"
+			(at 24.13 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMK1C1104DQFR?qs=QNEnbhJQKvYdwt0bSAj%252Blw%3D%3D"
+			(at 24.13 -594.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,7 +82,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 26.67 -694.92 0)
+			(at 24.13 -694.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -92,8 +91,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TVS2701DRBR"
-			(at 26.67 -794.92 0)
+		(property "Manufacturer_Part_Number" "LMK1C1104DQFR"
+			(at 24.13 -794.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102,78 +101,13 @@
 				(hide yes)
 			)
 		)
-		(symbol "TVS2701DRBR_0_0"
+		(symbol "LMK1C1104DQFR_1_1"
 			(rectangle
-				(start -6.35 -2.54)
-				(end 0 -7.62)
+				(start -10.16 0)
+				(end 10.16 -20.32)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -3.81) (xy 3.302 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 -7.62) (xy -3.175 -8.89) (xy 5.08 -8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 -2.54) (xy -3.175 -1.27) (xy 5.08 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "Det &"
-				(at -3.175 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "Drv"
-				(at -3.175 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-		)
-		(symbol "TVS2701DRBR_0_1"
-			(rectangle
-				(start -6.985 0)
-				(end 7.62 -10.16)
-				(stroke
-					(width 0.254)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -181,7 +115,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.794 -5.08) (xy 0 -5.08)
+					(xy -3.175 -17.78) (xy 0 -17.78) (xy 0 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -193,31 +127,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.794 -3.683) (xy 2.794 -6.604)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.302 -3.302) (xy 3.302 -6.858)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -7.62) (xy 5.08 -10.16)
+					(xy -1.27 -15.24) (xy 0 -12.7) (xy 1.27 -15.24) (xy -1.27 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -229,7 +139,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 5.08 -3.81)
+					(xy 0 -12.7) (xy 0 -2.54) (xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -241,7 +151,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 0) (xy 5.08 -2.54)
+					(xy 2.54 -1.27) (xy 5.08 -2.54) (xy 2.54 -3.81) (xy 2.54 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -253,7 +163,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -7.62) (xy 5.08 -6.35) (xy 3.302 -6.35)
+					(xy 2.54 -3.81) (xy 5.08 -5.08) (xy 2.54 -6.35) (xy 2.54 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -265,123 +175,116 @@
 			)
 			(polyline
 				(pts
-					(xy 4.953 -6.35) (xy 3.937 -6.731) (xy 3.937 -5.969) (xy 4.953 -6.35)
+					(xy 2.54 -5.08) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
-			(circle
-				(center 4.191 -5.08)
-				(radius 2.794)
+			(polyline
+				(pts
+					(xy 2.54 -6.35) (xy 5.08 -7.62) (xy 2.54 -8.89) (xy 2.54 -6.35)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-		)
-		(symbol "TVS2701DRBR_1_1"
-			(pin passive line
-				(at 5.08 2.54 270)
-				(length 2.54) hide
-				(name "IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 2.54 -7.62) (xy 0 -7.62)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
-			(pin passive line
-				(at 5.08 2.54 270)
-				(length 2.54) hide
-				(name "IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 2.54 -8.89) (xy 5.08 -10.16) (xy 2.54 -11.43) (xy 2.54 -8.89)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
-			(pin passive line
-				(at 5.08 2.54 270)
-				(length 2.54) hide
-				(name "IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 2.54 -10.16) (xy 0 -10.16)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
-			(pin passive line
-				(at 5.08 2.54 270)
-				(length 2.54)
-				(name "IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 6.35 -2.54)
 				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -7.62) (xy 6.35 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -10.16) (xy 6.35 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -5.08) (xy 5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin power_in line
-				(at 5.08 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -12.7 90)
-				(length 2.54) hide
-				(name "GND"
+				(at -15.24 -2.54 0)
+				(length 5.08)
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -396,10 +299,100 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 5.08 -12.7 90)
-				(length 2.54) hide
-				(name "GND"
+			(pin input line
+				(at -15.24 -12.7 0)
+				(length 5.08)
+				(name "1G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -17.78 0)
+				(length 5.08)
+				(name "CLKIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 -2.54 180)
+				(length 5.08)
+				(name "Y0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 -5.08 180)
+				(length 5.08)
+				(name "Y1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 -7.62 180)
+				(length 5.08)
+				(name "Y2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 -10.16 180)
+				(length 5.08)
+				(name "Y3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -415,8 +408,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -12.7 90)
-				(length 2.54) hide
+				(at 15.24 -17.78 180)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -424,25 +417,7 @@
 						)
 					)
 				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 10.16 -5.08 180)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -451,5 +426,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
