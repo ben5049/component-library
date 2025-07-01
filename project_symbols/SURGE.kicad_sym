@@ -1024,7 +1024,7 @@
 			)
 		)
 		(symbol "TVS3301DRBR_1_1"
-			(pin passive line
+			(pin input line
 				(at 5.08 2.54 270)
 				(length 2.54)
 				(hide yes)
@@ -1043,7 +1043,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 5.08 2.54 270)
 				(length 2.54)
 				(hide yes)
@@ -1062,7 +1062,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 5.08 2.54 270)
 				(length 2.54)
 				(hide yes)
@@ -1081,7 +1081,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 5.08 2.54 270)
 				(length 2.54)
 				(name "IN"

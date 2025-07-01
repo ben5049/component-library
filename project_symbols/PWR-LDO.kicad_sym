@@ -84,7 +84,7 @@
 					(type background)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -12.7 -2.54 0)
 				(length 5.08)
 				(name "VIN"
@@ -120,7 +120,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 12.7 -2.54 180)
 				(length 5.08)
 				(name "VOUT"

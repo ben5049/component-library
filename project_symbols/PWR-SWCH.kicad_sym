@@ -2379,26 +2379,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 15.24 -7.62 180)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -7.62 180)
+			(pin no_connect line
+				(at 15.24 -5.08 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"
@@ -2416,8 +2398,27 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 15.24 -7.62 180)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 15.24 -10.16 180)
 				(length 5.08)
 				(hide yes)
 				(name "NC"

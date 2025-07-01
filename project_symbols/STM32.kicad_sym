@@ -3481,7 +3481,7 @@
 			(pin bidirectional line
 				(at -22.86 -35.56 0)
 				(length 5.08)
-				(name "PA13(JTMS"
+				(name "PA13(JTMS)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3500,7 +3500,7 @@
 			(pin bidirectional line
 				(at -22.86 -38.1 0)
 				(length 5.08)
-				(name "PA14(JTCK"
+				(name "PA14(JTCK)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3642,7 +3642,7 @@
 			(pin bidirectional line
 				(at -22.86 -53.34 0)
 				(length 5.08)
-				(name "PB3(JTDO"
+				(name "PB3(JTDO)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6925,7 +6925,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -22.86 -83.82 0)
 				(length 5.08)
 				(name "VSS"

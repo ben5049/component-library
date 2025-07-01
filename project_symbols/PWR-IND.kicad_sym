@@ -57107,7 +57107,7 @@
 					(type none)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name "1"
@@ -57125,7 +57125,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 5.08 0 180)
 				(length 2.54)
 				(name "2"
