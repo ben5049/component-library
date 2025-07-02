@@ -1,7 +1,7 @@
 (footprint "NCP508MT25TBG"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "NCP508MT25TBG ")
 	(property "Reference" "REF**"
@@ -25,18 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d37b0968-17c6-445b-83e1-d73133179807")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -84,7 +72,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "831b0c29-7bfa-4aff-b82f-c7e7378354ef")
 	)
@@ -146,7 +134,7 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0a497d05-255b-49b6-8b51-3cab8c75e44f")
 	)
@@ -162,31 +150,50 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.70205 -0.499999)
 		(size 0.7041 0.254)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "f6aade30-aa6d-40cc-825a-bdd3a1b72009")
 	)
-	(pad "3" smd rect
+	(pad "2" smd roundrect
+		(at -0.70205 0)
+		(size 0.7041 0.254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "1eae6305-ea8b-40b5-b4e5-57c5448121aa")
+	)
+	(pad "3" smd roundrect
 		(at -0.70205 0.499999)
 		(size 0.7041 0.254)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "fb8ed7cd-b3de-4e71-a67c-2572aa3b90dd")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 0.70205 0.499999)
 		(size 0.7041 0.254)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "1b07e94d-238a-4361-86ed-c54b1f635240")
 	)
-	(pad "6" smd rect
+	(pad "5" smd roundrect
+		(at 0.7 0)
+		(size 0.7041 0.254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "ddddf468-0e79-4174-8f74-e48bc5359266")
+	)
+	(pad "6" smd roundrect
 		(at 0.70205 -0.499999)
 		(size 0.7041 0.254)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "ddafe756-339d-4b25-bd65-f81ec38fa0bd")
 	)
-	(model "${KIPRJMOD}/models/WDFN6_1P5X1P5_ONS.step"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../component-library/project_models/WDFN6_1P5X1P5_ONS.step"
 		(offset
 			(xyz 0 0 0)
 		)
