@@ -102,6 +102,7 @@
 		(at 0 -0.575 0)
 		(unlocked yes)
 		(layer "Cmts.User")
+		(hide yes)
 		(uuid "b14a6331-4560-4118-b347-2e93d513f9c1")
 		(effects
 			(font
@@ -170,7 +171,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${WE_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-MAIA-1610.wrl"
+	(model "${KIPRJMOD}/../component-library/project_models/L_Wurth_WE-MAIA-1610.step"
 		(offset
 			(xyz 0 0 0)
 		)

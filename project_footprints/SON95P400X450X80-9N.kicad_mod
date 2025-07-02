@@ -196,7 +196,7 @@
 	(pad "9" smd roundrect
 		(at 0 0)
 		(size 2.6 3.7)
-		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "fed94f9b-68c7-4d76-8a37-fa9b9c500a2d")
 	)

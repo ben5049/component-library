@@ -682,25 +682,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -30.48 180)
-				(length 5.08)
-				(hide yes)
-				(name "AVDD18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 20.32 -30.48 180)
 				(length 5.08)
@@ -712,6 +693,24 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -33.02 180)
+				(length 5.08)
+				(name "AVDD18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -755,10 +754,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -40.64 180)
+			(pin power_in line
+				(at 20.32 -43.18 180)
 				(length 5.08)
-				(hide yes)
 				(name "DVDD"
 					(effects
 						(font
@@ -792,10 +790,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -48.26 180)
+			(pin power_in line
+				(at 20.32 -50.8 180)
 				(length 5.08)
-				(hide yes)
 				(name "VDDO"
 					(effects
 						(font
