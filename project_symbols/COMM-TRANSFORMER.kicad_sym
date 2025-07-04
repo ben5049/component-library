@@ -1085,7 +1085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:74930000"
+		(property "Footprint" "project_footprints:74930100"
 			(at 26.67 -94.92 0)
 			(effects
 				(font
