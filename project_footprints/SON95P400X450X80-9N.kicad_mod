@@ -201,7 +201,7 @@
 		(uuid "fed94f9b-68c7-4d76-8a37-fa9b9c500a2d")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bens1/Documents/projects/mkx/proximity-sensor/PCBs/component-library/project_models/FM25LxB-DG.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/FM25LxB-DG.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -16399,16 +16399,15 @@
 				)
 			)
 		)
-		(property "Value" "2510_74438323022"
+		(property "Value" "74438323022"
 			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-MAPI-2510"
+		(property "Footprint" "project_footprints:L_Wurth_WE-MAPI-2510"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -16552,7 +16551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Critical Parameter" "2.2 µH"
+		(property "Critical Parameter" "2u2"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -16653,9 +16652,9 @@
 					(type none)
 				)
 			)
-			(pin passive line
-				(at -3.81 0 0)
-				(length 1.27)
+			(pin power_in line
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -16671,9 +16670,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+			(pin power_out line
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "2"
 					(effects
 						(font
@@ -17015,16 +17014,15 @@
 				)
 			)
 		)
-		(property "Value" "2510_74438323047"
+		(property "Value" "74438323047"
 			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-MAPI-2510"
+		(property "Footprint" "project_footprints:L_Wurth_WE-MAPI-2510"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -17168,7 +17166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Critical Parameter" "4.7 µH"
+		(property "Critical Parameter" "4u7"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -17269,9 +17267,9 @@
 					(type none)
 				)
 			)
-			(pin passive line
-				(at -3.81 0 0)
-				(length 1.27)
+			(pin power_in line
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -17287,10 +17285,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
-				(name "2"
+			(pin power_out line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "w2"
 					(effects
 						(font
 							(size 1.27 1.27)

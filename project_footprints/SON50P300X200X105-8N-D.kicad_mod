@@ -58,7 +58,7 @@
 		(start -0.675 -1)
 		(end 0.675 -1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -68,7 +68,7 @@
 		(start -0.675 1)
 		(end -0.675 -1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -78,7 +78,7 @@
 		(start 0.675 -1)
 		(end 0.675 1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -88,20 +88,20 @@
 		(start 0.675 1)
 		(end -0.675 1)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "47d1660d-82b0-4129-9c59-41c8a1217474")
 	)
 	(fp_circle
-		(center -1.875 -1.4)
-		(end -1.875 -1.275)
+		(center -2.15 -0.75)
+		(end -2.15 -0.9)
 		(stroke
-			(width 0.25)
+			(width 0)
 			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "d8cc96df-4b75-4891-be26-484d0a6a985c")
 	)

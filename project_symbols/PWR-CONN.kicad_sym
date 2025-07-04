@@ -356,82 +356,6 @@
 						)
 					)
 				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 -7.62 0)
-				(length 5.08)
-				(hide yes)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 -7.62 0)
-				(length 5.08)
-				(hide yes)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 -7.62 0)
-				(length 5.08)
-				(hide yes)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 -7.62 0)
-				(length 5.08)
-				(hide yes)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "19"
 					(effects
 						(font
@@ -497,6 +421,82 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -12.7 -7.62 0)
+				(length 5.08)
+				(hide yes)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -7.62 0)
+				(length 5.08)
+				(hide yes)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -7.62 0)
+				(length 5.08)
+				(hide yes)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -7.62 0)
+				(length 5.08)
+				(hide yes)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at -12.7 -7.62 0)
 				(length 5.08)
@@ -555,14 +555,14 @@
 				(at 12.7 -2.54 180)
 				(length 5.08)
 				(hide yes)
-				(name "NC"
+				(name "RFU"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -574,14 +574,14 @@
 				(at 12.7 -5.08 180)
 				(length 5.08)
 				(hide yes)
-				(name "NC"
+				(name "RFU"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -591,44 +591,6 @@
 			)
 			(pin no_connect line
 				(at 12.7 -7.62 180)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 12.7 -10.16 180)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 12.7 -12.7 180)
 				(length 5.08)
 				(hide yes)
 				(name "RFU"
@@ -647,7 +609,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 -15.24 180)
+				(at 12.7 -10.16 180)
 				(length 5.08)
 				(hide yes)
 				(name "RFU"
@@ -658,6 +620,44 @@
 					)
 				)
 				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 -12.7 180)
+				(length 5.08)
+				(hide yes)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 -15.24 180)
+				(length 5.08)
+				(hide yes)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1022,82 +1022,6 @@
 						)
 					)
 				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 -7.62 0)
-				(length 5.08)
-				(hide yes)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 -7.62 0)
-				(length 5.08)
-				(hide yes)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 -7.62 0)
-				(length 5.08)
-				(hide yes)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 -7.62 0)
-				(length 5.08)
-				(hide yes)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "19"
 					(effects
 						(font
@@ -1163,9 +1087,85 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -12.7 -7.62 0)
+				(length 5.08)
+				(hide yes)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -7.62 0)
+				(length 5.08)
+				(hide yes)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at -12.7 -7.62 0)
 				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -7.62 0)
+				(length 5.08)
+				(hide yes)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -7.62 0)
+				(length 5.08)
+				(hide yes)
 				(name "V-"
 					(effects
 						(font
@@ -1221,14 +1221,14 @@
 				(at 12.7 -2.54 180)
 				(length 5.08)
 				(hide yes)
-				(name "NC"
+				(name "RFU"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1240,14 +1240,14 @@
 				(at 12.7 -5.08 180)
 				(length 5.08)
 				(hide yes)
-				(name "NC"
+				(name "RFU"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1257,44 +1257,6 @@
 			)
 			(pin no_connect line
 				(at 12.7 -7.62 180)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 12.7 -10.16 180)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 12.7 -12.7 180)
 				(length 5.08)
 				(hide yes)
 				(name "RFU"
@@ -1313,7 +1275,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 -15.24 180)
+				(at 12.7 -10.16 180)
 				(length 5.08)
 				(hide yes)
 				(name "RFU"
@@ -1324,6 +1286,44 @@
 					)
 				)
 				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 -12.7 180)
+				(length 5.08)
+				(hide yes)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 -15.24 180)
+				(length 5.08)
+				(hide yes)
+				(name "RFU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
