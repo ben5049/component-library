@@ -55,24 +55,24 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.75 -2)
-		(end -1.2 -2)
+		(start -1.8 -2)
+		(end -1.8 -2)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b8434663-730a-47f8-ab82-7e5c31beb5b0")
+		(uuid "0597028b-6b9e-41cc-9b31-c88fc34cd2f1")
 	)
 	(fp_line
-		(start -1.75 -1.6)
-		(end -1.75 -2)
+		(start -1.8 -2)
+		(end -1.8 -2)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "591288c6-4a0a-4181-a582-a0163dd4d9a6")
+		(uuid "a3d4277a-bb81-4941-be09-0cd93be6ecab")
 	)
 	(fp_line
 		(start -1.75 2)
@@ -85,6 +85,16 @@
 		(uuid "d76e5228-adc1-42a0-a118-60fc8b3857cb")
 	)
 	(fp_line
+		(start -1.7 -2)
+		(end -1.7 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3270a8b-3894-4b98-abd2-6676debc9def")
+	)
+	(fp_line
 		(start -1.2 2)
 		(end -1.75 2)
 		(stroke
@@ -93,36 +103,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "5e3ddbcf-451c-4ffd-b87e-af9f7f817a20")
-	)
-	(fp_line
-		(start -0.8 -2.6)
-		(end -0.8 -2.6)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "0597028b-6b9e-41cc-9b31-c88fc34cd2f1")
-	)
-	(fp_line
-		(start -0.8 -2.6)
-		(end -0.8 -2.6)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a3d4277a-bb81-4941-be09-0cd93be6ecab")
-	)
-	(fp_line
-		(start -0.7 -2.6)
-		(end -0.7 -2.6)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a3270a8b-3894-4b98-abd2-6676debc9def")
 	)
 	(fp_line
 		(start -0.4 -2)
@@ -185,9 +165,9 @@
 		(uuid "415c58a0-1f5b-4b4b-8438-d9c5fc8b8124")
 	)
 	(fp_arc
-		(start -0.8 -2.6)
-		(mid -0.75 -2.65)
-		(end -0.7 -2.6)
+		(start -1.8 -2)
+		(mid -1.75 -2.05)
+		(end -1.7 -2)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -196,9 +176,9 @@
 		(uuid "2cec651f-47e0-44a1-9e11-e206ad6aba4c")
 	)
 	(fp_arc
-		(start -0.7 -2.6)
-		(mid -0.75 -2.55)
-		(end -0.8 -2.6)
+		(start -1.7 -2)
+		(mid -1.75 -1.95)
+		(end -1.8 -2)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -207,9 +187,9 @@
 		(uuid "57b64538-521e-4122-8a5c-dd210bf0d85b")
 	)
 	(fp_arc
-		(start -0.7 -2.6)
-		(mid -0.75 -2.55)
-		(end -0.8 -2.6)
+		(start -1.7 -2)
+		(mid -1.75 -1.95)
+		(end -1.8 -2)
 		(stroke
 			(width 0.2)
 			(type solid)
