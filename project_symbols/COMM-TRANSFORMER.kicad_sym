@@ -1095,7 +1095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6655/74930100.PDF"
+		(property "Datasheet" "https://docs.rs-online.com/25b7/A700000007544655.pdf"
 			(at 26.67 -194.92 0)
 			(effects
 				(font

@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+		(property "Footprint" "project_footprints:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
 			(at 29.21 -90.17 0)
 			(effects
 				(font

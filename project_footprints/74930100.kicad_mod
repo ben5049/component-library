@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://docs.rs-online.com/25b7/A700000007544655.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -237,8 +237,8 @@
 		(uuid "2bf275ee-9f3d-4423-be89-9fa700cda1de")
 	)
 	(pad "3" smd roundrect
-		(at -2.34 -1.35 90)
-		(size 0.5 0.5)
+		(at -2.39 -1.35 90)
+		(size 0.5 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "839d63b1-911c-4f22-9bf6-15f458188321")
