@@ -127,6 +127,50 @@
 		(layer "F.SilkS")
 		(uuid "921520d7-dc3a-4a16-a62f-5d6b67d4450a")
 	)
+	(fp_rect
+		(start -0.65 -0.7)
+		(end -0.15 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "1f7368ee-72fa-4bc7-bc32-f9ccdbf76735")
+	)
+	(fp_rect
+		(start -0.65 0.2)
+		(end -0.15 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "bc38c165-f1cd-48e4-88a8-be446dd48751")
+	)
+	(fp_rect
+		(start 0.15 -0.7)
+		(end 0.65 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "adbcb7e9-a92b-43c3-a128-24d09e487897")
+	)
+	(fp_rect
+		(start 0.15 0.2)
+		(end 0.65 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "556a0c1e-7071-4063-be4a-bd3004eb3b9d")
+	)
 	(fp_line
 		(start -2.125 -1.8)
 		(end 2.125 -1.8)
@@ -287,7 +331,7 @@
 	(pad "9" smd roundrect
 		(at 0 0)
 		(size 1.6 1.85)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(uuid "74143d2a-c1b5-4dff-8a65-df824d5c64db")
 	)

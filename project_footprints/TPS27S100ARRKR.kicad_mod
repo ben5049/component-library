@@ -198,6 +198,72 @@
 		(uuid "9f1e905f-6f41-4d5a-a39f-61e109968a35")
 	)
 	(fp_rect
+		(start -0.65 -1.05)
+		(end -0.15 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "846a9d94-5c77-45a3-bca1-f73568da49bf")
+	)
+	(fp_rect
+		(start -0.65 -0.25)
+		(end -0.15 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "0eb66f2e-7cca-4dc4-aab6-8ccd2371bdfc")
+	)
+	(fp_rect
+		(start -0.65 0.55)
+		(end -0.15 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "c4722e39-75f6-4f00-adde-c56d87bb1add")
+	)
+	(fp_rect
+		(start 0.15 -1.05)
+		(end 0.65 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "d779a9ae-8ed3-4c55-8df3-c66fc9f97887")
+	)
+	(fp_rect
+		(start 0.15 -0.25)
+		(end 0.65 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "39ca71d2-f277-42aa-b389-995515b9c114")
+	)
+	(fp_rect
+		(start 0.15 0.55)
+		(end 0.65 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "0b809779-805d-4c83-9ca1-787e9ee96901")
+	)
+	(fp_rect
 		(start -2.2 -2.4)
 		(end 2.2 2.4)
 		(stroke
@@ -374,7 +440,7 @@
 	(pad "17" smd roundrect
 		(at 0 0)
 		(size 2.05 2.55)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1)
 		(uuid "80f3e81f-55e4-4473-9d25-aeef6e5b8cd8")
 	)
