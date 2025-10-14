@@ -126,18 +126,6 @@
 		(layer "F.Fab")
 		(uuid "d67e964b-a353-4d9f-a956-3e1945d77bd4")
 	)
-	(fp_text user "Solder Resist"
-		(at 0 -1.15 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "20b18cf5-eef7-4e0d-b26e-7dfb65b2f2bd")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.075)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
