@@ -280,20 +280,6 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -8.4 5 90)
-		(size 3 7.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1)
-		(uuid "54fade99-233a-4959-8b16-a25c614496ef")
-	)
-	(pad "1" smd roundrect
-		(at -8.4 8.5 90)
-		(size 3 7.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1)
-		(uuid "811967c6-dd7b-4f90-bacb-ec6c75c98f87")
-	)
-	(pad "1" smd roundrect
 		(at 2.8 -1.68)
 		(size 0.2 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -530,6 +516,20 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "873a21e1-a1dd-4db5-b129-4f952201e726")
+	)
+	(pad "35" smd roundrect
+		(at -8.4 5 90)
+		(size 3 7.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "54fade99-233a-4959-8b16-a25c614496ef")
+	)
+	(pad "36" smd roundrect
+		(at -8.4 8.5 90)
+		(size 3 7.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "811967c6-dd7b-4f90-bacb-ec6c75c98f87")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../component-library/project_models/WNCB-2200306.STEP"
