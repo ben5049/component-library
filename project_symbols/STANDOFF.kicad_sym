@@ -35,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Wurth%20Electronics%20PDFs/WA-SMSx_Performance_Flyer.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774010151R.pdf"
 			(at 16.51 -194.92 0)
 			(effects
 				(font
@@ -45,7 +45,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WA-SMSI SMT Steel Spacer with internal T"
+		(property "Description" "M2.5 WA-SMSI SMT Steel Spacer with internal T"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -172,7 +172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Wurth%20Electronics%20PDFs/WA-SMSx_Performance_Flyer.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774030151R.pdf"
 			(at 16.51 -194.92 0)
 			(effects
 				(font
@@ -182,7 +182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WA-SMSI SMT Steel Spacer with internal T"
+		(property "Description" "M2.5 WA-SMSI SMT Steel Spacer with internal T"
 			(at 0 -12.7 0)
 			(effects
 				(font
