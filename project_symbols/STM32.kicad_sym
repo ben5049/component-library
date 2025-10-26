@@ -21063,7 +21063,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -22.86 -7.62 0)
 				(length 5.08)
 				(name "PWR_ON"
