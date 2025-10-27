@@ -62,7 +62,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layers "F.Cu" "F.Mask")
+		(layer "F.Mask")
 		(uuid "4c7cb7b8-5fc7-419b-a6a3-fab1a74fd03a")
 	)
 	(fp_arc
@@ -161,6 +161,18 @@
 		)
 		(layer "F.Fab")
 		(uuid "64541a8d-dabb-455b-b5b1-fc638cab4f65")
+	)
+	(fp_text user "Add copper ring matching soldermask cutout"
+		(at 0 -3.93 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "462e5749-08ff-4fb4-9a1f-8c1c35f3a8ce")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
