@@ -32,7 +32,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/NX3L4051.pdf"
 			(at 21.59 -187.3 0)
 			(effects
 				(font
