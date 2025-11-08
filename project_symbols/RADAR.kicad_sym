@@ -2,28 +2,30 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "ADP5301ACBZ-4-R7"
+	(symbol "IWR6843ARQGALP"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 5.08 0)
+			(at 46.99 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Value" "ADP5301ACBZ-4-R7"
-			(at 0 2.54 0)
+		(property "Value" "IWR6843ARQGALP"
+			(at 46.99 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:BGA9C50P3X3_165X187X66"
-			(at 31.75 -94.92 0)
+		(property "Footprint" "project_footprints:BGA180C80P18X18_1500X1500X96"
+			(at 46.99 -94.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,8 +34,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5301.pdf"
-			(at 31.75 -194.92 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/iwr6843aop.pdf?ts=1627547235628&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DIWR6843ARQGALPR%2526keyMatch%253DIWR6843ARQGALPR"
+			(at 46.99 -194.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,8 +44,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switching Voltage Regulators ULP buck 3.3V w/o OD 2.8ms"
-			(at 0 -25.4 0)
+		(property "Description" "RF System on a Chip - SoC Single-chip 60-GHz to 64-GHz intelligent mmWave sensor with integrated antenna on package (AoP)"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,18 +53,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.66"
-			(at 31.75 -394.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "584-ADP5301ACBZ-4-R7"
-			(at 31.75 -494.92 0)
+		(property "Height" "0.965"
+			(at 46.99 -394.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,8 +63,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP5301ACBZ-4-R7?qs=P1JMDcb91o5nnuK7yeEdIw%3D%3D"
-			(at 31.75 -594.92 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 46.99 -494.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,8 +73,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 31.75 -694.92 0)
+		(property "Manufacturer_Part_Number" "IWR6843ARQGALP"
+			(at 46.99 -594.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,8 +83,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ADP5301ACBZ-4-R7"
-			(at 31.75 -794.92 0)
+		(property "Mouser Part Number" "595-IWR6843ARQGALP"
+			(at 46.99 -694.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -101,112 +93,52 @@
 				(hide yes)
 			)
 		)
-		(symbol "ADP5301ACBZ-4-R7_1_1"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/IWR6843ARQGALP?qs=TuK3vfAjtkUEazQ1PwqIIQ%3D%3D"
+			(at 46.99 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "IWR6843ARQGALP"
+			(at 46.99 -894.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/iwr6843arqgalp/texas-instruments?region=nac"
+			(at 46.99 -994.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "IWR6843ARQGALP_1_1"
 			(rectangle
-				(start -10.16 0)
-				(end 10.16 -22.86)
+				(start 5.08 2.54)
+				(end 45.72 -228.6)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type background)
 				)
 			)
 			(pin passive line
-				(at -15.24 -2.54 0)
+				(at 0 0 0)
 				(length 5.08)
-				(name "PVIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -15.24 -5.08 0)
-				(length 5.08)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -15.24 -10.16 0)
-				(length 5.08)
-				(name "VID"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -15.24 -15.24 0)
-				(length 5.08)
-				(name "SYNC/MODE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -15.24 -20.32 0)
-				(length 5.08)
-				(name "VOUTOK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -2.54 180)
-				(length 5.08)
-				(name "SW"
+				(name "VSS_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -222,16 +154,16 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -7.62 180)
+				(at 0 -2.54 0)
 				(length 5.08)
-				(name "FB"
+				(name "VSS_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C2"
+				(number "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -240,9 +172,297 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -17.78 180)
+				(at 0 -5.08 0)
 				(length 5.08)
-				(name "PGND"
+				(name "DP11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "DP13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "VIN_SRAM_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 0)
+				(length 5.08)
+				(name "VSSA_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 0)
+				(length 5.08)
+				(name "CLKP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -17.78 0)
+				(length 5.08)
+				(name "VSSA_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20.32 0)
+				(length 5.08)
+				(name "VOUT_14SYNTH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.86 0)
+				(length 5.08)
+				(name "VOUT_14APLL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25.4 0)
+				(length 5.08)
+				(name "VSSA_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.94 0)
+				(length 5.08)
+				(name "VIN_18VCO_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -30.48 0)
+				(length 5.08)
+				(name "VSSA_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -33.02 0)
+				(length 5.08)
+				(name "OSC_CLKOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35.56 0)
+				(length 5.08)
+				(name "VSSA_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -38.1 0)
+				(length 5.08)
+				(name "VBGAP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -40.64 0)
+				(length 5.08)
+				(name "VSSA_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -43.18 0)
+				(length 5.08)
+				(name "VSSA_7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -45.72 0)
+				(length 5.08)
+				(name "VIOIN_18_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -258,9 +478,9 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -20.32 180)
+				(at 0 -48.26 0)
 				(length 5.08)
-				(name "AGND"
+				(name "SPI_HOST_INTR"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -275,204 +495,17 @@
 					)
 				)
 			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "LMQ66410MC3RXBRQ1"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMQ66410MC3RXBRQ1"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:LMQ664x0"
-			(at 36.83 -94.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmq66410-q1.pdf?ts=1746588736940&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Facdc-dcdc-converters%252Fproducts.html"
-			(at 36.83 -194.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switching Voltage Regulators Automotive, 36-V, 1-A low-EMI synchronous step-down converter with 1.5-uA IQ 14-VQFN-FCRLF -40 to 150"
-			(at 0 -66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.05"
-			(at 36.83 -394.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-MQ66410MC3RXBRQ1"
-			(at 36.83 -494.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMQ66410MC3RXBRQ1?qs=1Kr7Jg1SGW%252BqEf%252BPRbWBdA%3D%3D"
-			(at 36.83 -594.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 36.83 -694.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LMQ66410MC3RXBRQ1"
-			(at 36.83 -794.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(symbol "LMQ66410MC3RXBRQ1_1_1"
-			(rectangle
-				(start -15.24 0)
-				(end 15.24 -40.64)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin power_in line
-				(at -20.32 -2.54 0)
-				(length 5.08)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -20.32 -12.7 0)
-				(length 5.08)
-				(name "EN/UVLO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -20.32 -12.7 0)
-				(length 5.08)
-				(hide yes)
-				(name "EN/UVLO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -20.32 -15.24 0)
-				(length 5.08)
-				(name "MODE/SYNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at -20.32 -27.94 0)
+				(at 0 -50.8 0)
 				(length 5.08)
-				(name "VCC"
+				(name "DP9"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "B3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -481,53 +514,16 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -38.1 0)
-				(length 5.08)
-				(name "GND/DAP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 20.32 -2.54 180)
-				(length 5.08)
-				(hide yes)
-				(name "BOOT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 20.32 -2.54 180)
+				(at 0 -53.34 0)
 				(length 5.08)
-				(name "BOOT"
+				(name "DP12"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "B4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -535,17 +531,17 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 20.32 -10.16 180)
+			(pin passive line
+				(at 0 -55.88 0)
 				(length 5.08)
-				(name "SW"
+				(name "DP15"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "B5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -553,17 +549,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -20.32 180)
+			(pin passive line
+				(at 0 -58.42 0)
 				(length 5.08)
-				(name "VOUT/FB"
+				(name "VSSA_8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "B6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -571,17 +567,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 20.32 -30.48 180)
+			(pin passive line
+				(at 0 -60.96 0)
 				(length 5.08)
-				(name "PG"
+				(name "CLKM"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "B7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -590,17 +586,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -35.56 180)
+				(at 0 -63.5 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "VSSA_9"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "B8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -609,17 +604,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -35.56 180)
+				(at 0 -66.04 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "VSSA_10"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "B9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -628,17 +622,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -35.56 180)
+				(at 0 -68.58 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "VSSA_11"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
+				(number "B10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -647,16 +640,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -35.56 180)
+				(at 0 -71.12 0)
 				(length 5.08)
-				(name "NC"
+				(name "VSSA_12"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "B11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -665,17 +658,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -35.56 180)
+				(at 0 -73.66 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "VSSA_13"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "B12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -684,17 +676,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -35.56 180)
+				(at 0 -76.2 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "VSSA_14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "B13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -703,17 +694,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -35.56 180)
+				(at 0 -78.74 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "VSSA_15"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "B14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -722,98 +712,34 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -38.1 180)
+				(at 0 -81.28 0)
 				(length 5.08)
-				(name "PGND"
+				(name "VSSA_16"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "B15"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "LMQ66420MC3RXBRQ1"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMQ66420MC3RXBRQ1"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:LMQ664x0"
-			(at 36.83 -94.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmq66420-q1.pdf"
-			(at 36.83 -194.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switching Voltage Regulators Automotive, 36-V, 2-A low-EMI synchronous step-down converter with 1.5-uA IQ 14-VQFN-FCRLF -40 to 150"
-			(at 0 -66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "LMQ66420MC3RXBRQ1_1_1"
-			(rectangle
-				(start -15.24 0)
-				(end 15.24 -40.64)
-				(stroke
-					(width 0)
-					(type solid)
 				)
-				(fill
-					(type background)
-				)
 			)
-			(pin power_in line
-				(at -20.32 -2.54 0)
+			(pin passive line
+				(at 0 -83.82 0)
 				(length 5.08)
-				(name "VIN"
+				(name "VSSA_17"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "B16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -821,18 +747,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -20.32 -5.08 0)
+			(pin passive line
+				(at 0 -86.36 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "VSSA_18"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "B17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -840,18 +765,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -20.32 -7.62 0)
+			(pin passive line
+				(at 0 -88.9 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "VSSA_19"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "B18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -859,17 +783,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 -12.7 0)
+			(pin passive line
+				(at 0 -91.44 0)
 				(length 5.08)
-				(name "EN/UVLO"
+				(name "VNWA_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "C1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -877,18 +801,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 -12.7 0)
+			(pin passive line
+				(at 0 -93.98 0)
 				(length 5.08)
-				(hide yes)
-				(name "EN/UVLO"
+				(name "SPIA_CS_N"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "C2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -896,17 +819,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 -15.24 0)
+			(pin passive line
+				(at 0 -96.52 0)
 				(length 5.08)
-				(name "MODE/SYNC"
+				(name "DP8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "C3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -914,18 +837,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -20.32 -25.4 0)
+			(pin passive line
+				(at 0 -99.06 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "DP10"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "C4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -934,16 +856,16 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -27.94 0)
+				(at 0 -101.6 0)
 				(length 5.08)
-				(name "VCC"
+				(name "DP14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "C5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -952,16 +874,16 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -38.1 0)
+				(at 0 -104.14 0)
 				(length 5.08)
-				(name "GND/DAP"
+				(name "VSSA_20"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "C6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -969,18 +891,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -2.54 180)
+			(pin passive line
+				(at 0 -106.68 0)
 				(length 5.08)
-				(hide yes)
-				(name "BOOT"
+				(name "VSSA_21"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "18"
+				(number "C7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -988,17 +909,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -2.54 180)
+			(pin passive line
+				(at 0 -109.22 0)
 				(length 5.08)
-				(name "BOOT"
+				(name "VSSA_22"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "C8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1006,18 +927,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 20.32 -5.08 180)
+			(pin passive line
+				(at 0 -111.76 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "GPADC_5"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "C9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1025,18 +945,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 20.32 -7.62 180)
+			(pin passive line
+				(at 0 -114.3 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "GPADC_6"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
+				(number "C10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1044,17 +963,17 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 20.32 -10.16 180)
+			(pin passive line
+				(at 0 -116.84 0)
 				(length 5.08)
-				(name "SW"
+				(name "VIN_18VCO_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "C11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1062,17 +981,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -20.32 180)
+			(pin passive line
+				(at 0 -119.38 0)
 				(length 5.08)
-				(name "VOUT/FB"
+				(name "VSSA_23"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "C12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1080,18 +999,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 20.32 -22.86 180)
+			(pin passive line
+				(at 0 -121.92 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "VSSA_24"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "C13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1099,17 +1017,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 20.32 -30.48 180)
+			(pin passive line
+				(at 0 -124.46 0)
 				(length 5.08)
-				(name "PG"
+				(name "VSSA_25"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "C14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1117,18 +1035,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 20.32 -35.56 180)
+			(pin passive line
+				(at 0 -127 0)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "VIN_18CLK_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "C15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1137,85 +1054,34 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -38.1 180)
+				(at 0 -129.54 0)
 				(length 5.08)
-				(name "PGND"
+				(name "VSSA_26"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "C16"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "LMR34206SC5QRNXRQ1"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMR34206SC5QRNXRQ1"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:CONV_LMR33620BRNXT"
-			(at 0 -38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lmr34206-q1"
-			(at 0 -35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(property "Description" ""
-			(at -2.54 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "LMR34206SC5QRNXRQ1_1_0"
 			(pin passive line
-				(at -15.24 -2.54 0)
+				(at 0 -132.08 0)
 				(length 5.08)
-				(name "VIN"
+				(name "VSSA_27"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "C17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1224,16 +1090,16 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -5.08 0)
+				(at 0 -134.62 0)
 				(length 5.08)
-				(name "VIN"
+				(name "VIN_18CLK_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "C18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1242,16 +1108,16 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -7.62 0)
+				(at 0 -137.16 0)
 				(length 5.08)
-				(name "EN"
+				(name "SPIA_MISO"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1260,16 +1126,16 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -20.32 0)
+				(at 0 -139.7 0)
 				(length 5.08)
-				(name "VCC"
+				(name "SPIA_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1278,16 +1144,16 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -30.48 0)
+				(at 0 -142.24 0)
 				(length 5.08)
-				(name "AGND"
+				(name "SPIB_CS_N"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "D3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1296,16 +1162,16 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -2.54 180)
+				(at 0 -144.78 0)
 				(length 5.08)
-				(name "BOOT"
+				(name "VSSA_28"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "D16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1314,16 +1180,16 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -12.7 180)
+				(at 0 -147.32 0)
 				(length 5.08)
-				(name "SW"
+				(name "VSSA_29"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "D17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1332,16 +1198,16 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -17.78 180)
+				(at 0 -149.86 0)
 				(length 5.08)
-				(name "FB"
+				(name "VSSA_30"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "D18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1350,16 +1216,16 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -25.4 180)
+				(at 0 -152.4 0)
 				(length 5.08)
-				(name "NC"
+				(name "VDDIN_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "E1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1368,47 +1234,34 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -30.48 180)
+				(at 0 -154.94 0)
 				(length 5.08)
-				(name "PG"
+				(name "SPIB_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "E2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "LMR34206SC5QRNXRQ1_1_1"
-			(rectangle
-				(start -10.16 0)
-				(end 10.16 -33.02)
-				(stroke
-					(width 0)
-					(type default)
 				)
-				(fill
-					(type background)
-				)
 			)
 			(pin passive line
-				(at -15.24 -12.7 0)
+				(at 0 -157.48 0)
 				(length 5.08)
-				(name "PGND"
+				(name "VSS_3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "E3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1417,141 +1270,34 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -15.24 0)
+				(at 0 -160.02 0)
 				(length 5.08)
-				(name "PGND"
+				(name "VSSA_31"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "E16"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "LP87524JRNFRQ1"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LP87524JRNFRQ1"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:LP87524TRNFRQ1"
-			(at 0 -63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/lp87524j-q1"
-			(at 0 -66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-A + 2.5-A + Two 1.5-A Buck Converters With Integrated Switches"
-			(at 0 -60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 0 -68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 0 -71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LP87524JRNFRQ1"
-			(at 0 -73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-LP87524JRNFRQ1"
-			(at 0 -76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP87524JRNFRQ1?qs=W0yvOO0ixfGCMWT1qg8Aug%3D%3D"
-			(at 0 -78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "LP87524JRNFRQ1_1_1"
-			(rectangle
-				(start -15.24 0)
-				(end 15.24 -58.42)
-				(stroke
-					(width 0)
-					(type solid)
 				)
-				(fill
-					(type background)
-				)
 			)
 			(pin passive line
-				(at -20.32 -2.54 0)
+				(at 0 -162.56 0)
 				(length 5.08)
-				(name "VIN_B0"
+				(name "VSSA_32"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "E17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1560,16 +1306,16 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -5.08 0)
+				(at 0 -165.1 0)
 				(length 5.08)
-				(name "VIN_B1"
+				(name "VSSA_33"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "E18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1578,16 +1324,16 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -7.62 0)
+				(at 0 -167.64 0)
 				(length 5.08)
-				(name "VIN_B2"
+				(name "VIOIN_18_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "26"
+				(number "F1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1596,16 +1342,16 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -10.16 0)
+				(at 0 -170.18 0)
 				(length 5.08)
-				(name "VIN_B3"
+				(name "SPIA_MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "22"
+				(number "F2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1614,16 +1360,16 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -15.24 0)
+				(at 0 -172.72 0)
 				(length 5.08)
-				(name "VANA"
+				(name "VSS_4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "18"
+				(number "F3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1631,17 +1377,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 -22.86 0)
+			(pin passive line
+				(at 0 -175.26 0)
 				(length 5.08)
-				(name "SCL"
+				(name "VSSA_34"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "F16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1649,17 +1395,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -20.32 -25.4 0)
+			(pin passive line
+				(at 0 -177.8 0)
 				(length 5.08)
-				(name "SDA"
+				(name "VSSA_35"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "F17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1667,17 +1413,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -20.32 -30.48 0)
+			(pin passive line
+				(at 0 -180.34 0)
 				(length 5.08)
-				(name "~{INT}"
+				(name "VSSA_36"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
+				(number "F18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1685,17 +1431,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 -33.02 0)
+			(pin passive line
+				(at 0 -182.88 0)
 				(length 5.08)
-				(name "~{RST}"
+				(name "SPIB_MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "20"
+				(number "G1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1703,17 +1449,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -20.32 -35.56 0)
+			(pin passive line
+				(at 0 -185.42 0)
 				(length 5.08)
-				(name "PGOOD"
+				(name "QSPI[1]"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "G2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1721,17 +1467,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 -38.1 0)
+			(pin passive line
+				(at 0 -187.96 0)
 				(length 5.08)
-				(name "CLKIN"
+				(name "SPIB_MISO"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "G3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1740,16 +1486,16 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -43.18 0)
+				(at 0 -190.5 0)
 				(length 5.08)
-				(name "EN1"
+				(name "VOUT_PA_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "G16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1758,16 +1504,16 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -45.72 0)
+				(at 0 -193.04 0)
 				(length 5.08)
-				(name "EN2"
+				(name "VOUT_PA_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "G17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1776,16 +1522,16 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -48.26 0)
+				(at 0 -195.58 0)
 				(length 5.08)
-				(name "EN3"
+				(name "VOUT_PA_3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "G18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1794,16 +1540,16 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -53.34 0)
+				(at 0 -198.12 0)
 				(length 5.08)
-				(name "PGND_B01"
+				(name "VIOIN_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "H1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1812,16 +1558,16 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -55.88 0)
+				(at 0 -200.66 0)
 				(length 5.08)
-				(name "PGND_B23"
+				(name "QSPI_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "24"
+				(number "H2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1830,16 +1576,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -2.54 180)
+				(at 0 -203.2 0)
 				(length 5.08)
-				(name "SW_B0"
+				(name "QSPI[0]"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "H3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1848,17 +1594,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -7.62 180)
+				(at 0 -205.74 0)
 				(length 5.08)
-				(hide yes)
-				(name "FB_B0"
+				(name "VIN_13RF2_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "29"
+				(number "H16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1866,17 +1611,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -7.62 180)
+			(pin passive line
+				(at 0 -208.28 0)
 				(length 5.08)
-				(name "FB_B0"
+				(name "VIN_13RF2_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "H17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1885,16 +1630,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -15.24 180)
+				(at 0 -210.82 0)
 				(length 5.08)
-				(name "SW_B1"
+				(name "VIN_13RF2_3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "H18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1902,17 +1647,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -20.32 180)
+			(pin passive line
+				(at 0 -213.36 0)
 				(length 5.08)
-				(name "FB_B1"
+				(name "VDDIN_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "J1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1921,17 +1666,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -20.32 180)
+				(at 0 -215.9 0)
 				(length 5.08)
-				(hide yes)
-				(name "FB_B1"
+				(name "QSPI_CS_N"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "30"
+				(number "J2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1940,16 +1684,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -27.94 180)
+				(at 0 -218.44 0)
 				(length 5.08)
-				(name "SW_B2"
+				(name "QSPI[2]"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "25"
+				(number "J3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1957,17 +1701,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -33.02 180)
+			(pin passive line
+				(at 0 -220.98 0)
 				(length 5.08)
-				(name "FB_B2"
+				(name "VIN_13RF1_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "J16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1976,17 +1720,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -33.02 180)
+				(at 0 -223.52 0)
 				(length 5.08)
-				(hide yes)
-				(name "FB_B2"
+				(name "VIN_13RF1_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "28"
+				(number "J17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1995,16 +1738,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -40.64 180)
+				(at 0 -226.06 0)
 				(length 5.08)
-				(name "SW_B3"
+				(name "VIN_13RF1_3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "23"
+				(number "J18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2012,17 +1755,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -45.72 180)
+			(pin passive line
+				(at 50.8 0 180)
 				(length 5.08)
-				(name "FB_B3"
+				(name "VIOIN_18_3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "21"
+				(number "K1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2031,17 +1774,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -45.72 180)
+				(at 50.8 -2.54 180)
 				(length 5.08)
-				(hide yes)
-				(name "FB_B3"
+				(name "QSPI[3]"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "31"
+				(number "K2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2050,16 +1792,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -50.8 180)
+				(at 50.8 -5.08 180)
 				(length 5.08)
-				(name "AGND_1"
+				(name "GPIO_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "K3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2068,16 +1810,16 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -53.34 180)
+				(at 50.8 -7.62 180)
 				(length 5.08)
-				(name "AGND_2"
+				(name "VSSA_37"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "K16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2086,148 +1828,34 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -55.88 180)
+				(at 50.8 -10.16 180)
 				(length 5.08)
-				(name "AGND_3"
+				(name "VSSA_38"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "27"
+				(number "K17"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "MAX17626ATA+"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX17626ATA+"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Footprint" "project_footprints:SON50P200X200X80-9N-D"
-			(at 26.67 -94.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/609/MAX17625_MAX17626-3127621.pdf"
-			(at 26.67 -194.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.9V-to-5V Input, 1A , 1.5V-to-3.3V output DC-DC Converter"
-			(at 0 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 26.67 -394.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "700-MAX17626ATA+"
-			(at 26.67 -494.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX17626ATA%2b?qs=Li%252BoUPsLEnsHHpX5p9I1Kw%3D%3D"
-			(at 26.67 -594.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 26.67 -694.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MAX17626ATA+"
-			(at 26.67 -794.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(symbol "MAX17626ATA+_1_1"
-			(rectangle
-				(start -10.16 0)
-				(end 10.16 -30.48)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin passive line
-				(at -15.24 -2.54 0)
+				(at 50.8 -12.7 180)
 				(length 5.08)
-				(name "IN"
+				(name "VSSA_39"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "K18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2236,16 +1864,16 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -7.62 0)
+				(at 50.8 -15.24 180)
 				(length 5.08)
-				(name "EN"
+				(name "DP7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "L1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2254,16 +1882,16 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -17.78 0)
+				(at 50.8 -17.78 180)
 				(length 5.08)
-				(name "PGOOD"
+				(name "DP6"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "L2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2272,16 +1900,16 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -22.86 0)
+				(at 50.8 -20.32 180)
 				(length 5.08)
-				(name "MODE"
+				(name "GPIO_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "L3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2290,16 +1918,16 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -27.94 0)
+				(at 50.8 -22.86 180)
 				(length 5.08)
-				(name "EP"
+				(name "VSSA_40"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "L16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2308,16 +1936,16 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -2.54 180)
+				(at 50.8 -25.4 180)
 				(length 5.08)
-				(name "LX"
+				(name "VSSA_41"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "L17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2326,16 +1954,16 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -7.62 180)
+				(at 50.8 -27.94 180)
 				(length 5.08)
-				(name "OUTSNS"
+				(name "VSSA_42"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "L18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2344,16 +1972,16 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -17.78 180)
+				(at 50.8 -30.48 180)
 				(length 5.08)
-				(name "FB"
+				(name "DP5"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "M1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2362,148 +1990,34 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -27.94 180)
+				(at 50.8 -33.02 180)
 				(length 5.08)
-				(name "GND"
+				(name "GPIO_0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "M2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "MAX17690ATE_V+"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX17690ATE_V+"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Footprint" "project_footprints:QFN50P300X300X80-17N"
-			(at 31.75 -84.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/MAX17690/datasheet"
-			(at 31.75 -184.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V, No-Opto Isolated Flyback Controller"
-			(at 1.27 -53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 31.75 -384.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "700-MAX17690ATE/V+"
-			(at 31.75 -484.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX17690ATE-V%2b?qs=wnTfsH77Xs5VE8gCPCJ0qw%3D%3D"
-			(at 31.75 -584.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 31.75 -684.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MAX17690ATE/V+"
-			(at 31.75 -784.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(symbol "MAX17690ATE_V+_1_1"
-			(rectangle
-				(start -12.7 0)
-				(end 12.7 -50.8)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin passive line
-				(at -17.78 -2.54 0)
+				(at 50.8 -35.56 180)
 				(length 5.08)
-				(name "VIN"
+				(name "SYNC_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "M3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2512,16 +2026,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -12.7 0)
+				(at 50.8 -38.1 180)
 				(length 5.08)
-				(name "EN/UVLO"
+				(name "VIN_18BB_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "M16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2530,16 +2044,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -22.86 0)
+				(at 50.8 -40.64 180)
 				(length 5.08)
-				(name "OVI"
+				(name "VIN_18BB_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "M17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2548,16 +2062,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -27.94 0)
+				(at 50.8 -43.18 180)
 				(length 5.08)
-				(name "RIN"
+				(name "VIN_18BB_3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "M18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2566,16 +2080,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -33.02 0)
+				(at 50.8 -45.72 180)
 				(length 5.08)
-				(name "VCM"
+				(name "LVDS_TXM[0]"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "N1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2584,16 +2098,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -38.1 0)
+				(at 50.8 -48.26 180)
 				(length 5.08)
-				(name "SET"
+				(name "LVDS_TXP[0]"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "N2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2602,16 +2116,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -43.18 0)
+				(at 50.8 -50.8 180)
 				(length 5.08)
-				(name "TC"
+				(name "VSS_5"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "N3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2620,16 +2134,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -48.26 0)
+				(at 50.8 -53.34 180)
 				(length 5.08)
-				(name "SS"
+				(name "VSSA_43"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "N16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2638,16 +2152,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -2.54 180)
+				(at 50.8 -55.88 180)
 				(length 5.08)
-				(name "FB"
+				(name "VSSA_44"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "N17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2656,16 +2170,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -12.7 180)
+				(at 50.8 -58.42 180)
 				(length 5.08)
-				(name "NDRV"
+				(name "VSSA_45"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "N18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2674,16 +2188,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -22.86 180)
+				(at 50.8 -60.96 180)
 				(length 5.08)
-				(name "CS"
+				(name "LVDS_TXM[1]"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "P1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2692,16 +2206,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -27.94 180)
+				(at 50.8 -63.5 180)
 				(length 5.08)
-				(name "COMP"
+				(name "LVDS_TXP[1]"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "P2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2710,16 +2224,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -33.02 180)
+				(at 50.8 -66.04 180)
 				(length 5.08)
-				(name "RT"
+				(name "VSS_6"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "P3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2728,16 +2242,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -38.1 180)
+				(at 50.8 -68.58 180)
 				(length 5.08)
-				(name "INTVCC"
+				(name "VSSA_46"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "P16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2746,16 +2260,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -43.18 180)
+				(at 50.8 -71.12 180)
 				(length 5.08)
-				(name "PGND"
+				(name "GPADC_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "P17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2764,16 +2278,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -45.72 180)
+				(at 50.8 -73.66 180)
 				(length 5.08)
-				(name "SGND"
+				(name "GPADC_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "P18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2782,168 +2296,34 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -48.26 180)
+				(at 50.8 -76.2 180)
 				(length 5.08)
-				(name "EP"
+				(name "LVDS_CLKP"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "R1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "MAX20004AFOA_VY+T"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX20004AFOC/VY+T"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Footprint" "project_footprints:MAX20004AFOC_VY+"
-			(at -15.24 -48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/MAX20004AFOA_VY+T.pdf"
-			(at -30.48 -50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "36V, 220KHZ TO 2.2MHZ, 4A/6A/8A"
-			(at 0 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.75"
-			(at -2.54 -53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at -7.62 -55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MAX20004AFOA/VY+T"
-			(at -10.16 -58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "700-MAX20004AFOA/VYT"
-			(at -12.7 -60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX20004AFOA-VY%2bT?qs=vLWxofP3U2xWaHIFd3JEag%3D%3D"
-			(at -55.88 -63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 26.67 -894.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 26.67 -994.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(symbol "MAX20004AFOA_VY+T_1_1"
-			(rectangle
-				(start -12.7 0)
-				(end 12.7 -43.18)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin passive line
-				(at -17.78 -2.54 0)
+				(at 50.8 -78.74 180)
 				(length 5.08)
-				(name "SUPSW"
+				(name "LVDS_CLKM"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "R2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2952,16 +2332,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -5.08 0)
+				(at 50.8 -81.28 180)
 				(length 5.08)
-				(name "SUP"
+				(name "VSS_7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "R3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2970,16 +2350,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -10.16 0)
+				(at 50.8 -83.82 180)
 				(length 5.08)
-				(name "EN"
+				(name "VSSA_47"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "R16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2988,16 +2368,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -17.78 0)
+				(at 50.8 -86.36 180)
 				(length 5.08)
-				(name "FOSC"
+				(name "VSSA_48"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "R17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3006,16 +2386,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -27.94 0)
+				(at 50.8 -88.9 180)
 				(length 5.08)
-				(name "SYNC"
+				(name "GPADC_3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "R18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3024,16 +2404,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -33.02 0)
+				(at 50.8 -91.44 180)
 				(length 5.08)
-				(name "PGND_1"
+				(name "LVDS_FRCLKP"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "T1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3042,16 +2422,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -35.56 0)
+				(at 50.8 -93.98 180)
 				(length 5.08)
-				(name "PGND_2"
+				(name "LVDS_FRCLKM"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "T2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3060,16 +2440,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -38.1 0)
+				(at 50.8 -96.52 180)
 				(length 5.08)
-				(name "PGND_3"
+				(name "TCK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "T3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3078,16 +2458,16 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -40.64 0)
+				(at 50.8 -99.06 180)
 				(length 5.08)
-				(name "PGND_4"
+				(name "VSS_8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "T4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3096,16 +2476,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -2.54 180)
+				(at 50.8 -101.6 180)
 				(length 5.08)
-				(name "BST"
+				(name "VSS_9"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "T5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3114,16 +2494,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -10.16 180)
+				(at 50.8 -104.14 180)
 				(length 5.08)
-				(name "LX"
+				(name "VSS_10"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "T6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3132,16 +2512,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -12.7 180)
+				(at 50.8 -106.68 180)
 				(length 5.08)
-				(name "OUT"
+				(name "VSS_11"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "T7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3150,16 +2530,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -17.78 180)
+				(at 50.8 -109.22 180)
 				(length 5.08)
-				(name "~{RESET}"
+				(name "VSS_12"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "T8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3168,16 +2548,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -22.86 180)
+				(at 50.8 -111.76 180)
 				(length 5.08)
-				(name "COMP"
+				(name "VSS_13"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "T9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3186,16 +2566,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -27.94 180)
+				(at 50.8 -114.3 180)
 				(length 5.08)
-				(name "FB"
+				(name "VSS_14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "T10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3204,16 +2584,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -30.48 180)
+				(at 50.8 -116.84 180)
 				(length 5.08)
-				(name "BIAS"
+				(name "VSS_15"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "T11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3222,16 +2602,16 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -40.64 180)
+				(at 50.8 -119.38 180)
 				(length 5.08)
-				(name "GND"
+				(name "VSS_16"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "T12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3239,91 +2619,17 @@
 					)
 				)
 			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "MAX20072ATAA_V+"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX20072ATAA_V+"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:SON50P200X200X80-9N-D"
-			(at 26.67 -94.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/MAX20072/datasheet"
-			(at 26.67 -194.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single 1A 2.2MHz Low-Voltage Step-Down DC-DC Converter"
-			(at 0 -53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 26.67 -394.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(symbol "MAX20072ATAA_V+_1_1"
-			(rectangle
-				(start -10.16 0)
-				(end 10.16 -33.02)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin power_in line
-				(at -15.24 -2.54 0)
+			(pin passive line
+				(at 50.8 -121.92 180)
 				(length 5.08)
-				(name "PV"
+				(name "VSS_17"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "T13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3331,17 +2637,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -15.24 -12.7 0)
+			(pin passive line
+				(at 50.8 -124.46 180)
 				(length 5.08)
-				(name "AV"
+				(name "VSS_18"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "T14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3349,17 +2655,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -17.78 0)
+			(pin passive line
+				(at 50.8 -127 180)
 				(length 5.08)
-				(name "EN"
+				(name "VSS_19"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "T15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3367,17 +2673,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -22.86 0)
+			(pin passive line
+				(at 50.8 -129.54 180)
 				(length 5.08)
-				(name "SYNC"
+				(name "VSS_20"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "T16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3385,17 +2691,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -15.24 -30.48 0)
+			(pin passive line
+				(at 50.8 -132.08 180)
 				(length 5.08)
-				(name "EP"
+				(name "VSSA_49"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "T17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3403,17 +2709,17 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 15.24 -2.54 180)
+			(pin passive line
+				(at 50.8 -134.62 180)
 				(length 5.08)
-				(name "LX"
+				(name "GPADC_4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "T18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3421,17 +2727,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 -12.7 180)
+			(pin passive line
+				(at 50.8 -137.16 180)
 				(length 5.08)
-				(name "OUT"
+				(name "VSS_21"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "U1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3439,17 +2745,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 15.24 -22.86 180)
+			(pin passive line
+				(at 50.8 -139.7 180)
 				(length 5.08)
-				(name "PG"
+				(name "VIOIN_18DIFF"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "U2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3457,149 +2763,35 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 15.24 -30.48 180)
+			(pin passive line
+				(at 50.8 -142.24 180)
 				(length 5.08)
-				(name "PGND"
+				(name "DMM_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "U3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "MAX20075ATCC/V+"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX20075ATCC/V+"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:SON50P300X300X80-13N"
-			(at 26.67 -94.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/MAX20075/datasheet"
-			(at 26.67 -194.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Buck Switching Regulator IC Positive Programmable (Fixed) 1V 1 Output 600mA 12-WFDFN Exposed Pad"
-			(at 0 -40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 26.67 -394.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "700-MAX20075ATCC/V+"
-			(at 26.67 -494.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX20075ATCC-V%2b?qs=aO0xTv36ms57pQ77Qd6DzA%3D%3D"
-			(at 26.67 -594.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 26.67 -694.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MAX20075ATCC/V+"
-			(at 26.67 -794.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(symbol "MAX20075ATCC/V+_1_1"
-			(rectangle
-				(start -10.16 0)
-				(end 10.16 -38.1)
-				(stroke
-					(width 0)
-					(type solid)
 				)
-				(fill
-					(type background)
-				)
 			)
-			(pin power_in line
-				(at -15.24 -2.54 0)
+			(pin passive line
+				(at 50.8 -144.78 180)
 				(length 5.08)
-				(name "SUP"
+				(name "DMM_SYNC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "U4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3607,17 +2799,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -7.62 0)
+			(pin passive line
+				(at 50.8 -147.32 180)
 				(length 5.08)
-				(name "EN"
+				(name "DP3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "U5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3625,17 +2817,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -10.16 0)
+			(pin passive line
+				(at 50.8 -149.86 180)
 				(length 5.08)
-				(name "SPS"
+				(name "DP1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "U6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3643,17 +2835,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -12.7 0)
+			(pin passive line
+				(at 50.8 -152.4 180)
 				(length 5.08)
-				(name "SYNC"
+				(name "DP0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "U7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3661,17 +2853,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -15.24 -17.78 0)
+			(pin passive line
+				(at 50.8 -154.94 180)
 				(length 5.08)
-				(name "PGOOD"
+				(name "TMS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "U8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3680,16 +2872,16 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -22.86 0)
+				(at 50.8 -157.48 180)
 				(length 5.08)
-				(name "BIAS"
+				(name "TDI"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "U9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3697,17 +2889,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -15.24 -33.02 0)
+			(pin passive line
+				(at 50.8 -160.02 180)
 				(length 5.08)
-				(name "GND"
+				(name "TDO"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "U10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3715,17 +2907,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -15.24 -35.56 0)
+			(pin passive line
+				(at 50.8 -162.56 180)
 				(length 5.08)
-				(name "AGND"
+				(name "NRESET"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "U11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3733,17 +2925,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 -2.54 180)
+			(pin passive line
+				(at 50.8 -165.1 180)
 				(length 5.08)
-				(name "BST"
+				(name "SYNC_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "U12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3751,17 +2943,17 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 15.24 -10.16 180)
+			(pin passive line
+				(at 50.8 -167.64 180)
 				(length 5.08)
-				(name "LX"
+				(name "WARM_RESET"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "U13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3769,17 +2961,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 -15.24 180)
+			(pin passive line
+				(at 50.8 -170.18 180)
 				(length 5.08)
-				(name "OUT"
+				(name "NERROR_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "U14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3787,17 +2979,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 -25.4 180)
+			(pin passive line
+				(at 50.8 -172.72 180)
 				(length 5.08)
-				(name "FB"
+				(name "NERROR_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "U15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3805,109 +2997,35 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 15.24 -35.56 180)
+			(pin passive line
+				(at 50.8 -175.26 180)
 				(length 5.08)
-				(name "PGND"
+				(name "RS232_TX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "U16"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "MAX20075DATCA/V+"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX20075DATCA/V+"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:SON50P300X300X80-13N"
-			(at -21.59 -43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/MAX20075/datasheet"
-			(at 26.67 -194.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Buck Switching Regulator IC Positive Programmable (Fixed) 5V 1 Output 600mA 12-WFDFN Exposed Pad"
-			(at 0 -40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(property "Height" "0.8"
-			(at 26.67 -394.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(symbol "MAX20075DATCA/V+_1_1"
-			(rectangle
-				(start -10.16 0)
-				(end 10.16 -38.1)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin power_in line
-				(at -15.24 -2.54 0)
+			(pin passive line
+				(at 50.8 -177.8 180)
 				(length 5.08)
-				(name "SUP"
+				(name "VSSA_50"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "U17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3915,17 +3033,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -7.62 0)
+			(pin passive line
+				(at 50.8 -180.34 180)
 				(length 5.08)
-				(name "EN"
+				(name "VSSA_51"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "U18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3933,17 +3051,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -10.16 0)
+			(pin passive line
+				(at 50.8 -182.88 180)
 				(length 5.08)
-				(name "SPS"
+				(name "VSS_22"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "V1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3951,17 +3069,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -12.7 0)
+			(pin passive line
+				(at 50.8 -185.42 180)
 				(length 5.08)
-				(name "SYNC"
+				(name "VPP"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "V2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3969,17 +3087,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -15.24 -17.78 0)
+			(pin passive line
+				(at 50.8 -187.96 180)
 				(length 5.08)
-				(name "PGOOD"
+				(name "DP4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "V3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3988,16 +3106,16 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -22.86 0)
+				(at 50.8 -190.5 180)
 				(length 5.08)
-				(name "BIAS"
+				(name "VDDIN_3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "V4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4005,17 +3123,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -15.24 -33.02 0)
+			(pin passive line
+				(at 50.8 -193.04 180)
 				(length 5.08)
-				(name "GND"
+				(name "DP2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "V5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4023,17 +3141,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -15.24 -35.56 0)
+			(pin passive line
+				(at 50.8 -195.58 180)
 				(length 5.08)
-				(name "AGND"
+				(name "VIN_SRAM_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "V6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4041,17 +3159,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 -2.54 180)
+			(pin passive line
+				(at 50.8 -198.12 180)
 				(length 5.08)
-				(name "BST"
+				(name "VNWA_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "V7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4059,17 +3177,17 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 15.24 -10.16 180)
+			(pin passive line
+				(at 50.8 -200.66 180)
 				(length 5.08)
-				(name "LX"
+				(name "VDDIN_4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "V8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4077,17 +3195,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 -15.24 180)
+			(pin passive line
+				(at 50.8 -203.2 180)
 				(length 5.08)
-				(name "OUT"
+				(name "VIOIN_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "V9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4095,17 +3213,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 -25.4 180)
+			(pin passive line
+				(at 50.8 -205.74 180)
 				(length 5.08)
-				(name "FB"
+				(name "PMIC_CLKOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "V10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4113,149 +3231,35 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 15.24 -35.56 180)
+			(pin passive line
+				(at 50.8 -208.28 180)
 				(length 5.08)
-				(name "PGND"
+				(name "VIOIN_18_4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "V11"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "TPS62290TDRVRQ1"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS62290TDRVRQ1"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:SON65P200X200X80-7N"
-			(at 26.67 -94.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
 			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/tps62290-q1"
-			(at 26.67 -194.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Automotive 2.3V to 6V, 2.25MHz Fixed Frequency 1A Buck Converter in 2x2mm SON/TSOT23 Package"
-			(at 0 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 26.67 -394.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS62290TDRVRQ1"
-			(at 26.67 -494.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62290TDRVRQ1?qs=NiBvnJE4bX0YWtuMnJowVQ%3D%3D"
-			(at 26.67 -594.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 26.67 -694.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS62290TDRVRQ1"
-			(at 26.67 -794.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(symbol "TPS62290TDRVRQ1_1_1"
-			(rectangle
-				(start -10.16 0)
-				(end 10.16 -25.4)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin power_in line
-				(at -15.24 -2.54 0)
+			(pin passive line
+				(at 50.8 -210.82 180)
 				(length 5.08)
-				(name "VIN"
+				(name "VIN_SRAM_3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "V12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4263,17 +3267,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -12.7 0)
+			(pin passive line
+				(at 50.8 -213.36 180)
 				(length 5.08)
-				(name "EN"
+				(name "MCU_CLKOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "V13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4281,17 +3285,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -17.78 0)
+			(pin passive line
+				(at 50.8 -215.9 180)
 				(length 5.08)
-				(name "MODE"
+				(name "VNWA_3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "V14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4299,17 +3303,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -15.24 -22.86 0)
+			(pin passive line
+				(at 50.8 -218.44 180)
 				(length 5.08)
-				(name "GND"
+				(name "VDDIN_5"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "V15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4317,17 +3321,17 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 15.24 -2.54 180)
+			(pin passive line
+				(at 50.8 -220.98 180)
 				(length 5.08)
-				(name "SW"
+				(name "RS232_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "V16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4335,17 +3339,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 -12.7 180)
+			(pin passive line
+				(at 50.8 -223.52 180)
 				(length 5.08)
-				(name "FB"
+				(name "VSSA_52"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "V17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4353,17 +3357,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 15.24 -22.86 180)
+			(pin passive line
+				(at 50.8 -226.06 180)
 				(length 5.08)
-				(name "EP"
+				(name "VSSA_53"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "V18"
 					(effects
 						(font
 							(size 1.27 1.27)
