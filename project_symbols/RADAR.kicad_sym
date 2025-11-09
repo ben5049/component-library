@@ -985,14 +985,14 @@
 			(pin input line
 				(at -20.32 -2.54 0)
 				(length 5.08)
-				(name "CLKM"
+				(name "CLKP"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B7"
+				(number "A7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1003,14 +1003,14 @@
 			(pin input line
 				(at -20.32 -5.08 0)
 				(length 5.08)
-				(name "CLKP"
+				(name "CLKM"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A7"
+				(number "B7"
 					(effects
 						(font
 							(size 1.27 1.27)
