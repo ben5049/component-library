@@ -178,7 +178,7 @@
 			)
 		)
 		(symbol "cam-host-v1_1_0"
-			(pin bidirectional line
+			(pin output line
 				(at -10.16 -5.08 0)
 				(length 5.08)
 				(name "D0_N"
@@ -196,7 +196,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -10.16 -7.62 0)
 				(length 5.08)
 				(name "D0_P"
@@ -250,7 +250,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -10.16 -20.32 0)
 				(length 5.08)
 				(name "CLK_N"
@@ -268,7 +268,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -10.16 -22.86 0)
 				(length 5.08)
 				(name "CLK_P"
@@ -748,10 +748,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -10.16 -25.4 0)
 				(length 5.08)
-				(name "LOG_RX"
+				(name "~{ERR_OUT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1138,10 +1138,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -10.16 -25.4 0)
 				(length 5.08)
-				(name "LOG_TX"
+				(name "~{ERR_OUT}"
 					(effects
 						(font
 							(size 1.27 1.27)
