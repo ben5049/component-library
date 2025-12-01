@@ -64,8 +64,8 @@
 		(uuid "3b3cca60-e8ac-4489-b329-0cf31519d418")
 	)
 	(fp_line
-		(start -3.965 -3.52)
-		(end 3.965 -3.52)
+		(start -3.965 -3.7)
+		(end 3.965 -3.7)
 		(stroke
 			(width 0.2)
 			(type solid)
