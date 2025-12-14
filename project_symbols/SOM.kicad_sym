@@ -1036,44 +1036,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -22.86 -25.4 0)
-				(length 5.08)
-				(name "PCIE_RX_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "116"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 -27.94 0)
-				(length 5.08)
-				(name "PCIE_RX_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "118"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at -22.86 -33.02 0)
+				(at -22.86 -25.4 0)
 				(length 5.08)
 				(name "PCIE_TX_P"
 					(effects
@@ -1091,7 +1055,7 @@
 				)
 			)
 			(pin output line
-				(at -22.86 -35.56 0)
+				(at -22.86 -27.94 0)
 				(length 5.08)
 				(name "PCIE_TX_N"
 					(effects
@@ -1101,6 +1065,42 @@
 					)
 				)
 				(number "124"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -33.02 0)
+				(length 5.08)
+				(name "PCIE_RX_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "116"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -35.56 0)
+				(length 5.08)
+				(name "PCIE_RX_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "118"
 					(effects
 						(font
 							(size 1.27 1.27)

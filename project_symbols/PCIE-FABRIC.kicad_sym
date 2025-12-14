@@ -157,89 +157,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -22.86 -27.94 0)
-				(length 5.08)
-				(name "VDD_OTP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "65"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -22.86 -33.02 0)
-				(length 5.08)
-				(name "VDDVARIO_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "43"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -22.86 -35.56 0)
-				(length 5.08)
-				(name "VDDVARIO_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "48"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
+			(pin passive line
 				(at -22.86 -38.1 0)
 				(length 5.08)
-				(name "VDDVARIO_3"
+				(name "RESET_N"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "61"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -22.86 -43.18 0)
-				(length 5.08)
-				(name "VDDVARIO_B_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
+				(number "44"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -247,17 +175,17 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at -22.86 -45.72 0)
 				(length 5.08)
-				(name "VDDVARIO_B_2"
+				(name "XI"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "71"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -265,17 +193,17 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin output line
 				(at -22.86 -48.26 0)
 				(length 5.08)
-				(name "VDDVARIO_B_3"
+				(name "XO"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "70"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -283,35 +211,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -22.86 -50.8 0)
+			(pin output line
+				(at -22.86 -60.96 0)
 				(length 5.08)
-				(name "VDDVARIO_B_4"
+				(name "EECS/GPIO0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -22.86 -58.42 0)
-				(length 5.08)
-				(name "AVDDH_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
+				(number "60"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -319,17 +229,17 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at -22.86 -63.5 0)
 				(length 5.08)
-				(name "VPH"
+				(name "EEDIO/GPIO1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "34"
+				(number "59"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -337,17 +247,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -22.86 -71.12 0)
+			(pin bidirectional line
+				(at -22.86 -66.04 0)
 				(length 5.08)
-				(name "VDD12CORE_1"
+				(name "EECLK/GPIO2/ADV_PM_DISABLE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "24"
+				(number "58"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -355,17 +265,17 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at -22.86 -73.66 0)
 				(length 5.08)
-				(name "VDD12CORE_2"
+				(name "GPIO4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "46"
+				(number "56"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -373,17 +283,17 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at -22.86 -76.2 0)
 				(length 5.08)
-				(name "VDD12CORE_3"
+				(name "GPIO5"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "62"
+				(number "55"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -391,17 +301,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -22.86 -81.28 0)
+			(pin bidirectional line
+				(at -22.86 -83.82 0)
 				(length 5.08)
-				(name "AVDD12"
+				(name "GPIO6/TDO"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "69"
+				(number "54"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -409,17 +319,17 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at -22.86 -86.36 0)
 				(length 5.08)
-				(name "AVDDL_1"
+				(name "GPIO7/TMS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "50"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -427,17 +337,35 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
+				(at -22.86 -88.9 0)
+				(length 5.08)
+				(name "GPIO8/TDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at -22.86 -91.44 0)
 				(length 5.08)
-				(name "VP"
+				(name "GPIO9/TCK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "25"
+				(number "47"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -445,17 +373,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -22.86 -93.98 0)
+			(pin passive line
+				(at -22.86 -96.52 0)
 				(length 5.08)
-				(name "VPTX"
+				(name "TEST"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "31"
+				(number "45"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -466,14 +394,14 @@
 			(pin passive line
 				(at -22.86 -104.14 0)
 				(length 5.08)
-				(name "VSS"
+				(name "ISET"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "73"
+				(number "72"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -535,17 +463,35 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
+				(at 22.86 -33.02 180)
+				(length 5.08)
+				(name "VDD_OTP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 22.86 -38.1 180)
 				(length 5.08)
-				(name "RESET_N"
+				(name "VDDVARIO_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "44"
+				(number "43"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -553,17 +499,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 22.86 -45.72 180)
+			(pin power_in line
+				(at 22.86 -40.64 180)
 				(length 5.08)
-				(name "XI"
+				(name "VDDVARIO_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "71"
+				(number "48"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -571,17 +517,35 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
+				(at 22.86 -43.18 180)
+				(length 5.08)
+				(name "VDDVARIO_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 22.86 -48.26 180)
 				(length 5.08)
-				(name "XO"
+				(name "VDDVARIO_B_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "70"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -589,17 +553,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 22.86 -60.96 180)
+			(pin power_in line
+				(at 22.86 -50.8 180)
 				(length 5.08)
-				(name "EECS/GPIO0"
+				(name "VDDVARIO_B_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "60"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -607,17 +571,53 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
+				(at 22.86 -53.34 180)
+				(length 5.08)
+				(name "VDDVARIO_B_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 -55.88 180)
+				(length 5.08)
+				(name "VDDVARIO_B_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 22.86 -63.5 180)
 				(length 5.08)
-				(name "EEDIO/GPIO1"
+				(name "AVDDH_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "59"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -625,35 +625,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 22.86 -66.04 180)
+			(pin power_in line
+				(at 22.86 -68.58 180)
 				(length 5.08)
-				(name "EECLK/GPIO2/ADV_PM_DISABLE"
+				(name "VPH"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "58"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 22.86 -73.66 180)
-				(length 5.08)
-				(name "GPIO4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "56"
+				(number "34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -661,17 +643,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 22.86 -76.2 180)
 				(length 5.08)
-				(name "GPIO5"
+				(name "VDD12CORE_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "55"
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -679,17 +661,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 22.86 -83.82 180)
+			(pin power_in line
+				(at 22.86 -78.74 180)
 				(length 5.08)
-				(name "GPIO6/TDO"
+				(name "VDD12CORE_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "54"
+				(number "46"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -697,35 +679,35 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
+				(at 22.86 -81.28 180)
+				(length 5.08)
+				(name "VDD12CORE_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 22.86 -86.36 180)
 				(length 5.08)
-				(name "GPIO7/TMS"
+				(name "AVDD12"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "50"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 22.86 -88.9 180)
-				(length 5.08)
-				(name "GPIO8/TDI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "49"
+				(number "69"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -733,17 +715,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 22.86 -91.44 180)
 				(length 5.08)
-				(name "GPIO9/TCK"
+				(name "AVDDL_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "47"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -751,17 +733,35 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 22.86 -96.52 180)
 				(length 5.08)
-				(name "TEST"
+				(name "VP"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "45"
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 -99.06 180)
+				(length 5.08)
+				(name "VPTX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -772,14 +772,14 @@
 			(pin passive line
 				(at 22.86 -104.14 180)
 				(length 5.08)
-				(name "ISET"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "72"
+				(number "73"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1052,35 +1052,17 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 22.86 -2.54 180)
 				(length 5.08)
-				(name "MDC"
+				(name "DUPLEX"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "64"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 22.86 -5.08 180)
-				(length 5.08)
-				(name "MDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "63"
+				(number "40"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1089,7 +1071,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 -10.16 180)
+				(at 22.86 -7.62 180)
 				(length 5.08)
 				(name "~{PHY_RESET}"
 					(effects
@@ -1107,7 +1089,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -12.7 180)
+				(at 22.86 -10.16 180)
 				(length 5.08)
 				(name "~{PHY_INT}"
 					(effects
@@ -1124,17 +1106,35 @@
 					)
 				)
 			)
-			(pin input line
-				(at 22.86 -17.78 180)
+			(pin output line
+				(at 22.86 -15.24 180)
 				(length 5.08)
-				(name "DUPLEX"
+				(name "MDC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "40"
+				(number "64"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 -17.78 180)
+				(length 5.08)
+				(name "MDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1554,8 +1554,26 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -22.86 -12.7 0)
+				(length 5.08)
+				(name "CLKBUF_PD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AR29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -17.78 0)
 				(length 5.08)
 				(name "REFCLKO_0_P"
 					(effects
@@ -1573,7 +1591,7 @@
 				)
 			)
 			(pin output line
-				(at -22.86 -15.24 0)
+				(at -22.86 -20.32 0)
 				(length 5.08)
 				(name "REFCLKO_0_N"
 					(effects
@@ -1590,80 +1608,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -22.86 -20.32 0)
-				(length 5.08)
-				(name "PET_0_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -22.86 -22.86 0)
-				(length 5.08)
-				(name "PET_0_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 -27.94 0)
-				(length 5.08)
-				(name "PER_0_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -22.86 -30.48 0)
-				(length 5.08)
-				(name "PER_0_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.86 -43.18 0)
 				(length 5.08)
 				(name "REFCLKP"
 					(effects
@@ -1681,7 +1627,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -45.72 0)
+				(at -22.86 -33.02 0)
 				(length 5.08)
 				(name "REFCLKN"
 					(effects
@@ -1699,7 +1645,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -53.34 0)
+				(at -22.86 -43.18 0)
 				(length 5.08)
 				(name "REFCLKI_P"
 					(effects
@@ -1717,7 +1663,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -55.88 0)
+				(at -22.86 -45.72 0)
 				(length 5.08)
 				(name "REFCLKI_N"
 					(effects
@@ -1734,17 +1680,71 @@
 					)
 				)
 			)
-			(pin input line
-				(at -22.86 -68.58 0)
+			(pin output line
+				(at -22.86 -50.8 0)
 				(length 5.08)
-				(name "CLKBUF_PD"
+				(name "PET_0_P"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "AR29"
+				(number "A10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -53.34 0)
+				(length 5.08)
+				(name "PET_0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -58.42 0)
+				(length 5.08)
+				(name "PER_0_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -60.96 0)
+				(length 5.08)
+				(name "PER_0_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C11"
 					(effects
 						(font
 							(size 1.27 1.27)
