@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "lan8870"
-		(at 0 4.95 0)
+		(at 0 1 0)
 		(layer "F.Fab")
 		(uuid "1372c857-b104-459b-873d-b6d39b426f83")
 		(effects
@@ -183,7 +183,7 @@
 		(uuid "2cfe6648-9d74-472a-b646-31a4cf0ae653")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -1 0)
 		(layer "F.Fab")
 		(uuid "b0a00a05-1bfe-467d-a9bc-44fa2f2401fe")
 		(effects
