@@ -88888,20 +88888,19 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 5.08 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4020_74438356018"
-			(at 0 -2.54 0)
+		(property "Value" "74438356018"
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-MAPI-4020"
@@ -89049,7 +89048,7 @@
 			)
 		)
 		(property "Critical Parameter" "1.8 µH"
-			(at 0 -5.08 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89137,17 +89136,6 @@
 			)
 		)
 		(symbol "4020_74438356018_1_1"
-			(circle
-				(center -2.794 0.762)
-				(radius 0.0001)
-				(stroke
-					(width 0.381)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 2.54 1.016) (xy 0.508 1.016)
@@ -89160,9 +89148,9 @@
 					(type none)
 				)
 			)
-			(pin passive line
-				(at -3.81 0 0)
-				(length 1.27)
+			(pin power_in line
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -89178,9 +89166,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+			(pin power_out line
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "2"
 					(effects
 						(font

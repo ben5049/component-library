@@ -2437,7 +2437,43 @@
 				)
 			)
 			(pin output line
-				(at -22.86 -55.88 0)
+				(at -22.86 -58.42 0)
+				(length 5.08)
+				(name "~{LED_PWR}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "95"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -60.96 0)
+				(length 5.08)
+				(name "~{LED_ACT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -66.04 0)
 				(length 5.08)
 				(name "FAN_PWM"
 					(effects
@@ -2455,7 +2491,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -58.42 0)
+				(at -22.86 -68.58 0)
 				(length 5.08)
 				(name "FAN_TACHO"
 					(effects
@@ -2473,7 +2509,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -63.5 0)
+				(at -22.86 -73.66 0)
 				(length 5.08)
 				(name "PMIC_ENABLE"
 					(effects
@@ -2491,7 +2527,7 @@
 				)
 			)
 			(pin passive line
-				(at -22.86 -66.04 0)
+				(at -22.86 -76.2 0)
 				(length 5.08)
 				(name "PWR_BUT"
 					(effects
@@ -2509,7 +2545,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -68.58 0)
+				(at -22.86 -78.74 0)
 				(length 5.08)
 				(name "~{RPIBOOT}"
 					(effects
@@ -2527,7 +2563,7 @@
 				)
 			)
 			(pin passive line
-				(at -22.86 -71.12 0)
+				(at -22.86 -81.28 0)
 				(length 5.08)
 				(name "~{EEPROM_WP}"
 					(effects
@@ -2544,44 +2580,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -22.86 -76.2 0)
-				(length 5.08)
-				(name "~{LED_PWR}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "95"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at -22.86 -78.74 0)
-				(length 5.08)
-				(name "~{LED_ACT}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -22.86 -83.82 0)
+				(at -22.86 -86.36 0)
 				(length 5.08)
 				(name "WIFI_EN"
 					(effects
@@ -2599,7 +2599,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -86.36 0)
+				(at -22.86 -88.9 0)
 				(length 5.08)
 				(name "BT_EN"
 					(effects
