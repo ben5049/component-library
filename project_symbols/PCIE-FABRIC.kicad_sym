@@ -4955,44 +4955,8 @@
 					(type background)
 				)
 			)
-			(pin output line
-				(at -22.86 -2.54 0)
-				(length 5.08)
-				(name "EECLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "70"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -22.86 -5.08 0)
-				(length 5.08)
-				(name "EEPD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "71"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -22.86 -12.7 0)
+				(at -22.86 -2.54 0)
 				(length 5.08)
 				(name "SMBCLK"
 					(effects
@@ -5010,7 +4974,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -15.24 0)
+				(at -22.86 -5.08 0)
 				(length 5.08)
 				(name "SMBDATA"
 					(effects
@@ -5020,6 +4984,42 @@
 					)
 				)
 				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -12.7 0)
+				(length 5.08)
+				(name "EECLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "70"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -15.24 0)
+				(length 5.08)
+				(name "EEPD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "71"
 					(effects
 						(font
 							(size 1.27 1.27)
