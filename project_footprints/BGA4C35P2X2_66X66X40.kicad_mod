@@ -1,0 +1,235 @@
+(footprint "BGA4C35P2X2_66X66X40"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DSBGA - 0.4 mm max height")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5fea87b8-c7eb-4cf2-8ff3-da8cb6630a61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BGA4C35P2X2_66X66X40"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d7ba5d2a-9404-408d-88dd-7b54c7d4469b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad07f002-f17b-4123-8105-3f691a37b918")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ef6a6ba-686d-4f74-8169-63ba3f8154f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 -0.4)
+		(end -0.4 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "78e2f6a3-7f5d-404a-b7b9-bdb28ee12305")
+	)
+	(fp_line
+		(start -0.4 -0.5)
+		(end -0.4 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "29161f91-d043-4de1-b205-3595ef100ec2")
+	)
+	(fp_line
+		(start -0.4 -0.4)
+		(end -0.5 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ab664fc0-9123-4246-af88-eed8032982bc")
+	)
+	(fp_line
+		(start -0.4 0.4)
+		(end -0.4 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4fd6ea92-c699-4f11-81ad-2badbd1f087f")
+	)
+	(fp_line
+		(start -0.2 -0.4)
+		(end 0.4 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97d061ab-34c2-4448-9f52-3638b5917fe4")
+	)
+	(fp_line
+		(start 0.4 -0.4)
+		(end 0.4 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "68a541aa-0261-4418-8292-8a125df55384")
+	)
+	(fp_line
+		(start 0.4 0.4)
+		(end -0.4 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "07a0e109-ac6b-41a5-a9a6-5be6c2ad503a")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "38f8b8b5-dc7f-4405-869a-1c611302b059")
+	)
+	(fp_line
+		(start -0.332 -0.332)
+		(end 0.332 -0.332)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9378b33-8793-4aca-b9b8-365e34c2560b")
+	)
+	(fp_line
+		(start -0.332 -0.158)
+		(end -0.158 -0.332)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c85306c-1ecd-4e5a-927a-404f482d7a1c")
+	)
+	(fp_line
+		(start -0.332 0.332)
+		(end -0.332 -0.332)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8e18b71-1c62-432b-98ce-4cad45fbf0fd")
+	)
+	(fp_line
+		(start 0.332 -0.332)
+		(end 0.332 0.332)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8db9acad-6318-4481-93d5-e4e0e69f0975")
+	)
+	(fp_line
+		(start 0.332 0.332)
+		(end -0.332 0.332)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68d96e00-73cc-4e5c-92df-2f80b1c88859")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "44f5f1e1-63a7-42a2-be51-1ebeefa09a4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.175 -0.175 90)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cee9145a-6932-4c20-90dd-cd5e259e554e")
+	)
+	(pad "A2" smd circle
+		(at 0.175 -0.175 90)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c72af90a-9c4e-4454-bbd8-cd069b6da45a")
+	)
+	(pad "B1" smd circle
+		(at -0.175 0.175 90)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5c48e3e0-92fd-4a35-846d-8144527e26ff")
+	)
+	(pad "B2" smd circle
+		(at 0.175 0.175 90)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0018ca6d-00ce-4d6b-9133-51d5d6e7d6a5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../component-library/project_models/TPS7A0518PYKAR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

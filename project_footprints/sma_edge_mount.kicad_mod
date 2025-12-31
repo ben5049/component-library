@@ -1,0 +1,152 @@
+(footprint "sma_edge_mount"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b4c99f93-bbb5-4f8f-9fbd-7834ffedf086")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "sma_edge_mount"
+		(at 0 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d7708c09-73f5-4c57-90db-4cc00eaa6d45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2f8ac35-6cd5-4cc2-8668-001d29f34bb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05a64970-598e-435d-8913-b93383511c5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.5 -12)
+		(end 4.5 5.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ff7cb233-6ee3-4b3e-be88-4486cc94be07")
+	)
+	(fp_line
+		(start -4.95 0)
+		(end 4.95 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fb7115e9-475c-44d6-b571-bdf570a7bbcd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 16.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2b08597f-f5e9-4a45-8c51-65987f54d7b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "PCB Edge"
+		(at -4.95 -0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "98e21e78-d116-4b76-8b74-3eaf84fa0032")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 2.7 270)
+		(size 5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "46003d64-ee0b-4410-b2f3-bafeead82f10")
+	)
+	(pad "2" smd roundrect
+		(at -3 2.7 270)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "aa39dec9-2fa7-45de-ba35-3caa23aba7e4")
+	)
+	(pad "2" smd roundrect
+		(at -3 2.7 90)
+		(size 5 2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "d5e7cd75-e814-4939-906b-9e9c1fc37741")
+	)
+	(pad "2" smd roundrect
+		(at 3 2.7 270)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "5b620ead-f56f-4b0e-90b5-c102dc8e4871")
+	)
+	(pad "2" smd roundrect
+		(at 3 2.7 90)
+		(size 5 2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "ff66178a-3eb4-4bc8-b783-52945015d804")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../component-library/project_models/CON-SMA-EDGE.stp"
+		(offset
+			(xyz 0 -1.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -90)
+		)
+	)
+)

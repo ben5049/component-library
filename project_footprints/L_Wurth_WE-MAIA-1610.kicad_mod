@@ -98,19 +98,6 @@
 		(layer "F.Fab")
 		(uuid "365b915b-5bb9-4ef8-90c1-2e317e21caa0")
 	)
-	(fp_text user "Solder Resist"
-		(at 0 -0.575 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(hide yes)
-		(uuid "b14a6331-4560-4118-b347-2e93d513f9c1")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.075)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
@@ -140,7 +127,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "Dwgs.User")
+		(layer "F.Cu")
 		(uuid "1a2da23f-f907-4723-84e5-83e66566c33b")
 		(name "Solder Resist")
 		(hatch full 0.1)

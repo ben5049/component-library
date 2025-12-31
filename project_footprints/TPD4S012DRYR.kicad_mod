@@ -1,7 +1,7 @@
 (footprint "TPD4S012DRYR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TPD4S012DRYR-3")
 	(tags "Integrated Circuit")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f14d41b4-f949-4990-a63b-0feee53c8ac4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -129,45 +119,16 @@
 		(layer "F.SilkS")
 		(uuid "36d27048-0e3d-4068-9761-c0302d122e4b")
 	)
-	(fp_line
-		(start -2.2 -1.725)
-		(end 1.5 -1.725)
+	(fp_rect
+		(start -0.7 -0.892346)
+		(end 0.700686 0.900686)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "05f4b508-8267-4a79-b200-416ff7dd8d52")
-	)
-	(fp_line
-		(start -2.2 1.725)
-		(end -2.2 -1.725)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "f4b9df2d-2374-4646-add4-75c202ee2a52")
-	)
-	(fp_line
-		(start 1.5 -1.725)
-		(end 1.5 1.725)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "28121af0-cd6f-4a9e-ad17-b9dbfb559c1d")
-	)
-	(fp_line
-		(start 1.5 1.725)
-		(end -2.2 1.725)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "f198e536-0048-48fe-b2ec-de2b1669d42d")
+		(uuid "6ed83d36-3bb3-4230-9218-2f8a4c164e4b")
 	)
 	(fp_line
 		(start -0.5 -0.725)
@@ -220,42 +181,49 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.275 -0.5 90)
 		(size 0.2 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "c7af8405-d4c7-4873-b496-4c177a0b3818")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -0.3 0 90)
 		(size 0.2 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "cc3d2dbf-1da4-45e8-a939-38d9ca1b77c9")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -0.3 0.5 90)
 		(size 0.2 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "d3901593-f60e-4ce5-8e1f-a9c9afa95e34")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 0.3 0.5 90)
 		(size 0.2 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "11e7102c-13bc-4148-b05d-a5f40e3d2ecb")
 	)
-	(pad "5" smd rect
+	(pad "5" smd roundrect
 		(at 0.3 0 90)
 		(size 0.2 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "13daae50-81e8-44b4-b340-b4d7e44d3671")
 	)
-	(pad "6" smd rect
+	(pad "6" smd roundrect
 		(at 0.3 -0.5 90)
 		(size 0.2 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "20885bc5-1eb5-44e0-b75d-4712cd7ad47f")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../component-library/project_models/TPD4S012DRYR.stp"
 		(offset
 			(xyz 0 0 0)
