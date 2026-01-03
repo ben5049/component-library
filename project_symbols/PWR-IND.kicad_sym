@@ -40336,6 +40336,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74438333033"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -40343,16 +40351,7 @@
 				)
 			)
 		)
-		(property "Value" "3010_74438333033"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-MAPI-3010"
+		(property "Footprint" "project_footprints:L_Wurth_WE-MAPI-3010"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -40496,8 +40495,8 @@
 				(hide yes)
 			)
 		)
-		(property "Critical Parameter" "3.3 µH"
-			(at 0 -5.08 0)
+		(property "Critical Parameter" "3u3"
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40597,9 +40596,9 @@
 					(type none)
 				)
 			)
-			(pin passive line
-				(at -3.81 0 0)
-				(length 1.27)
+			(pin power_in line
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -40615,9 +40614,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+			(pin power_out line
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "2"
 					(effects
 						(font
