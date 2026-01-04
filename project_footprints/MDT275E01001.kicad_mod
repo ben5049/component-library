@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/mdtxxxxxx001.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
