@@ -2897,7 +2897,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -17.78 -2.54 0)
 				(length 5.08)
 				(hide yes)
@@ -2916,7 +2916,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -17.78 -2.54 0)
 				(length 5.08)
 				(hide yes)
