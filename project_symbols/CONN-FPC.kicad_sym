@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:FH12-22S-0.5SH"
+		(property "Footprint" "project_footprints:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal"
 			(at 1.27 -63.5 0)
 			(effects
 				(font
