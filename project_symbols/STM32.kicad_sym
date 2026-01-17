@@ -22491,7 +22491,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 22.86 -7.62 180)
 				(length 5.08)
 				(hide yes)
@@ -22510,7 +22510,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 22.86 -7.62 180)
 				(length 5.08)
 				(hide yes)
@@ -22547,7 +22547,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 22.86 -12.7 180)
 				(length 5.08)
 				(hide yes)
@@ -22584,7 +22584,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 22.86 -15.24 180)
 				(length 5.08)
 				(hide yes)
@@ -22603,7 +22603,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 22.86 -17.78 180)
 				(length 5.08)
 				(hide yes)
@@ -22784,7 +22784,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 22.86 -50.8 180)
 				(length 5.08)
 				(hide yes)
@@ -22803,7 +22803,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 22.86 -50.8 180)
 				(length 5.08)
 				(hide yes)
@@ -22822,7 +22822,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 22.86 -50.8 180)
 				(length 5.08)
 				(hide yes)

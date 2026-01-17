@@ -714,7 +714,7 @@
 			(pin input line
 				(at -10.16 -45.72 0)
 				(length 5.08)
-				(name "CAM_RST"
+				(name "CAM_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
