@@ -1407,7 +1407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard_footprints:AMPHENOL_GSB12J21C1EU"
+		(property "Footprint" "project_footprints:GSB12J21C1EU"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -2690,7 +2690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard_footprints:USB4510031A"
+		(property "Footprint" "project_footprints:USB4510031A"
 			(at 26.67 -94.92 0)
 			(effects
 				(font
