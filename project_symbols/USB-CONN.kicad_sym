@@ -2770,20 +2770,9 @@
 			)
 		)
 		(symbol "USB4510-03-1-A_0_1"
-			(rectangle
-				(start -10.16 0)
-				(end 10.16 -40.64)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(polyline
 				(pts
-					(xy -7.62 -25.4) (xy -7.62 -17.78)
+					(xy -7.62 -22.86) (xy -7.62 -15.24)
 				)
 				(stroke
 					(width 0.508)
@@ -2794,8 +2783,8 @@
 				)
 			)
 			(rectangle
-				(start -6.35 -25.4)
-				(end -5.08 -17.78)
+				(start -6.35 -22.86)
+				(end -5.08 -15.24)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2805,9 +2794,9 @@
 				)
 			)
 			(arc
-				(start -6.35 -17.78)
-				(mid -5.715 -17.1477)
-				(end -5.08 -17.78)
+				(start -6.35 -15.24)
+				(mid -5.715 -14.6077)
+				(end -5.08 -15.24)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2817,9 +2806,9 @@
 				)
 			)
 			(arc
-				(start -6.35 -17.78)
-				(mid -5.715 -17.1477)
-				(end -5.08 -17.78)
+				(start -6.35 -15.24)
+				(mid -5.715 -14.6077)
+				(end -5.08 -15.24)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2829,9 +2818,9 @@
 				)
 			)
 			(arc
-				(start -7.62 -17.78)
-				(mid -5.715 -15.8833)
-				(end -3.81 -17.78)
+				(start -7.62 -15.24)
+				(mid -5.715 -13.3433)
+				(end -3.81 -15.24)
 				(stroke
 					(width 0.508)
 					(type default)
@@ -2841,9 +2830,9 @@
 				)
 			)
 			(arc
-				(start -3.81 -25.4)
-				(mid -5.715 -27.2967)
-				(end -7.62 -25.4)
+				(start -3.81 -22.86)
+				(mid -5.715 -24.7567)
+				(end -7.62 -22.86)
 				(stroke
 					(width 0.508)
 					(type default)
@@ -2853,9 +2842,9 @@
 				)
 			)
 			(arc
-				(start -5.08 -25.4)
-				(mid -5.715 -26.0323)
-				(end -6.35 -25.4)
+				(start -5.08 -22.86)
+				(mid -5.715 -23.4923)
+				(end -6.35 -22.86)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2865,9 +2854,9 @@
 				)
 			)
 			(arc
-				(start -5.08 -25.4)
-				(mid -5.715 -26.0323)
-				(end -6.35 -25.4)
+				(start -5.08 -22.86)
+				(mid -5.715 -23.4923)
+				(end -6.35 -22.86)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2878,7 +2867,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -17.78) (xy -3.81 -25.4)
+					(xy -3.81 -15.24) (xy -3.81 -22.86)
 				)
 				(stroke
 					(width 0.508)
@@ -2890,8 +2879,19 @@
 			)
 		)
 		(symbol "USB4510-03-1-A_1_1"
+			(rectangle
+				(start -10.16 0)
+				(end 10.16 -38.1)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(circle
-				(center -1.27 -20.447)
+				(center -1.27 -17.907)
 				(radius 0.635)
 				(stroke
 					(width 0.254)
@@ -2903,7 +2903,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -17.272) (xy 1.27 -14.732) (xy 2.54 -17.272) (xy 0 -17.272)
+					(xy 0 -14.732) (xy 1.27 -12.192) (xy 2.54 -14.732) (xy 0 -14.732)
 				)
 				(stroke
 					(width 0.254)
@@ -2915,7 +2915,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -23.622) (xy 3.81 -21.082) (xy 3.81 -19.812)
+					(xy 1.27 -21.082) (xy 3.81 -18.542) (xy 3.81 -17.272)
 				)
 				(stroke
 					(width 0.508)
@@ -2927,7 +2927,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -24.892) (xy -1.27 -22.352) (xy -1.27 -21.082)
+					(xy 1.27 -22.352) (xy -1.27 -19.812) (xy -1.27 -18.542)
 				)
 				(stroke
 					(width 0.508)
@@ -2939,7 +2939,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -27.432) (xy 1.27 -17.272)
+					(xy 1.27 -24.892) (xy 1.27 -14.732)
 				)
 				(stroke
 					(width 0.508)
@@ -2950,7 +2950,7 @@
 				)
 			)
 			(circle
-				(center 1.27 -27.432)
+				(center 1.27 -24.892)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -2961,8 +2961,8 @@
 				)
 			)
 			(rectangle
-				(start 3.175 -19.812)
-				(end 4.445 -18.542)
+				(start 3.175 -17.272)
+				(end 4.445 -16.002)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3011,79 +3011,6 @@
 			(pin bidirectional line
 				(at 15.24 -7.62 180)
 				(length 5.08)
-				(name "CC1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -10.16 180)
-				(length 5.08)
-				(name "CC2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -15.24 180)
-				(length 5.08)
-				(name "D-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -15.24 180)
-				(length 5.08)
-				(hide yes)
-				(name "D-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -20.32 180)
-				(length 5.08)
 				(name "D+"
 					(effects
 						(font
@@ -3100,7 +3027,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -20.32 180)
+				(at 15.24 -7.62 180)
 				(length 5.08)
 				(hide yes)
 				(name "D+"
@@ -3119,7 +3046,80 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -25.4 180)
+				(at 15.24 -10.16 180)
+				(length 5.08)
+				(name "D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -10.16 180)
+				(length 5.08)
+				(hide yes)
+				(name "D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -15.24 180)
+				(length 5.08)
+				(name "CC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -17.78 180)
+				(length 5.08)
+				(name "CC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -22.86 180)
 				(length 5.08)
 				(name "SBU1"
 					(effects
@@ -3137,7 +3137,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -27.94 180)
+				(at 15.24 -25.4 180)
 				(length 5.08)
 				(name "SBU2"
 					(effects
@@ -3155,7 +3155,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -33.02 180)
+				(at 15.24 -30.48 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -3173,7 +3173,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -33.02 180)
+				(at 15.24 -30.48 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -3192,7 +3192,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -38.1 180)
+				(at 15.24 -35.56 180)
 				(length 5.08)
 				(name "MH1"
 					(effects
@@ -3210,7 +3210,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -38.1 180)
+				(at 15.24 -35.56 180)
 				(length 5.08)
 				(hide yes)
 				(name "MH2"
@@ -3229,7 +3229,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -38.1 180)
+				(at 15.24 -35.56 180)
 				(length 5.08)
 				(hide yes)
 				(name "MH3"
@@ -3248,7 +3248,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -38.1 180)
+				(at 15.24 -35.56 180)
 				(length 5.08)
 				(hide yes)
 				(name "MH4"
