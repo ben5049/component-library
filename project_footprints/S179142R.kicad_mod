@@ -135,7 +135,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "S:/Documents/projects/GbE-TSN-Switch/PCBs/component-library/project_models/S1791-42R.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/S1791-42R.stp"
 		(hide yes)
 		(offset
 			(xyz 2.5 1.25 0.1)
