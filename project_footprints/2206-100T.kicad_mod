@@ -54,7 +54,6 @@
 			)
 		)
 	)
-	(attr smd)
 	(fp_rect
 		(start -4.25 -4.25)
 		(end 4.25 4.25)
