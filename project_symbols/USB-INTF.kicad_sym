@@ -546,7 +546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P600X600X100-37N-D"
+		(property "Footprint" "project_footprints:QFN50P600X600X100-37N-D"
 			(at 0 -88.9 0)
 			(effects
 				(font
