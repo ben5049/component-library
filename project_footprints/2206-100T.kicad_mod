@@ -288,7 +288,7 @@
 		(uuid "41466508-dcf4-4cc7-9993-8ae3b947fb92")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bens1/Documents/projects/Keyboard/PCBs/keyboard-v3/component-library/project_models/2206-100T.step"
+	(model "${KIPRJMOD}/../component-library/project_models/2206-100T.step"
 		(offset
 			(xyz 0 0 0)
 		)
