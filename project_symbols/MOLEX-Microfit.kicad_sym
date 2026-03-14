@@ -61,46 +61,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "538-43045-0201"
-			(at -7.62 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43045-0201?qs=R7%2FZKp6KZ2Y51sj1nic43g%3D%3D"
-			(at -48.26 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at -2.54 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "43045-0201"
-			(at -5.08 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(symbol "43045-0201_1_1"
 			(rectangle
 				(start -5.08 0)
@@ -164,7 +124,7 @@
 				)
 			)
 		)
-		(property "Value" "43045-0201"
+		(property "Value" "43045-0226"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -192,7 +152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Dual Row, 2 Circuits, with Snap-in Plastic Peg PCB Lock"
+		(property "Description" "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Dual Row, 2 Circuits"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -201,48 +161,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "9.9"
+		(property "Height" ""
 			(at -2.54 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-43045-0201"
-			(at -7.62 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43045-0201?qs=R7%2FZKp6KZ2Y51sj1nic43g%3D%3D"
-			(at -48.26 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at -2.54 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "43045-0201"
-			(at -5.08 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -292,6 +212,42 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
+				(length 5.08)
+				(name "MP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -5.08 180)
+				(length 5.08)
+				(name "MP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
