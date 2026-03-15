@@ -379,14 +379,14 @@
 		(roundrect_rratio 0.25)
 		(uuid "395b5dee-a98a-4169-b224-116748046862")
 	)
-	(pad "MP" smd roundrect
+	(pad "MP1" smd roundrect
 		(at -4.35 1.35)
 		(size 1 2.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c6ea6e41-7e45-477d-9399-2905c8142988")
 	)
-	(pad "MP" smd roundrect
+	(pad "MP2" smd roundrect
 		(at 4.35 1.35)
 		(size 1 2.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
