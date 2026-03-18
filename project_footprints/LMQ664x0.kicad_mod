@@ -165,6 +165,13 @@
 		(roundrect_rratio 0.1)
 		(uuid "de3d24c5-1811-41dd-bee7-d427ced47983")
 	)
+	(pad "1" smd roundrect
+		(at -0.74975 -1.2)
+		(size 0.2505 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "114efa87-b7c8-4ccc-9619-048708a05779")
+	)
 	(pad "2" smd roundrect
 		(at -1.15 -0.5 90)
 		(size 0.25 0.7)
@@ -193,6 +200,13 @@
 		(roundrect_rratio 0.1)
 		(uuid "97de8d5b-dbb8-41d9-957d-d6353b7e4e56")
 	)
+	(pad "5" smd roundrect
+		(at -0.74975 1.2)
+		(size 0.2495 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "5399003d-0ffb-4784-bc83-2b26c872a935")
+	)
 	(pad "6" smd roundrect
 		(at -0.25 1.15)
 		(size 0.25 0.7)
@@ -206,6 +220,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "0c67f5ca-0bbe-4b1f-a797-c59c47129f59")
+	)
+	(pad "8" smd roundrect
+		(at 0.75025 1.2)
+		(size 0.2495 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "edf9b912-9791-4e8e-b391-064e1d435685")
 	)
 	(pad "8" smd roundrect
 		(at 1.063 1.025 90)
@@ -236,6 +257,13 @@
 		(uuid "0a6b4caf-f437-4937-a995-38ef3b416740")
 	)
 	(pad "12" smd roundrect
+		(at 0.75025 -1.2)
+		(size 0.2495 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "37f9715b-a2c6-4e11-86f6-5a477ea30302")
+	)
+	(pad "12" smd roundrect
 		(at 1.063 -1.025 90)
 		(size 0.25 0.875)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -262,34 +290,6 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "f7d75921-6110-4259-acc8-a03e726e8703")
-	)
-	(pad "16" smd roundrect
-		(at -0.74975 -1.2)
-		(size 0.2505 0.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1)
-		(uuid "114efa87-b7c8-4ccc-9619-048708a05779")
-	)
-	(pad "17" smd roundrect
-		(at -0.74975 1.2)
-		(size 0.2495 0.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1)
-		(uuid "5399003d-0ffb-4784-bc83-2b26c872a935")
-	)
-	(pad "18" smd roundrect
-		(at 0.75025 1.2)
-		(size 0.2495 0.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1)
-		(uuid "edf9b912-9791-4e8e-b391-064e1d435685")
-	)
-	(pad "19" smd roundrect
-		(at 0.75025 -1.2)
-		(size 0.2495 0.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1)
-		(uuid "37f9715b-a2c6-4e11-86f6-5a477ea30302")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../component-library/project_models/LMQ66410MC3RXBRQ1.stp"
