@@ -3149,7 +3149,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -53.34 180)
+				(at 22.86 -55.88 180)
 				(length 5.08)
 				(name "XTALI/CLK_IN"
 					(effects
@@ -3167,7 +3167,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 -63.5 180)
+				(at 22.86 -66.04 180)
 				(length 5.08)
 				(name "XTALO"
 					(effects
