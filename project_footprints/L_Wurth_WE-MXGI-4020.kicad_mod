@@ -1,0 +1,238 @@
+(footprint "L_Wurth_WE-MXGI-4020"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Shielded Power Inductor, body 4.1x4.1x2.1mm, https://www.we-online.com/en/components/products/WE-MXGI#/articles/WE-MXGI_SIZE_4020")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -3.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "337951f1-5199-41dd-ba71-3f8f35687538")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wurth_WE-MXGI-4020"
+		(at 0 3.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c93bdef-4076-4cc8-b478-e5ecfb562d90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "107a211b-0c13-4ae5-92f1-39d064b68066")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "320065ca-03bc-489e-bb7b-059855efe3e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.16 2.16)
+		(end -2.16 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6fc9874e-a912-4951-9bec-e1db226cfc0b")
+	)
+	(fp_line
+		(start -2.16 2.16)
+		(end 2.16 2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73e49dac-4cca-4a1d-848b-855426c62e5b")
+	)
+	(fp_line
+		(start 0 -2.16)
+		(end 2.16 -2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c82a5f6-760c-41dc-a33b-f7690f631217")
+	)
+	(fp_line
+		(start 2.16 -2.16)
+		(end 2.16 2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afe386b6-9786-43be-b1b4-ba2d627cf0d5")
+	)
+	(fp_rect
+		(start -2.3 -2.3)
+		(end 2.3 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e6ebe9f0-a565-4a1c-a4f0-7e06c6279708")
+	)
+	(fp_line
+		(start -2.05 -1.025)
+		(end -2.05 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f6e23e1-6595-492f-a919-3d4245fe24d7")
+	)
+	(fp_line
+		(start -2.05 2.05)
+		(end 2.05 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6daae6cf-2e99-455c-a1a5-08e2a8044ad6")
+	)
+	(fp_line
+		(start -1.025 -2.05)
+		(end -2.05 -1.025)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f522098-ad0a-4912-a6c5-b92a40d56d60")
+	)
+	(fp_line
+		(start 2.05 -2.05)
+		(end -1.025 -2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdafca0c-10a7-4e0a-807f-ed6b4442ed23")
+	)
+	(fp_line
+		(start 2.05 2.05)
+		(end 2.05 -2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2eb2d21-5a87-4d9e-8023-4ddc37e2b0eb")
+	)
+	(fp_text user "Solder Resist"
+		(at 0 -1.15 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "5a179cd5-45f4-4dd6-a4ce-83e258c9c3a3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8a2421e1-6b45-4282-903e-eb3890957ca6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.185 0)
+		(size 0.98 3.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "10a0ef02-698d-4ab3-a0e1-6750edd1e24e")
+	)
+	(pad "2" smd rect
+		(at 1.185 0)
+		(size 0.98 3.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f7477048-8032-4747-b5a1-6597d598d37c")
+	)
+	(zone
+		(layers "F.Cu" "Dwgs.User")
+		(uuid "46a960d3-7119-4340-bc24-2df3cc83a949")
+		(name "Solder Resist")
+		(hatch full 0.1)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -0.695 2.3) (xy 0.695 2.3) (xy 0.695 -2.3) (xy -0.695 -2.3)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../component-library/project_models/L_Wurth_WE-MXGI-4020.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
