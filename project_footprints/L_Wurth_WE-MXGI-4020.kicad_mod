@@ -10,7 +10,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "337951f1-5199-41dd-ba71-3f8f35687538")
+		(uuid "ad455211-b4c1-436e-a968-12d639cc1be8")
 		(effects
 			(font
 				(size 1 1)
@@ -23,7 +23,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1c93bdef-4076-4cc8-b478-e5ecfb562d90")
+		(uuid "449b500e-16a3-42a7-94b5-17f4ea15c645")
 		(effects
 			(font
 				(size 1 1)
@@ -35,7 +35,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "107a211b-0c13-4ae5-92f1-39d064b68066")
+		(uuid "e8b89878-dce2-479d-9346-66218fd9f422")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "320065ca-03bc-489e-bb7b-059855efe3e9")
+		(uuid "b1b83013-a8b0-40c1-9093-17a682ecc181")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6fc9874e-a912-4951-9bec-e1db226cfc0b")
+		(uuid "97c1ca75-47db-4b5d-b43c-8fc5a62f6e19")
 	)
 	(fp_line
 		(start -2.16 2.16)
@@ -73,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "73e49dac-4cca-4a1d-848b-855426c62e5b")
+		(uuid "56509e27-6feb-466c-8b71-5cec021662cc")
 	)
 	(fp_line
 		(start 0 -2.16)
@@ -83,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8c82a5f6-760c-41dc-a33b-f7690f631217")
+		(uuid "e09072e9-d0c4-463c-8dca-b3f72aa815e4")
 	)
 	(fp_line
 		(start 2.16 -2.16)
@@ -93,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "afe386b6-9786-43be-b1b4-ba2d627cf0d5")
+		(uuid "d2851218-3356-4505-9453-b1fac75f8e95")
 	)
 	(fp_rect
 		(start -2.3 -2.3)
@@ -104,7 +104,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "e6ebe9f0-a565-4a1c-a4f0-7e06c6279708")
+		(uuid "33bcebe0-1dd9-483c-a991-95ddc7c86015")
 	)
 	(fp_line
 		(start -2.05 -1.025)
@@ -114,7 +114,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4f6e23e1-6595-492f-a919-3d4245fe24d7")
+		(uuid "20dc2f4b-72ca-47e0-901c-8154a5f3e3c4")
 	)
 	(fp_line
 		(start -2.05 2.05)
@@ -124,7 +124,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6daae6cf-2e99-455c-a1a5-08e2a8044ad6")
+		(uuid "b1858680-595d-445c-b173-f397cd8ac770")
 	)
 	(fp_line
 		(start -1.025 -2.05)
@@ -134,7 +134,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4f522098-ad0a-4912-a6c5-b92a40d56d60")
+		(uuid "20934c44-3d6c-4102-bbc0-639fadd3fb60")
 	)
 	(fp_line
 		(start 2.05 -2.05)
@@ -144,7 +144,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cdafca0c-10a7-4e0a-807f-ed6b4442ed23")
+		(uuid "a31ead7d-5915-4bbf-aba7-4f7ed7500fd2")
 	)
 	(fp_line
 		(start 2.05 2.05)
@@ -154,13 +154,13 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e2eb2d21-5a87-4d9e-8023-4ddc37e2b0eb")
+		(uuid "1cacaa34-c118-4b1a-a1fe-0e0db6d2055e")
 	)
 	(fp_text user "Solder Resist"
 		(at 0 -1.15 0)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "5a179cd5-45f4-4dd6-a4ce-83e258c9c3a3")
+		(uuid "7585ae0c-49f2-4086-a8e8-3a1482d5c246")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -172,7 +172,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "8a2421e1-6b45-4282-903e-eb3890957ca6")
+		(uuid "534bb873-841e-4579-b80b-08658e76d97a")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -180,21 +180,23 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.185 0)
 		(size 0.98 3.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "10a0ef02-698d-4ab3-a0e1-6750edd1e24e")
+		(roundrect_rratio 0.1)
+		(uuid "d3c39f27-a0e7-487d-a6b1-c548efd657c1")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.185 0)
 		(size 0.98 3.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f7477048-8032-4747-b5a1-6597d598d37c")
+		(roundrect_rratio 0.1)
+		(uuid "67dae726-3140-43f3-abf9-0d4e9f5ddb4a")
 	)
 	(zone
 		(layers "F.Cu" "Dwgs.User")
-		(uuid "46a960d3-7119-4340-bc24-2df3cc83a949")
+		(uuid "4329ab83-3b5d-46f3-a724-ed9a91eb8b33")
 		(name "Solder Resist")
 		(hatch full 0.1)
 		(connect_pads
@@ -219,7 +221,7 @@
 		)
 		(polygon
 			(pts
-				(xy -0.695 2.3) (xy 0.695 2.3) (xy 0.695 -2.3) (xy -0.695 -2.3)
+				(xy -0.5 -1.9) (xy -0.5 1.9) (xy -0.4 2) (xy 0.4 2) (xy 0.5 1.9) (xy 0.5 -1.9) (xy 0.4 -2) (xy -0.4 -2)
 			)
 		)
 	)
