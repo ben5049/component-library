@@ -1,0 +1,212 @@
+(footprint "9774015951"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Mounting Hardware, inside through hole 2.7mm, height 1.5, Wuerth electronics 9774015951 (https://www.we-online.com/components/products/datasheet/9774015951R.pdf)")
+	(tags "Mounting 2.7mm 9774015951")
+	(property "Reference" "REF**"
+		(at 0 -3.95 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "77d69193-7dda-4e2a-97a5-1b076fc73fb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "9774015951"
+		(at 0 3.95 0)
+		(layer "F.Fab")
+		(uuid "38ac6327-3887-4dfc-8a9c-283bcedde25f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c35a3d0-9e00-47f7-909d-c410ab0cbabf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d762220-15ab-4a91-9ccd-a0602f6d45ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "mounting_hardware/Wuerth_SMT_spacer"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "27ae7689-9c0d-464b-a0db-263e761e9d34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd allow_soldermask_bridges)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 2.525 0)
+		(stroke
+			(width 0.95)
+			(type solid)
+		)
+		(fill no)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4e674379-6bd5-4521-bb17-545a65c5ea27")
+	)
+	(fp_arc
+		(start -2.525 0)
+		(mid -2.186714 -1.2625)
+		(end -1.2625 -2.186714)
+		(stroke
+			(width 0.95)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "5b2c41e0-29d3-488d-b3d5-9a5c11e35482")
+	)
+	(fp_arc
+		(start 0 -2.525)
+		(mid 1.2625 -2.186714)
+		(end 2.186714 -1.2625)
+		(stroke
+			(width 0.95)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "84a628d3-8a7b-47b6-9dfd-733dfdd6bbf8")
+	)
+	(fp_arc
+		(start 0 2.525)
+		(mid -1.2625 2.186714)
+		(end -2.186714 1.2625)
+		(stroke
+			(width 0.95)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "b3d871d6-8b55-46e1-8467-02397df468c1")
+	)
+	(fp_arc
+		(start 2.525 0)
+		(mid 2.186714 1.2625)
+		(end 1.2625 2.186714)
+		(stroke
+			(width 0.95)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "037d7671-6d37-4274-a342-6a64f5b53b99")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a4e75344-4f8b-4a9a-9e79-754b8ee4148f")
+	)
+	(fp_line
+		(start -2.55 0)
+		(end -2.55 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc85a26a-08f6-4c6f-b85f-63fc467b103a")
+	)
+	(fp_line
+		(start 2.55 0)
+		(end 2.55 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b53505c-87fc-4675-8f0c-1a7616f700b3")
+	)
+	(fp_arc
+		(start -2.55 0)
+		(mid 0 -2.55)
+		(end 2.55 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe412e0f-f8ad-4322-b63b-05f1a1f2c14e")
+	)
+	(fp_arc
+		(start 2.55 0)
+		(mid 0 2.55)
+		(end -2.55 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03fe1efc-8b1c-4bed-b4e7-e46cd3a4a9a9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a528209e-9cad-469f-93f8-35c587c4d9bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.7 3.7)
+		(drill 3.7)
+		(layers "*.Mask")
+		(uuid "28f96808-c8a8-4c7a-9bfb-786ecfaa0a06")
+	)
+	(pad "1" smd roundrect
+		(at 0 -2.525)
+		(size 0.5 0.5)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1)
+		(uuid "35b42917-fc35-4209-a270-a6e84d9f5edd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMST-2.7mm_H1.5mm_9774015951.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
