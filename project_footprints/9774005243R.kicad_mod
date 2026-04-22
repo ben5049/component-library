@@ -412,7 +412,7 @@
 		(uuid "8830a259-1bd3-43e7-8396-505108384fdb")
 	)
 	(embedded_fonts no)
-	(model "S:/Documents/projects/mkx/networking/hardware/switch-power-hardware/pcbs/component-library/project_models/9774005243.stp"
+	(model "${KIPRJMOD}/../component-library/project_models/9774005243.stp"
 		(offset
 			(xyz 0 0 -0.9)
 		)
